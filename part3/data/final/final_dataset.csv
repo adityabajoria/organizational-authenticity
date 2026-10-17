@@ -1,0 +1,294 @@
+ticker,company_name,sector,year,stated_themes,n_stated,authenticity_index,authenticity_percentile
+AAPL,Apple,Technology,2024,collaboration;customer;diversity_inclusion;innovation;sustainability,5,12.0,0.891
+ABBV,AbbVie,Healthcare,2023,customer;innovation,2,-3.0,0.213
+ABBV,AbbVie,Healthcare,2024,customer;innovation;performance,3,-3.7,0.192
+ABT,Abbott Laboratories,Healthcare,2016,innovation;sustainability,2,5.0,0.687
+ABT,Abbott Laboratories,Healthcare,2017,community;innovation,2,-8.0,0.097
+ABT,Abbott Laboratories,Healthcare,2018,innovation,1,24.0,0.969
+ABT,Abbott Laboratories,Healthcare,2019,community;innovation;safety,3,-2.7,0.231
+ABT,Abbott Laboratories,Healthcare,2020,customer;innovation,2,-4.0,0.182
+ABT,Abbott Laboratories,Healthcare,2021,customer;innovation,2,-4.0,0.182
+ABT,Abbott Laboratories,Healthcare,2022,customer;innovation,2,3.0,0.57
+ABT,Abbott Laboratories,Healthcare,2023,innovation,1,-1.0,0.325
+ABT,Abbott Laboratories,Healthcare,2024,community;customer;innovation,3,5.3,0.718
+AMZN,Amazon,Consumer Discretionary,2020,adaptability;community;customer;innovation;integrity;performance,6,-6.0,0.138
+AMZN,Amazon,Consumer Discretionary,2021,community;customer;innovation;integrity;performance;safety;sustainability,7,1.6,0.476
+AMZN,Amazon,Consumer Discretionary,2022,community;customer;performance;safety,4,-2.0,0.262
+AMZN,Amazon,Consumer Discretionary,2023,community;customer;diversity_inclusion;innovation;performance;safety;sustainability,7,8.9,0.833
+AMZN,Amazon,Consumer Discretionary,2024,community;customer;innovation;integrity;performance;safety;sustainability,7,3.7,0.607
+AVGO,Broadcom,Technology,2017,collaboration;customer;innovation,3,44.7,0.993
+AVGO,Broadcom,Technology,2018,collaboration;customer;innovation,3,49.7,0.997
+AXP,American Express,Financials,2023,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety,9,3.7,0.607
+AXP,American Express,Financials,2024,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;safety,8,-0.2,0.367
+BAC,Bank of America,Financials,2021,community;customer;integrity;performance,4,5.5,0.724
+BAC,Bank of America,Financials,2022,community;customer;integrity;performance,4,8.0,0.816
+BAC,Bank of America,Financials,2023,community;customer;performance;sustainability,4,6.5,0.767
+BAC,Bank of America,Financials,2024,customer;integrity;performance;safety,4,3.5,0.602
+BLK,BlackRock,Financials,2018,collaboration;customer;diversity_inclusion;innovation;integrity;performance,6,15.7,0.942
+BLK,BlackRock,Financials,2019,collaboration;customer;innovation;performance,4,29.5,0.986
+BLK,BlackRock,Financials,2020,collaboration;innovation;safety,3,-1.0,0.325
+BLK,BlackRock,Financials,2021,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,8,2.7,0.546
+BLK,BlackRock,Financials,2022,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,1.2,0.457
+BLK,BlackRock,Financials,2023,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,8,-2.0,0.262
+BLK,BlackRock,Financials,2024,collaboration;innovation;integrity;performance;safety;sustainability,6,5.0,0.687
+BMY,Bristol-Myers Squibb,Healthcare,2017,collaboration;community;customer;diversity_inclusion;innovation;sustainability,6,-5.0,0.163
+BMY,Bristol-Myers Squibb,Healthcare,2018,adaptability;collaboration;community;customer;diversity_inclusion;innovation;sustainability,7,3.9,0.612
+BMY,Bristol-Myers Squibb,Healthcare,2019,collaboration;community;customer;diversity_inclusion;innovation;sustainability,6,4.3,0.641
+BMY,Bristol-Myers Squibb,Healthcare,2020,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,9,2.3,0.527
+BMY,Bristol-Myers Squibb,Healthcare,2021,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,9,-1.1,0.315
+BMY,Bristol-Myers Squibb,Healthcare,2022,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,9,-1.8,0.277
+BMY,Bristol-Myers Squibb,Healthcare,2023,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,9,0.3,0.408
+BMY,Bristol-Myers Squibb,Healthcare,2024,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,9,-1.6,0.293
+BRK.B,Berkshire Hathaway,Financials,2016,collaboration;integrity;performance,3,5.7,0.73
+BRK.B,Berkshire Hathaway,Financials,2017,collaboration;performance,2,2.5,0.534
+BRK.B,Berkshire Hathaway,Financials,2018,collaboration;integrity;performance,3,7.3,0.799
+BRK.B,Berkshire Hathaway,Financials,2019,collaboration;integrity;performance,3,13.8,0.932
+BRK.B,Berkshire Hathaway,Financials,2020,collaboration;integrity;performance,3,1.5,0.468
+BRK.B,Berkshire Hathaway,Financials,2021,collaboration;integrity;performance,3,2.0,0.5
+BRK.B,Berkshire Hathaway,Financials,2022,collaboration;integrity;performance,3,-0.3,0.359
+BRK.B,Berkshire Hathaway,Financials,2023,collaboration;integrity;performance,3,2.2,0.52
+BRK.B,Berkshire Hathaway,Financials,2024,collaboration;integrity;performance,3,-7.0,0.116
+C,Citigroup,Financials,2023,collaboration;community;customer;integrity;performance;sustainability,6,-2.7,0.231
+C,Citigroup,Financials,2024,adaptability;collaboration;community;customer;innovation;integrity;performance;sustainability,8,2.8,0.554
+COP,ConocoPhillips,Energy,2017,collaboration;innovation;performance,3,-4.3,0.17
+COP,ConocoPhillips,Energy,2018,collaboration;innovation;performance,3,-20.0,0.014
+COP,ConocoPhillips,Energy,2019,collaboration;innovation;performance,3,-11.7,0.053
+COP,ConocoPhillips,Energy,2020,innovation;safety,2,12.0,0.891
+COP,ConocoPhillips,Energy,2021,innovation;safety,2,6.0,0.75
+COP,ConocoPhillips,Energy,2022,community;innovation;performance;safety;sustainability,5,-7.0,0.116
+COP,ConocoPhillips,Energy,2023,collaboration;innovation;performance,3,-0.3,0.359
+COP,ConocoPhillips,Energy,2024,collaboration;innovation;performance,3,-3.0,0.213
+CVX,Chevron,Energy,2016,collaboration;community;diversity_inclusion;innovation;integrity;performance;safety;sustainability,8,-0.3,0.359
+CVX,Chevron,Energy,2017,adaptability;collaboration;diversity_inclusion;innovation;integrity;performance;safety;sustainability,8,-0.5,0.345
+CVX,Chevron,Energy,2018,adaptability;collaboration;community;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,4.6,0.66
+CVX,Chevron,Energy,2019,adaptability;collaboration;community;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,2.9,0.558
+CVX,Chevron,Energy,2020,collaboration;community;performance;sustainability,4,18.0,0.952
+CVX,Chevron,Energy,2021,collaboration;innovation;performance,3,5.3,0.718
+CVX,Chevron,Energy,2022,innovation;performance;sustainability,3,-18.0,0.017
+CVX,Chevron,Energy,2023,innovation;performance;sustainability,3,-13.0,0.043
+CVX,Chevron,Energy,2024,collaboration;performance;sustainability,3,12.3,0.903
+F,Ford Motor,Consumer Discretionary,2020,community;customer;diversity_inclusion;innovation;sustainability,5,-3.0,0.213
+F,Ford Motor,Consumer Discretionary,2021,adaptability;customer;diversity_inclusion;integrity,4,-4.0,0.182
+F,Ford Motor,Consumer Discretionary,2022,adaptability;customer;diversity_inclusion;integrity,4,7.0,0.784
+F,Ford Motor,Consumer Discretionary,2023,adaptability;community;customer;integrity,4,13.5,0.929
+F,Ford Motor,Consumer Discretionary,2024,adaptability;customer,2,29.0,0.983
+GOOGL,Alphabet,Technology,2017,adaptability;collaboration;customer;innovation;integrity;performance,6,-8.2,0.09
+GOOGL,Alphabet,Technology,2018,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance,8,-2.8,0.224
+GOOGL,Alphabet,Technology,2019,collaboration;customer;innovation;integrity;performance,5,-1.0,0.325
+GOOGL,Alphabet,Technology,2020,adaptability;collaboration;customer;innovation;integrity;performance,6,1.7,0.485
+GOOGL,Alphabet,Technology,2021,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance,7,-4.1,0.173
+GOOGL,Alphabet,Technology,2022,adaptability;collaboration;customer;innovation;integrity;performance,6,-7.3,0.105
+GOOGL,Alphabet,Technology,2023,customer;innovation;integrity,3,-2.0,0.262
+GOOGL,Alphabet,Technology,2024,collaboration;customer;innovation;integrity,4,1.0,0.44
+GS,Goldman Sachs,Financials,2016,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance,7,-5.3,0.153
+GS,Goldman Sachs,Financials,2017,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance,7,-8.4,0.085
+GS,Goldman Sachs,Financials,2018,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance,7,-1.1,0.315
+GS,Goldman Sachs,Financials,2019,community;customer;diversity_inclusion;performance,4,-2.0,0.262
+GS,Goldman Sachs,Financials,2020,community;customer;diversity_inclusion;performance,4,3.0,0.57
+GS,Goldman Sachs,Financials,2022,community;customer;diversity_inclusion;performance,4,1.0,0.44
+GS,Goldman Sachs,Financials,2023,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance,7,5.3,0.718
+GS,Goldman Sachs,Financials,2024,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance,7,5.1,0.709
+HAL,Halliburton,Energy,2021,collaboration;community;customer;diversity_inclusion;innovation;integrity;safety;sustainability,8,-1.8,0.277
+HAL,Halliburton,Energy,2022,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,0.0,0.386
+HAL,Halliburton,Energy,2023,collaboration;community;customer;diversity_inclusion;innovation;integrity;safety;sustainability,8,1.7,0.485
+HAL,Halliburton,Energy,2024,collaboration;community;innovation;sustainability,4,-13.0,0.043
+HD,Home Depot,Consumer Discretionary,2016,customer;innovation;performance,3,12.5,0.912
+HD,Home Depot,Consumer Discretionary,2017,community;customer;innovation;performance,4,12.0,0.891
+HD,Home Depot,Consumer Discretionary,2018,customer;innovation;performance,3,7.7,0.81
+HD,Home Depot,Consumer Discretionary,2019,community;customer;innovation;performance,4,8.5,0.825
+HD,Home Depot,Consumer Discretionary,2020,community;customer;innovation;performance,4,10.5,0.869
+HD,Home Depot,Consumer Discretionary,2021,community;customer;innovation;performance,4,4.5,0.651
+HD,Home Depot,Consumer Discretionary,2022,customer;innovation;performance,3,8.7,0.83
+HD,Home Depot,Consumer Discretionary,2023,community;customer;innovation;performance,4,19.0,0.957
+HD,Home Depot,Consumer Discretionary,2024,community;customer;innovation;performance,4,12.5,0.912
+IBM,IBM,Technology,2018,diversity_inclusion;innovation;performance,3,-5.3,0.153
+IBM,IBM,Technology,2020,community;customer;innovation;integrity;performance;safety,6,4.0,0.619
+IBM,IBM,Technology,2021,adaptability;collaboration;customer;innovation;integrity;safety,6,-3.3,0.197
+IBM,IBM,Technology,2022,collaboration;customer;innovation;performance;safety,5,-0.5,0.345
+IBM,IBM,Technology,2023,collaboration;customer;innovation;performance,4,3.0,0.57
+IBM,IBM,Technology,2024,customer;diversity_inclusion;sustainability,3,10.3,0.864
+INTC,Intel,Technology,2016,adaptability;customer;diversity_inclusion;innovation;performance;sustainability,6,6.5,0.767
+INTC,Intel,Technology,2017,adaptability;community;customer;diversity_inclusion;innovation;performance;sustainability,7,1.6,0.476
+INTC,Intel,Technology,2018,diversity_inclusion;innovation;integrity;performance,4,3.0,0.57
+INTC,Intel,Technology,2019,community;customer;diversity_inclusion;innovation;performance;sustainability,6,2.0,0.5
+INTC,Intel,Technology,2020,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,-1.7,0.286
+INTC,Intel,Technology,2021,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,-0.9,0.333
+INTC,Intel,Technology,2022,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,-2.0,0.262
+INTC,Intel,Technology,2023,adaptability;collaboration;community;customer;diversity_inclusion;innovation;performance;sustainability,8,3.2,0.59
+INTC,Intel,Technology,2024,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance;sustainability,8,1.3,0.463
+JNJ,Johnson & Johnson,Healthcare,2018,community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,8,5.1,0.709
+JNJ,Johnson & Johnson,Healthcare,2019,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,2.2,0.52
+JNJ,Johnson & Johnson,Healthcare,2020,community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,8,-1.5,0.298
+JNJ,Johnson & Johnson,Healthcare,2021,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,-0.4,0.35
+JNJ,Johnson & Johnson,Healthcare,2022,community;customer;diversity_inclusion;innovation;performance;safety;sustainability,7,6.6,0.772
+JNJ,Johnson & Johnson,Healthcare,2023,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,10,0.0,0.386
+JNJ,Johnson & Johnson,Healthcare,2024,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,2.2,0.52
+JPM,JPMorgan Chase,Financials,2020,customer;diversity_inclusion;integrity,3,2.7,0.546
+JPM,JPMorgan Chase,Financials,2021,customer;diversity_inclusion;integrity,3,-1.3,0.31
+JPM,JPMorgan Chase,Financials,2022,customer;diversity_inclusion;integrity,3,12.0,0.891
+JPM,JPMorgan Chase,Financials,2023,customer;diversity_inclusion;integrity,3,6.0,0.75
+JPM,JPMorgan Chase,Financials,2024,diversity_inclusion;integrity,2,7.0,0.784
+LLY,Eli Lilly,Healthcare,2016,community;customer;innovation;integrity,4,9.0,0.842
+LLY,Eli Lilly,Healthcare,2017,community;customer;innovation;integrity,4,6.0,0.75
+LLY,Eli Lilly,Healthcare,2019,customer;innovation;integrity,3,21.7,0.963
+LLY,Eli Lilly,Healthcare,2020,customer;innovation;integrity;performance,4,22.5,0.966
+LLY,Eli Lilly,Healthcare,2024,customer;safety,2,-17.0,0.024
+LOW,Lowe's,Consumer Discretionary,2020,collaboration;community;customer;performance;sustainability,5,8.0,0.816
+LOW,Lowe's,Consumer Discretionary,2021,collaboration;community;customer;performance,4,10.5,0.869
+LOW,Lowe's,Consumer Discretionary,2022,collaboration;community;customer;performance,4,9.0,0.842
+LOW,Lowe's,Consumer Discretionary,2023,community;customer;performance,3,12.3,0.903
+LOW,Lowe's,Consumer Discretionary,2024,collaboration;customer,2,-3.0,0.213
+MCD,McDonald's,Consumer Discretionary,2020,adaptability;community;customer;diversity_inclusion;integrity;performance;sustainability,7,7.1,0.796
+MCD,McDonald's,Consumer Discretionary,2021,community;customer;diversity_inclusion;integrity;sustainability,5,13.0,0.922
+MCD,McDonald's,Consumer Discretionary,2022,community;customer;diversity_inclusion;integrity,4,7.0,0.784
+MCD,McDonald's,Consumer Discretionary,2023,community;customer;diversity_inclusion;integrity,4,7.5,0.804
+MCD,McDonald's,Consumer Discretionary,2024,community,1,17.0,0.947
+MDT,Medtronic,Healthcare,2016,community;customer;innovation;integrity;performance;safety,6,-2.3,0.248
+MDT,Medtronic,Healthcare,2017,collaboration;community;customer;innovation;integrity;performance;safety,7,3.1,0.583
+MDT,Medtronic,Healthcare,2018,community;customer;innovation;integrity;performance,5,-7.0,0.116
+MDT,Medtronic,Healthcare,2019,collaboration;community;customer;innovation;integrity;performance;safety,7,-2.4,0.245
+MDT,Medtronic,Healthcare,2020,community;diversity_inclusion;integrity,3,-20.2,0.01
+MDT,Medtronic,Healthcare,2021,community,1,-17.0,0.024
+MDT,Medtronic,Healthcare,2022,collaboration;community;customer;innovation;integrity;performance;safety,7,-1.4,0.304
+MDT,Medtronic,Healthcare,2023,collaboration;community;customer;innovation;integrity;performance;safety,7,-2.7,0.231
+MDT,Medtronic,Healthcare,2024,collaboration;community;customer;innovation;integrity;performance;safety,7,-1.4,0.304
+META,Meta Platforms,Technology,2016,collaboration;innovation,2,-1.0,0.325
+META,Meta Platforms,Technology,2017,collaboration;community;innovation,3,2.7,0.546
+META,Meta Platforms,Technology,2018,community,1,26.0,0.974
+META,Meta Platforms,Technology,2019,collaboration;community;customer;diversity_inclusion;innovation;performance;safety;sustainability,8,5.7,0.73
+META,Meta Platforms,Technology,2020,collaboration;community;customer;diversity_inclusion;innovation;performance;safety;sustainability,8,5.0,0.687
+META,Meta Platforms,Technology,2021,collaboration;community;customer;diversity_inclusion;innovation;safety;sustainability,7,12.6,0.918
+META,Meta Platforms,Technology,2022,collaboration;community;customer;diversity_inclusion;innovation;safety;sustainability,7,8.0,0.816
+META,Meta Platforms,Technology,2023,community;diversity_inclusion;innovation;performance;safety,5,1.0,0.44
+META,Meta Platforms,Technology,2024,collaboration;community;customer;diversity_inclusion;innovation;safety;sustainability,7,5.0,0.687
+MPC,Marathon Petroleum,Energy,2019,community;customer;diversity_inclusion;integrity;performance;safety;sustainability,7,-7.4,0.102
+MPC,Marathon Petroleum,Energy,2020,community;customer;diversity_inclusion;integrity;performance;safety;sustainability,7,2.1,0.514
+MPC,Marathon Petroleum,Energy,2021,collaboration;community;customer;diversity_inclusion;integrity;performance;safety;sustainability,8,4.2,0.634
+MPC,Marathon Petroleum,Energy,2022,collaboration;diversity_inclusion;integrity;performance;safety;sustainability,6,2.0,0.5
+MPC,Marathon Petroleum,Energy,2023,collaboration;community;customer;diversity_inclusion;integrity;performance;safety;sustainability,8,7.5,0.804
+MPC,Marathon Petroleum,Energy,2024,collaboration;diversity_inclusion;integrity;performance;safety,5,-4.0,0.182
+MRK,Merck,Healthcare,2020,collaboration;community;customer;diversity_inclusion;innovation;integrity,6,10.8,0.874
+MRK,Merck,Healthcare,2021,collaboration;community;customer;diversity_inclusion;innovation;integrity;sustainability,7,4.7,0.665
+MRK,Merck,Healthcare,2022,collaboration;community;diversity_inclusion;innovation;integrity;safety;sustainability,7,1.0,0.44
+MRK,Merck,Healthcare,2023,community;diversity_inclusion;innovation;safety;sustainability,5,-6.0,0.138
+MRK,Merck,Healthcare,2024,community;customer;diversity_inclusion;innovation;integrity;safety;sustainability,7,4.1,0.628
+MS,Morgan Stanley,Financials,2016,community;innovation;sustainability,3,0.2,0.405
+MS,Morgan Stanley,Financials,2017,community;sustainability,2,10.0,0.855
+MS,Morgan Stanley,Financials,2018,community;sustainability,2,6.0,0.75
+MS,Morgan Stanley,Financials,2019,community;diversity_inclusion;sustainability,3,-0.7,0.338
+MS,Morgan Stanley,Financials,2020,community;diversity_inclusion;sustainability,3,-11.7,0.053
+MS,Morgan Stanley,Financials,2021,community;diversity_inclusion;sustainability,3,-17.0,0.024
+MS,Morgan Stanley,Financials,2022,community;diversity_inclusion;sustainability,3,-14.7,0.034
+MS,Morgan Stanley,Financials,2023,community;diversity_inclusion;sustainability,3,-9.7,0.071
+MS,Morgan Stanley,Financials,2024,community;diversity_inclusion;sustainability,3,-13.3,0.037
+MSFT,Microsoft,Technology,2016,community;innovation;sustainability,3,-0.7,0.338
+MSFT,Microsoft,Technology,2017,community;innovation;sustainability,3,7.0,0.784
+MSFT,Microsoft,Technology,2018,community;diversity_inclusion;innovation;sustainability,4,-2.5,0.24
+MSFT,Microsoft,Technology,2019,community;diversity_inclusion;innovation;sustainability,4,-5.5,0.146
+MSFT,Microsoft,Technology,2020,community;customer;innovation;sustainability,4,2.5,0.534
+MSFT,Microsoft,Technology,2021,community;innovation;sustainability,3,-22.7,0.007
+MSFT,Microsoft,Technology,2022,innovation;sustainability,2,3.0,0.57
+MSFT,Microsoft,Technology,2023,innovation;sustainability,2,11.0,0.878
+MSFT,Microsoft,Technology,2024,community;customer;innovation;sustainability,4,0.5,0.413
+NKE,Nike,Consumer Discretionary,2016,community;innovation;sustainability,3,4.3,0.641
+NKE,Nike,Consumer Discretionary,2017,community;innovation;sustainability,3,0.7,0.42
+NKE,Nike,Consumer Discretionary,2018,community;customer;diversity_inclusion;innovation;sustainability,5,-2.0,0.262
+NKE,Nike,Consumer Discretionary,2019,community;diversity_inclusion;innovation;sustainability,4,15.5,0.939
+NKE,Nike,Consumer Discretionary,2020,collaboration;community;diversity_inclusion;innovation;sustainability,5,1.0,0.44
+NKE,Nike,Consumer Discretionary,2021,adaptability;collaboration;community;customer;diversity_inclusion;innovation,6,-1.7,0.286
+NKE,Nike,Consumer Discretionary,2022,adaptability;collaboration;community;customer;diversity_inclusion;innovation,6,-10.0,0.066
+NKE,Nike,Consumer Discretionary,2023,adaptability;collaboration;community;customer;diversity_inclusion;innovation,6,-3.7,0.192
+NVDA,NVIDIA,Technology,2019,diversity_inclusion;innovation;safety,3,-5.0,0.163
+NVDA,NVIDIA,Technology,2020,adaptability;collaboration;diversity_inclusion;innovation;safety,5,2.0,0.5
+NVDA,NVIDIA,Technology,2021,diversity_inclusion;innovation,2,2.0,0.5
+NVDA,NVIDIA,Technology,2022,collaboration;diversity_inclusion;innovation,3,0.0,0.386
+NVDA,NVIDIA,Technology,2023,diversity_inclusion;safety,2,26.0,0.974
+NVDA,NVIDIA,Technology,2024,diversity_inclusion;safety,2,17.0,0.947
+ORCL,Oracle,Technology,2019,customer;innovation,2,3.0,0.57
+ORCL,Oracle,Technology,2020,community;diversity_inclusion,2,1.0,0.44
+ORCL,Oracle,Technology,2022,community;customer;diversity_inclusion;innovation;safety;sustainability,6,-12.3,0.048
+OXY,Occidental Petroleum,Energy,2021,innovation;performance;safety;sustainability,4,14.0,0.935
+OXY,Occidental Petroleum,Energy,2022,innovation;performance;safety;sustainability,4,19.0,0.957
+OXY,Occidental Petroleum,Energy,2023,collaboration;community;customer;innovation;performance;sustainability,6,0.7,0.42
+OXY,Occidental Petroleum,Energy,2024,collaboration;performance;safety;sustainability,4,6.0,0.75
+PFE,Pfizer,Healthcare,2016,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,9,0.8,0.425
+PFE,Pfizer,Healthcare,2017,collaboration;community;customer;innovation,4,10.0,0.855
+PFE,Pfizer,Healthcare,2018,collaboration;community;customer;innovation,4,4.5,0.651
+PFE,Pfizer,Healthcare,2019,collaboration;community;customer,3,3.3,0.597
+PFE,Pfizer,Healthcare,2020,collaboration;community;customer,3,4.7,0.665
+PFE,Pfizer,Healthcare,2021,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,10,0.0,0.386
+PFE,Pfizer,Healthcare,2022,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,10,0.0,0.386
+PFE,Pfizer,Healthcare,2023,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,10,0.0,0.386
+PFE,Pfizer,Healthcare,2024,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,10,0.0,0.386
+PSX,Phillips 66,Energy,2021,collaboration;community;customer;diversity_inclusion;innovation;performance;safety;sustainability,8,3.2,0.59
+PSX,Phillips 66,Energy,2022,adaptability;innovation;performance,3,5.0,0.687
+PSX,Phillips 66,Energy,2023,community;innovation;performance;safety;sustainability,5,10.0,0.855
+PSX,Phillips 66,Energy,2024,adaptability;community;innovation;performance;safety;sustainability,6,13.3,0.925
+SBUX,Starbucks,Consumer Discretionary,2017,community;customer;sustainability,3,-24.0,0.003
+SBUX,Starbucks,Consumer Discretionary,2018,community;customer,2,6.0,0.75
+SBUX,Starbucks,Consumer Discretionary,2019,community;customer,2,-7.0,0.116
+SBUX,Starbucks,Consumer Discretionary,2020,community;customer,2,7.0,0.784
+SBUX,Starbucks,Consumer Discretionary,2021,collaboration;community;customer;sustainability,4,10.0,0.855
+SBUX,Starbucks,Consumer Discretionary,2022,community;customer;diversity_inclusion;innovation;safety,5,-3.0,0.213
+SBUX,Starbucks,Consumer Discretionary,2023,collaboration;community;customer;diversity_inclusion;innovation;safety,6,2.0,0.5
+SBUX,Starbucks,Consumer Discretionary,2024,collaboration;community;customer;diversity_inclusion;innovation;safety,6,5.0,0.687
+SCHW,Charles Schwab,Financials,2016,customer;innovation;integrity,3,-1.7,0.286
+SCHW,Charles Schwab,Financials,2017,diversity_inclusion,1,27.0,0.98
+SCHW,Charles Schwab,Financials,2018,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance,7,3.1,0.583
+SCHW,Charles Schwab,Financials,2019,collaboration;customer;innovation;integrity;performance,5,-6.5,0.128
+SCHW,Charles Schwab,Financials,2020,collaboration;customer;innovation;integrity;performance,5,2.5,0.534
+SCHW,Charles Schwab,Financials,2021,collaboration;customer;innovation;integrity;performance,5,0.0,0.386
+SCHW,Charles Schwab,Financials,2022,collaboration;customer;innovation;integrity;performance,5,1.0,0.44
+SCHW,Charles Schwab,Financials,2023,collaboration;customer;innovation;integrity;performance,5,-8.5,0.08
+SCHW,Charles Schwab,Financials,2024,customer;innovation;integrity,3,-5.3,0.153
+SLB,SLB (Schlumberger),Energy,2022,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;sustainability,8,4.2,0.634
+SLB,SLB (Schlumberger),Energy,2023,adaptability;collaboration;customer;diversity_inclusion;innovation;integrity;performance;sustainability,8,11.8,0.881
+SLB,SLB (Schlumberger),Energy,2024,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety;sustainability,10,0.0,0.386
+TGT,Target,Consumer Discretionary,2019,collaboration;community;customer;diversity_inclusion;innovation;safety,6,-10.3,0.061
+TGT,Target,Consumer Discretionary,2020,community,1,-8.0,0.097
+TJX,TJX Companies,Consumer Discretionary,2017,adaptability;customer;innovation;performance,4,-8.2,0.09
+TJX,TJX Companies,Consumer Discretionary,2018,adaptability;customer;innovation;performance,4,-15.5,0.031
+TJX,TJX Companies,Consumer Discretionary,2019,adaptability;customer;innovation;performance,4,2.0,0.5
+TJX,TJX Companies,Consumer Discretionary,2020,adaptability;customer;innovation;performance,4,4.0,0.619
+TJX,TJX Companies,Consumer Discretionary,2021,adaptability;customer;innovation;performance;safety;sustainability,6,4.0,0.619
+TJX,TJX Companies,Consumer Discretionary,2022,adaptability;customer;performance,3,-0.3,0.359
+TJX,TJX Companies,Consumer Discretionary,2023,adaptability;customer;innovation;performance,4,6.0,0.75
+TJX,TJX Companies,Consumer Discretionary,2024,adaptability;community;customer;performance;sustainability,5,-7.0,0.116
+TMO,Thermo Fisher Scientific,Healthcare,2021,collaboration;customer;innovation;performance;sustainability,5,9.0,0.842
+TMO,Thermo Fisher Scientific,Healthcare,2022,collaboration;customer;innovation;performance;safety;sustainability,6,2.7,0.546
+TMO,Thermo Fisher Scientific,Healthcare,2023,collaboration;customer;innovation;performance;safety;sustainability,6,3.3,0.597
+TMO,Thermo Fisher Scientific,Healthcare,2024,customer;innovation;safety;sustainability,4,-5.0,0.163
+TSLA,Tesla,Consumer Discretionary,2016,collaboration;innovation;safety;sustainability,4,-3.2,0.201
+TSLA,Tesla,Consumer Discretionary,2017,innovation;performance;safety;sustainability,4,-9.0,0.075
+TSLA,Tesla,Consumer Discretionary,2018,innovation;performance;safety;sustainability,4,-8.5,0.08
+TSLA,Tesla,Consumer Discretionary,2019,innovation;performance;safety;sustainability,4,5.0,0.687
+TSLA,Tesla,Consumer Discretionary,2020,innovation;performance;safety;sustainability,4,8.5,0.825
+TSLA,Tesla,Consumer Discretionary,2021,innovation;performance;safety;sustainability,4,4.5,0.651
+TSLA,Tesla,Consumer Discretionary,2022,innovation;performance;safety;sustainability,4,-1.5,0.298
+TSLA,Tesla,Consumer Discretionary,2023,innovation;sustainability,2,12.0,0.891
+TSLA,Tesla,Consumer Discretionary,2024,innovation;sustainability,2,-0.0,0.386
+UNH,UnitedHealth Group,Healthcare,2016,customer;diversity_inclusion;innovation,3,7.0,0.784
+UNH,UnitedHealth Group,Healthcare,2017,collaboration;customer;sustainability,3,31.7,0.99
+UNH,UnitedHealth Group,Healthcare,2018,collaboration;community;customer;innovation;sustainability,5,4.5,0.651
+UNH,UnitedHealth Group,Healthcare,2019,collaboration;community;customer;innovation;sustainability,5,9.0,0.842
+UNH,UnitedHealth Group,Healthcare,2020,collaboration;customer;innovation;sustainability,4,-2.5,0.24
+UNH,UnitedHealth Group,Healthcare,2021,adaptability;collaboration;community;customer;diversity_inclusion;innovation;integrity;performance;safety,9,1.2,0.457
+UNH,UnitedHealth Group,Healthcare,2022,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance,7,5.0,0.687
+UNH,UnitedHealth Group,Healthcare,2023,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance,7,5.0,0.687
+UNH,UnitedHealth Group,Healthcare,2024,collaboration;community;customer;diversity_inclusion;innovation;integrity;performance,7,4.1,0.628
+VLO,Valero Energy,Energy,2020,community;innovation;performance;safety;sustainability,5,-6.0,0.138
+VLO,Valero Energy,Energy,2021,collaboration;community;customer;innovation;integrity;performance;safety;sustainability,8,1.6,0.476
+VLO,Valero Energy,Energy,2022,community;customer;innovation;integrity;safety;sustainability,6,1.0,0.44
+VLO,Valero Energy,Energy,2023,community;customer;integrity;safety;sustainability,5,5.0,0.687
+VLO,Valero Energy,Energy,2024,community;customer;safety;sustainability,4,0.5,0.413
+WFC,Wells Fargo,Financials,2016,community;customer;performance;safety;sustainability,5,6.0,0.75
+WFC,Wells Fargo,Financials,2017,community;customer;performance;safety;sustainability,5,1.5,0.468
+WFC,Wells Fargo,Financials,2018,community;performance,2,-6.0,0.138
+WFC,Wells Fargo,Financials,2019,community;customer;performance;safety;sustainability,5,-11.0,0.058
+WFC,Wells Fargo,Financials,2020,community;performance,2,-10.0,0.066
+WFC,Wells Fargo,Financials,2021,community;customer;diversity_inclusion;integrity;performance;safety;sustainability,7,5.9,0.735
+WFC,Wells Fargo,Financials,2022,community;customer;performance;safety;sustainability,5,-3.0,0.213
+WFC,Wells Fargo,Financials,2023,community;performance,2,12.5,0.912
+WFC,Wells Fargo,Financials,2024,community;performance,2,-2.0,0.262
+XOM,ExxonMobil,Energy,2019,innovation;safety;sustainability,3,5.0,0.687
+XOM,ExxonMobil,Energy,2020,innovation;performance;safety;sustainability,4,-6.5,0.128

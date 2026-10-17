@@ -1,0 +1,42 @@
+ticker,sector,years,avg_authenticity_index
+MDT,Healthcare,2016-2024,-5.7
+MS,Financials,2016-2024,-5.7
+COP,Energy,2017-2024,-3.5
+HAL,Energy,2021-2024,-3.3
+ORCL,Technology,"2019-2020, 2022",-2.8
+GOOGL,Technology,2017-2024,-2.8
+TJX,Consumer Discretionary,2017-2024,-1.9
+MSFT,Technology,2016-2024,-0.8
+WFC,Financials,2016-2024,-0.7
+SBUX,Consumer Discretionary,2017-2024,-0.5
+GS,Financials,"2016-2020, 2022-2024",-0.3
+BMY,Healthcare,2017-2024,0.2
+VLO,Energy,2020-2024,0.4
+NKE,Consumer Discretionary,2016-2023,0.5
+MPC,Energy,2019-2024,0.7
+TSLA,Consumer Discretionary,2016-2024,0.9
+AMZN,Consumer Discretionary,2020-2024,1.2
+SCHW,Financials,2016-2024,1.3
+CVX,Energy,2016-2024,1.3
+IBM,Technology,"2018, 2020-2024",1.4
+INTC,Technology,2016-2024,1.4
+ABT,Healthcare,2016-2024,2.0
+JNJ,Healthcare,2018-2024,2.0
+TMO,Healthcare,2021-2024,2.5
+PFE,Healthcare,2016-2024,2.6
+MRK,Healthcare,2020-2024,2.9
+BRK.B,Financials,2016-2024,3.1
+JPM,Financials,2020-2024,5.3
+SLB,Energy,2022-2024,5.3
+BAC,Financials,2021-2024,5.9
+NVDA,Technology,2019-2024,7.0
+META,Technology,2016-2024,7.2
+UNH,Healthcare,2016-2024,7.2
+BLK,Financials,2018-2024,7.3
+LOW,Consumer Discretionary,2020-2024,7.4
+PSX,Energy,2021-2024,7.9
+LLY,Healthcare,"2016-2017, 2019-2020, 2024",8.4
+F,Consumer Discretionary,2020-2024,8.5
+OXY,Energy,2021-2024,9.9
+MCD,Consumer Discretionary,2020-2024,10.3
+HD,Consumer Discretionary,2016-2024,10.7
