@@ -33,6 +33,7 @@ client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 
 def call_llm(prompt, cache_name):
+    """Send a prompt to Gemini and return its JSON answer, using the cache when available."""
     path = CACHE / f"{cache_name}.json"
     if path.exists():
         return json.loads(path.read_text())
@@ -56,10 +57,12 @@ def call_llm(prompt, cache_name):
 
 
 def shorten(text, max_words=MAX_WORDS):
+    """Cut a text to its first max_words words."""
     return " ".join(text.split()[:max_words])
 
 
 def add_change_columns(df):
+    """Flag pages that differ from the company's previous usable year."""
     df = df.sort_values(["ticker", "year"]).reset_index(drop=True)
     df["changed_from_prior"] = None
     for i in range(1, len(df)):
@@ -71,6 +74,7 @@ def add_change_columns(df):
 
 
 def get_themes(row):
+    """Ask Gemini which themes a page expresses, with a supporting quote for each."""
     theme_list = "\n".join(f"- {name}: {desc}" for name, desc in THEMES.items())
     prompt = f"""You are coding a company's "About Us" page for research on stated corporate values.
 
@@ -88,6 +92,7 @@ Return JSON like: {{"innovation": "quote", "customer": "quote"}}
 
 
 def get_shifts(ticker, company, rows):
+    """Ask Gemini how a company's language changed across all its years."""
     pages = "\n\n".join(f"=== {r.year} ===\n{shorten(r.page_text_clean, 1200)}"
                         for r in rows.itertuples())
     prompt = f"""Below are yearly snapshots of {company}'s "About Us" page.
@@ -101,6 +106,7 @@ Return JSON like: {{"2019": "note", "2021": "note"}}
 
 
 def main():
+    """Run the change, theme and shift analysis and write llm_results.csv."""
     df = pd.read_csv(OUTPUT / "extracted.csv")
     df = df[~df.flag_too_short & ~df.flag_archive_error]
     df = df.merge(pd.read_csv(INPUT / "companies_final.csv")[["ticker", "company_name"]], on="ticker")

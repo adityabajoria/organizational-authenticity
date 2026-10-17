@@ -53,6 +53,7 @@ CODE_LINE_PATTERNS = [
 
 
 def strip_code_blocks(html):
+    """Remove script, style and other non-visible tags from the HTML."""
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(CODE_TAGS):
         tag.decompose()
@@ -60,6 +61,7 @@ def strip_code_blocks(html):
 
 
 def extract_trafilatura(html):
+    """Extract the main page text with trafilatura."""
     text = trafilatura.extract(
         strip_code_blocks(html),
         favor_recall=True,
@@ -70,6 +72,7 @@ def extract_trafilatura(html):
 
 
 def extract_rule_based(html):
+    """Fallback extractor that removes navigation, headers, footers and other boilerplate."""
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(FALLBACK_DROP_TAGS):
         tag.decompose()
@@ -90,6 +93,7 @@ def extract_rule_based(html):
 
 
 def looks_like_code(line):
+    """Return True if a line looks like leftover code rather than text."""
     if any(re.search(p, line) for p in CODE_LINE_PATTERNS):
         return True
     letters = sum(ch.isalpha() for ch in line)
@@ -97,11 +101,13 @@ def looks_like_code(line):
 
 
 def is_menu_label(line):
+    """Return True if a line is short enough to be a menu item."""
     words = line.lstrip("-• ").split()
     return len(words) <= MENU_LABEL_MAX and not re.search(r"[.!?]", line)
 
 
 def drop_menu_runs(lines):
+    """Remove long runs of short menu-like lines."""
     kept, run = [], []
     for line in lines + [""]:
         if line and is_menu_label(line):
@@ -116,6 +122,7 @@ def drop_menu_runs(lines):
 
 
 def clean_lines(text):
+    """Remove buttons, footers, code, duplicates and menus from extracted text."""
     seen, kept = set(), []
     for line in text.splitlines():
         line = re.sub(r"\s+", " ", line).strip()
@@ -131,10 +138,12 @@ def clean_lines(text):
 
 
 def word_count(text):
+    """Count the words in a text."""
     return len(re.findall(r"\b\w+\b", text))
 
 
 def extract(html):
+    """Extract clean text, using the fallback extractor when trafilatura gets too little."""
     text = clean_lines(extract_trafilatura(html))
     if word_count(text) < MIN_WORDS:
         fallback = clean_lines(extract_rule_based(html))
@@ -144,6 +153,7 @@ def extract(html):
 
 
 def main():
+    """Extract text from every snapshot and write extracted.csv with quality flags."""
     index = pd.read_csv(OUTPUT / "snapshot_index.csv")
     rows = []
 

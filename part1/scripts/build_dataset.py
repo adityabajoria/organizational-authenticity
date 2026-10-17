@@ -19,12 +19,14 @@ GAP_NOTES = {
 
 
 def load_text(row):
+    """Return a page's clean text on one line, or empty if the row has no usable page."""
     if row.status != "ok":
         return ""
     return " ".join((CLEAN / row.ticker / f"{row.year}.txt").read_text().split())
 
 
 def label_status(df):
+    """Mark pages that were too short or error pages as excluded, with a gap reason."""
     too_short = df.flag_too_short.fillna(False).astype(bool)
     error_page = df.flag_archive_error.fillna(False).astype(bool)
     df.loc[too_short, "gap_reason"] = "text_too_short"
@@ -34,11 +36,13 @@ def label_status(df):
 
 
 def prior_years(df):
+    """Return the previous usable year for each analysed page."""
     analysed = df[df.status == "ok"].sort_values(["ticker", "year"])
     return analysed.groupby("ticker").year.shift().reindex(df.index).astype("Int64")
 
 
 def fill_notes(row):
+    """Return the analyst note, explaining gaps, first years and unchanged pages."""
     if row.status != "ok":
         return GAP_NOTES[row.gap_reason]
     if isinstance(row.analyst_notes, str) and row.analyst_notes:
@@ -51,6 +55,7 @@ def fill_notes(row):
 
 
 def main():
+    """Combine the snapshot, extraction and LLM outputs into final_dataset.csv."""
     df = pd.read_csv(OUTPUT / "snapshot_index.csv")
     df = df.merge(pd.read_csv(OUTPUT / "extracted.csv"), on=["ticker", "year"], how="left")
     df = df.merge(pd.read_csv(OUTPUT / "llm_results.csv"), on=["ticker", "year"], how="left")

@@ -18,17 +18,20 @@ WORD = re.compile(r"[A-Za-z]{3,}")
 
 
 def word_share(text):
+    """Return the share of tokens that are real words (3+ letters)."""
     tokens = text.split()
     return sum(bool(WORD.search(t)) for t in tokens) / max(len(tokens), 1)
 
 
 def drop_numeric_tables(soup):
+    """Delete tables that are mostly numbers, keeping tables that hold text."""
     for table in soup("table"):
         if not table.decomposed and word_share(table.get_text(" ")) < MIN_TABLE_WORD_SHARE:
             table.decompose()
 
 
 def extract(html):
+    """Turn a proxy's HTML into clean text, one line per block, without duplicates."""
     soup = BeautifulSoup(html, "lxml")
     for tag in soup(["script", "style", "ix:header"]):
         tag.decompose()
@@ -48,6 +51,7 @@ def extract(html):
 
 
 def main():
+    """Extract text from all proxies and write extracted.csv with word counts."""
     index = pd.read_csv(OUTPUT / "proxy_index.csv")
     rows = []
 

@@ -15,6 +15,7 @@ YEARS = range(2016, 2025)
 FORMS = ["DEF 14A", "DEFC14A"]
 PAUSE = 0.25
 
+# Changed SEC IDs XOM and BLK use their old ID instead; AVGO adds its pre-2018 ID
 EXTRA_CIKS = {
     "XOM": [34088],
     "BLK": [1364742],
@@ -27,30 +28,32 @@ HEADERS = {"User-Agent": os.environ["SEC_USER_AGENT"]}
 
 
 def get(url):
+    """Download a URL from the SEC, retrying up to 5 times on any failure."""
     for attempt in range(5):
         time.sleep(PAUSE)
         try:
             r = requests.get(url, headers=HEADERS, timeout=120)
-            if r.status_code < 500 and r.status_code != 429:
-                r.raise_for_status()
-                return r
-            print(f"    HTTP {r.status_code}, retrying", flush=True)
-        except requests.RequestException:
-            print("    connection error, retrying", flush=True)
-        time.sleep(10 * (attempt + 1))
+            r.raise_for_status()
+            return r
+        except requests.RequestException as e:
+            print(f"    {type(e).__name__}, retrying", flush=True)
+            time.sleep(10)
     raise RuntimeError(f"Gave up on {url}")
 
 
 def get_json(url):
+    """Download a URL and parse it as JSON."""
     return get(url).json()
 
 
 def ticker_to_cik():
+    """Map every ticker to its SEC company ID (CIK)."""
     data = get_json("https://www.sec.gov/files/company_tickers.json")
     return {row["ticker"]: row["cik_str"] for row in data.values()}
 
 
 def all_filings(cik):
+    """Return all filings under one SEC ID from 2015 onward."""
     sub = get_json(f"https://data.sec.gov/submissions/CIK{cik:010d}.json")
     pages = [sub["filings"]["recent"]]
     for f in sub["filings"]["files"]:
@@ -63,16 +66,19 @@ def all_filings(cik):
 
 
 def company_filings(ticker, ciks):
+    """Combine a company's filings from all of its SEC IDs."""
     own = [] if ticker in REPLACE_CIK else [ciks[ticker.replace(".", "-")]]
     return pd.concat([all_filings(c) for c in own + EXTRA_CIKS.get(ticker, [])],
                      ignore_index=True)
 
 
 def season_target(year, month):
+    """Return the target filing date: mid-month of the company's usual filing month."""
     return pd.Timestamp(year, month, 15)
 
 
 def pick_proxies(filings):
+    """Choose one proxy per year, preferring the one filed closest to the usual month."""
     p = filings[filings.form.isin(FORMS)].copy()
     p["date"] = pd.to_datetime(p.filingDate)
     regular = p[p.form == "DEF 14A"]
@@ -91,6 +97,7 @@ def pick_proxies(filings):
 
 
 def download(cik, row, path):
+    """Save a filing's main document, skipping files already downloaded."""
     if path.exists():
         return
     acc = row.accessionNumber.replace("-", "")
@@ -101,6 +108,7 @@ def download(cik, row, path):
 
 
 def main():
+    """Download one proxy per company-year and write proxy_index.csv."""
     companies = pd.read_csv(COMPANIES)
     ciks = ticker_to_cik()
     index = []

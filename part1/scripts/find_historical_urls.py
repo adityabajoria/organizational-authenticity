@@ -36,6 +36,7 @@ CANDIDATES = {
 
 
 def search_prefix(prefix):
+    """Search the archive for About-style URLs under a site prefix."""
     params = {
         "url": prefix,
         "matchType": "prefix",
@@ -54,6 +55,7 @@ def search_prefix(prefix):
 
 
 def main():
+    """List candidate historical URLs and their yearly coverage for companies that moved their page."""
     found = []
     for ticker, prefixes in SEARCH_PREFIXES.items():
         for prefix in prefixes:

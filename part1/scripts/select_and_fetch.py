@@ -20,6 +20,7 @@ INDEX_COLUMNS = ["ticker", "company_name", "sector", "year", "status", "gap_reas
 
 
 def url_for_year(timeline, ticker, year, default):
+    """Return the About page URL to use for a company in a given year."""
     rows = timeline[timeline.ticker == ticker]
     if rows.empty:
         return default
@@ -30,29 +31,35 @@ def url_for_year(timeline, ticker, year, default):
 
 
 def captures_in_year(captures, year):
+    """Return the captures from a given year."""
     return [c for c in captures if c["timestamp"].startswith(str(year))]
 
 
 def distance_to_midyear(capture, year):
+    """Return how far a capture is from July 1."""
     return abs(ts_to_datetime(capture["timestamp"]) - datetime(year, 7, 1))
 
 
 def usable_by_distance(captures, year):
+    """Return a year's usable captures, closest to July 1 first."""
     candidates = [c for c in captures_in_year(captures, year) if is_usable(c)]
     return sorted(candidates, key=lambda c: distance_to_midyear(c, year))
 
 
 def pick_closest_to_midyear(captures, year):
+    """Return the usable capture closest to July 1 and the number of candidates."""
     candidates = usable_by_distance(captures, year)
     return (candidates[0] if candidates else None), len(candidates)
 
 
 def site_domain(url):
+    """Return a URL's main domain, e.g. apple.com."""
     host = urlparse(url if "://" in url else "http://" + url).hostname or ""
     return ".".join(host.split(".")[-2:])
 
 
 def resolve_redirect(capture, about_url, year):
+    """Follow a redirect inside the archive, if it stays on the same site and year."""
     r = polite_get(f"https://web.archive.org/web/{capture['timestamp']}/{capture['original']}")
     m = WAYBACK_URL.search(r.url)
     if r.status_code != 200 or not m or len(r.history) > MAX_REDIRECT_HOPS:
@@ -65,11 +72,13 @@ def resolve_redirect(capture, about_url, year):
 
 
 def download_raw(capture):
+    """Download a capture's original HTML from the archive."""
     r = polite_get(f"https://web.archive.org/web/{capture['timestamp']}id_/{capture['original']}")
     return r.content if r.status_code == 200 else None
 
 
 def gap_reason(captures, year):
+    """Explain why a year has no usable snapshot."""
     in_year = captures_in_year(captures, year)
     if not in_year:
         return "no_captures_in_year"
@@ -79,6 +88,7 @@ def gap_reason(captures, year):
 
 
 def snapshot_meta(cap, year, n_candidates):
+    """Return the details recorded for a downloaded snapshot."""
     taken = ts_to_datetime(cap["timestamp"])
     return {
         "status": "ok",
@@ -93,6 +103,7 @@ def snapshot_meta(cap, year, n_candidates):
 
 
 def main():
+    """Select and download one snapshot per company-year and write snapshot_index.csv."""
     companies = pd.read_csv(INPUT / "companies_final.csv")
     timeline = pd.read_csv(INPUT / "url_timeline.csv")
     index = []

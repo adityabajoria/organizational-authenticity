@@ -4,12 +4,14 @@ from wayback import INPUT, OUTPUT, YEARS, is_usable, query_cdx
 
 
 def usable_per_year(captures):
+    """Count usable captures in each year."""
     return {year: sum(1 for c in captures
                       if c["timestamp"].startswith(str(year)) and is_usable(c))
             for year in YEARS}
 
 
 def main():
+    """Count usable captures per company-year and write coverage_matrix.csv."""
     companies = pd.read_csv(INPUT / "companies_final.csv")
     matrix = {}
 

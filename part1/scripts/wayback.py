@@ -26,6 +26,7 @@ _last_request = 0.0
 
 
 def polite_get(url, params=None, timeout=120):
+    """Request a URL slowly enough to avoid rate limits, retrying on errors."""
     global _last_request
     for attempt in range(1, MAX_ATTEMPTS + 1):
         wait = PACE_SECONDS - (time.time() - _last_request)
@@ -53,10 +54,12 @@ def polite_get(url, params=None, timeout=120):
 
 
 def normalize_url(url):
+    """Strip spaces and trailing slashes so each URL has one cache entry."""
     return url.strip().rstrip("/")
 
 
 def query_cdx(url):
+    """Return all archived captures of a URL from 2016 to 2024, using the cache when available."""
     url = normalize_url(url)
     path = CDX_CACHE / (hashlib.md5(url.encode()).hexdigest() + ".json")
     if path.exists():
@@ -82,10 +85,12 @@ def query_cdx(url):
 
 
 def is_usable(capture):
+    """Return True if a capture is a working HTML page or a revisit record."""
     if capture["statuscode"] == "200" and "html" in capture["mimetype"]:
         return True
     return capture["mimetype"] == "warc/revisit"
 
 
 def ts_to_datetime(ts):
+    """Convert a Wayback timestamp into a datetime."""
     return datetime.strptime(ts[:14], "%Y%m%d%H%M%S")
