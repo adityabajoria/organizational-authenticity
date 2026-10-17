@@ -1,13 +1,13 @@
 ## What I did
 
-1. **Coverage** (`01_cdx_coverage.py`): found an About page URL for each company (`companies_final.csv`) and counted archived captures per year (2016–2024) with the Wayback Machine CDX API. For 8 companies that moved their page, I found older URLs (`01b_find_historical_urls.py`, `url_timeline.csv`).
-2. **Snapshots** (`02_select_and_fetch.py`): downloaded one capture per company-year, 334 of 450. The 116 gaps are 103 years with no capture, 8 with no archived URL and 5 failed downloads; each is explained in `analyst_notes`.
-3. **Text** (`03_extract_text.py`): removed menus, footers, banners and code; excluded 35 pages (34 under 75 words, 1 error page), leaving 299.
-4. **LLM** (`04_llm_analysis.py`, Gemini `gemini-3.5-flash-lite`, temperature 0):
+1. **Coverage** (`cdx_coverage.py`): found an About page URL for each company (`companies_final.csv`) and counted archived captures per year (2016–2024) with the Wayback Machine CDX API. For 8 companies that moved their page, I found older URLs (`find_historical_urls.py`, `url_timeline.csv`).
+2. **Snapshots** (`select_and_fetch.py`): downloaded one capture per company-year, 334 of 450. The 116 gaps are 103 years with no capture, 8 with no archived URL and 5 failed downloads; each is explained in `analyst_notes`.
+3. **Text** (`extract_text.py`): removed menus, footers, banners and code; excluded 35 pages (34 under 75 words, 1 error page), leaving 299.
+4. **LLM** (`llm_analysis.py`, Gemini `gemini-3.5-flash-lite`, temperature 0):
    - `changed_from_prior`: text similarity below 98% vs the previous usable year (no LLM)
    - `theme_categories`: themes each page expresses, with a supporting quote (saved in `llm_cache/`)
    - `analyst_notes`: one call per company comparing all its years
-5. **Dataset** (`05_build_dataset.py`): `data/final/final_dataset.csv`, 450 rows. Responses are cached in `llm_cache/` for reproducibility.
+5. **Dataset** (`build_dataset.py`): `data/final/final_dataset.csv`, 450 rows. Responses are cached in `llm_cache/` for reproducibility.
 
 ## Why
 
