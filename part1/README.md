@@ -1,46 +1,33 @@
-# Part 1: Stated Values
-
 ## What I did
 
-I first manually found an About page URL for each of the 50 companies (`companies_final.csv`). Using `01_cdx_coverage.py` (with shared helpers in `wayback.py`), I queried the Wayback Machine CDX API for every archived capture of each page from 2016 to 2024 and recorded the number of usable captures per company-year in `coverage_matrix.csv`.
-
-Many company-years had no usable capture at the original URL, mostly because some companies had moved their About page. For those 8 companies, I searched the archive for their older URLs (`01b_find_historical_urls.py`) and recorded which URL applies in which years in `url_timeline.csv`. I then selected and downloaded one snapshot per company-year (`02_select_and_fetch.py`). In total I collected 334 of 450 snapshots. The 116 gaps are: 103 years with no capture, 8 years with no archived URL, and 5 failed downloads; every row's reason is in `gap_reason`.
-
-Next, I extracted the visible body text from each page (`03_extract_text.py`), removing menus, footers, cookie banners, buttons and leftover code. I excluded 35 pages: 34 had fewer than 75 words after cleaning, and 1 was an archived error page. This left 299 usable pages.
-
-I then analysed the 299 usable pages with the Google Gemini API (`04_llm_analysis.py`, model `gemini-3.5-flash-lite`, temperature 0 for consistent answers):
-
-- **Changed from prior year:** decided without the LLM, by comparing each page's text with the company's previous usable year. Pages less than 98% similar count as changed.
-- **Themes:** I defined 10 value themes (see [Why](#why)). For each page, Gemini was given the themes and their definitions, and asked which themes the page clearly expresses, with an exact supporting quote for each (`theme_evidence`).
-- **Comparisons:** I called Gemini once per company with all its years side by side and asked what changed over time in themes, tone, vocabulary and length (`analyst_notes`).
-
-All responses are cached in `llm_cache/`, so the results can be reproduced without new API calls.
-
-Finally, I combined everything into `part1_dataset.csv` (`05_build_dataset.py`): 450 rows, one per company-year, with the required columns plus `status`, `gap_reason`, `snapshot_date`, `wayback_url` and `theme_evidence`.
+1. **Coverage** (`01_cdx_coverage.py`): found an About page URL for each company (`companies_final.csv`) and counted archived captures per year (2016–2024) with the Wayback Machine CDX API. For 8 companies that moved their page, I found older URLs (`01b_find_historical_urls.py`, `url_timeline.csv`).
+2. **Snapshots** (`02_select_and_fetch.py`): downloaded one capture per company-year, 334 of 450. The 116 gaps are 103 years with no capture, 8 with no archived URL and 5 failed downloads (see `gap_reason`).
+3. **Text** (`03_extract_text.py`): removed menus, footers, banners and code; excluded 35 pages (34 under 75 words, 1 error page), leaving 299.
+4. **LLM** (`04_llm_analysis.py`, Gemini `gemini-3.5-flash-lite`, temperature 0):
+   - `changed_from_prior`: text similarity below 98% vs the previous usable year (no LLM)
+   - `theme_categories`: themes each page expresses, with a supporting quote (`theme_evidence`)
+   - `analyst_notes`: one call per company comparing all its years
+5. **Dataset** (`05_build_dataset.py`): `part1_dataset.csv`, 450 rows. Responses are cached in `llm_cache/` for reproducibility.
 
 ## Why
 
-- **July 1:** it is the middle of the year, so the snapshot best represents the page as it stood that year.
-- **Themes:** `integrity`, `innovation`, `customer`, `collaboration`, `diversity_inclusion`, `performance`, `adaptability`, `community`, `safety`, `sustainability`.
-
-  7 of my 10 themes come from MIT Sloan Management Review's Culture 500 "Big Nine" values (Sull & Sull et al., 2019), which were identified from 600+ company websites. I added `community`, `safety` and `sustainability` because they are central to ESG disclosure, and I reuse all 10 in Part 2 so the two parts can be compared directly in Part 3.
+- **July 1** is mid-year, so the snapshot best represents that year.
+- **Themes:** `integrity`, `innovation`, `customer`, `collaboration`, `diversity_inclusion`, `performance`, `adaptability` come from MIT SMR's Culture 500 "Big Nine" values (Sull & Sull et al., 2019); `community`, `safety`, `sustainability` were added for ESG relevance. All 10 are reused in Part 2 for comparison in Part 3.
 
 ## Assumptions
 
-- For each year, I used the capture closest to July 1, either before or after it, and never used a capture from a different year. Searching in both directions gave the best chance of finding a capture; the median snapshot is 7 days from July 1.
+- The capture closest to July 1 (before or after, same year only) represents the year; median distance is 7 days.
 - A company's About page reflects its stated values.
-- One snapshot per year is enough to represent the page for that year.
-- Differences below 2% (e.g. dates, typo fixes) are noise, not real changes.
+- Text differences under 2% are noise (dates, typo fixes).
 
 ## What I would do differently with more time
 
-- Find alternative URLs for the companies with the most gaps (e.g. CRM, ABBV, AXP, C), which would reduce missing values.
-- Track URL changes systematically for every company from the start, rather than only after noticing gaps in the coverage matrix.
-- Split long pages into smaller chunks for the LLM instead of cutting them off at 2,000 words.
-- Check Gemini's theme labels against a small hand-coded sample to measure their accuracy.
+- Find alternative URLs for gap-heavy companies (CRM, ABBV, AXP, C) and track URL changes from the start.
+- Split long pages into chunks instead of truncating at 2,000 words.
+- Validate Gemini's labels against a hand-coded sample.
 
 ## Known limitations
 
-- Coverage is uneven over time (17 usable pages in 2016 vs 45 in 2024), so early-year trends rest on fewer companies.
-- Some pages are imperfect stand-ins: NVDA and EOG use careers pages, PSX its homepage, and UNH its subsidiary site (uhc.com).
-- Gemini only reads the first 2,000 words of each page, so long pages (e.g. BRK.B) are partly ignored.
+- Coverage is uneven: 17 usable pages in 2016 vs 45 in 2024.
+- Some pages are imperfect stand-ins: NVDA and EOG (careers pages), PSX (homepage), UNH (uhc.com).
+- Gemini reads only the first 2,000 words of each page (affects BRK.B).
