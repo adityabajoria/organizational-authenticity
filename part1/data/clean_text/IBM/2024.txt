@@ -1,0 +1,7 @@
+We bring together all the necessary technology and services to help our clients solve their business problems.
+Learn how IBM protects our clients and business with security and privacy practices.
+Learn how IBM aspires to be the catalyst that makes the world work better.
+The IBM Sustainability Accelerator brings IBM technology, resources and experts to projects supporting vulnerable communities around the world.
+IBM SkillsBuild is a free education program that provides valuable skills and career opportunities to traditionally underrepresented communities in technology.
+IBM integrates technology and expertise, providing infrastructure, software (including market-leading Red Hat) and consulting services for clients as they pursue the digital transformation of the world’s mission-critical businesses.
+One area of interest for IBM is in personal digital employees, or digeys, AI-powered workers who can relieve employees of their most repetitive, mundane tasks. Learn more about watsonx Orchestrate. We believe intelligent automation solutions will help businesses improve workflows, integrate systems and gain insights into operations. Learn more at IBM Automation.

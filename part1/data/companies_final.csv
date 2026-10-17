@@ -1,0 +1,51 @@
+ticker,company_name,sector,about_url
+MSFT,Microsoft,Technology,microsoft.com/en-us/about
+AAPL,Apple,Technology,investor.apple.com/our_values/default.aspx
+NVDA,NVIDIA,Technology,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+GOOGL,Alphabet,Technology,about.google/company-info/philosophy/
+META,Meta Platforms,Technology,meta.com/about/company-info/
+AVGO,Broadcom,Technology,broadcom.com/company/about-us
+CRM,Salesforce,Technology,salesforce.com/company/our-values/
+ORCL,Oracle,Technology,oracle.com/corporate/
+IBM,IBM,Technology,ibm.com/about
+INTC,Intel,Technology,intel.com/content/www/us/en/company-overview/company-overview.html
+BRK.B,Berkshire Hathaway,Financials,berkshirehathaway.com/owners.html
+JPM,JPMorgan Chase,Financials,jpmorganchase.com/about
+BAC,Bank of America,Financials,about.bankofamerica.com/en/our-company
+WFC,Wells Fargo,Financials,wellsfargo.com/about/
+GS,Goldman Sachs,Financials,goldmansachs.com/our-firm/purpose-and-values
+MS,Morgan Stanley,Financials,morganstanley.com/about-us
+BLK,BlackRock,Financials,blackrock.com/corporate/about-us/mission-and-principles
+SCHW,Charles Schwab,Financials,aboutschwab.com/our-company
+AXP,American Express,Financials,americanexpress.com/en-us/company/who-we-are
+C,Citigroup,Financials,citigroup.com/global/about-us
+LLY,Eli Lilly,Healthcare,lilly.com/about
+UNH,UnitedHealth Group,Healthcare,uhc.com/about-us
+JNJ,Johnson & Johnson,Healthcare,jnj.com/credo
+ABBV,AbbVie,Healthcare,abbvie.com/who-we-are.html
+MRK,Merck,Healthcare,merck.com/company-overview/
+TMO,Thermo Fisher Scientific,Healthcare,corporate.thermofisher.com/us/en/index/about.html
+ABT,Abbott Laboratories,Healthcare,abbott.com/about-abbott.html
+PFE,Pfizer,Healthcare,pfizer.com/about
+MDT,Medtronic,Healthcare,medtronic.com/us-en/about/mission.html
+BMY,Bristol-Myers Squibb,Healthcare,bms.com/about-us.html
+AMZN,Amazon,Consumer Discretionary,aboutamazon.com/about-us
+TSLA,Tesla,Consumer Discretionary,tesla.com/about
+HD,Home Depot,Consumer Discretionary,corporate.homedepot.com/about
+MCD,McDonald's,Consumer Discretionary,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+NKE,Nike,Consumer Discretionary,about.nike.com
+SBUX,Starbucks,Consumer Discretionary,about.starbucks.com/about-us/
+TGT,Target,Consumer Discretionary,corporate.target.com/about
+LOW,Lowe's,Consumer Discretionary,corporate.lowes.com/who-we-are
+TJX,TJX Companies,Consumer Discretionary,tjx.com/company
+F,Ford Motor,Consumer Discretionary,corporate.ford.com/about.html
+XOM,ExxonMobil,Energy,corporate.exxonmobil.com/about-us
+CVX,Chevron,Energy,chevron.com/about/the-chevron-way
+COP,ConocoPhillips,Energy,conocophillips.com/about-us/
+EOG,EOG Resources,Energy,eogresources.com/careers/
+SLB,SLB (Schlumberger),Energy,slb.com/about/who-we-are
+MPC,Marathon Petroleum,Energy,marathonpetroleum.com/About/
+PSX,Phillips 66,Energy,phillips66.com
+VLO,Valero Energy,Energy,valero.com/about
+OXY,Occidental Petroleum,Energy,oxy.com/about/
+HAL,Halliburton,Energy,halliburton.com/en/about-us

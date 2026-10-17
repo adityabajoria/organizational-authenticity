@@ -1,0 +1,56 @@
+Forward thinkers
+Fellows
+IBM Fellows
+"It is my great privilege to announce the 2021 Class of IBM Fellows, an extraordinary group of scientists, engineers, and developers who have earned our company's pre-eminent technical honor. We recognize these eight new Fellows for their outstanding and sustained technical achievements and leadership in engineering, programming, services, science, and technology."
+— Dario Gil, SVP and Director of IBM Research
+Research
+At IBM Research, we invent things that matter. We are a community of thinkers. We make a lasting impact on our industry and the world.
+Our scientists are pioneering the future of artificial intelligence, creating breakthroughs like quantum computing that will allow us to process information in entirely new ways, defining how blockchain will reshape the enterprise, and so much more. We are driven to discover.
+Leadership
+Arvind Krishna
+Chairman and Chief Executive Officer
+Innovation and transformation
+Watson
+The AI platform for business
+Build with IBM’s suite of enterprise-ready AI services, applications and tooling. Watson can transform every part of an organization, getting more out of data so you can innovate at speed.
+Consulting
+Deliver meaningful impact faster
+IBM is your partner for navigating the new rules of modern business with an open, collaborative approach
+Security
+Confidence in the face of uncertainty
+Intelligent enterprise security solutions and services — including intelligence analysis, advanced fraud protection and mobile security — help businesses prepare today for the cyber security threats of tomorrow
+The world is our lab
+With 3,000+ researchers in 12 labs on six continents, IBM Research pioneers the most promising and disruptive technologies in hybrid cloud, AI and quantum computing
+IT infrastructure
+Building blocks of next-gen IT architecture
+Flexible and secure computing, storage and OS solutions with the performance you need for on- premise IT or hybrid cloud applications
+Client success stories
+Iconic moments in IBM history
+1928: The punch card and the US Census
+IBM punch cards become the industry standard for the next 50 years, holding nearly all of the world’s known information and enabling large-scale projects like the US Census.
+1936: Social Security, made possible by IBM
+IBM works with the government on the US Social Security Act of 1935, tabulating employment records for 26 million Americans — the largest accounting project of its time.
+1952: The inception of digital storage
+IBM introduces the world to digital storage via magnetic tape data, marking the transition from punched-card calculators to electronic computers.
+1953: The first heart and lung machine
+1956: AI before AI
+1957: 60+ years of FORTRAN
+Possibly the most influential software product in history, FORTRAN liberates computers from the exclusivity of programmers and opens them to users worldwide.
+1961: The birth of speech recognition
+1962: SABRE: the genesis of eCommerce
+1969: The first men on the moon
+In an epic feat of engineering, IBM builds the computers and software for the Apollo missions, landing Neil Armstrong and Buzz Aldrin on the moon and guiding them back to Earth.
+1970: Charge it — the magnetic swipe strip
+1971: The world’s first floppy disc
+1973: The UPC bar code
+1980: IBM patents LASIK surgery
+1981: Introducing the IBM PC
+1986: Scanning tunnel microscope wins the Nobel Prize
+1997: AI defeats a reigning chess champion
+2011: First AI to understand fluid language
+2018: The Summit of supercomputing
+The Summit supercomputer, with a new computing architecture purpose-built for AI, reaches speeds of 200 petaflops, becoming the most powerful processor on the planet.
+2019: IBM Q brings quantum to the masses
+IBM unveils the first circuit-based commercial quantum computer, allowing users, researchers and developers to explore the potential of quantum to solve real-world problems.
+2021: The world's first 2-nanometer chip
+With 50 billion transistors on a fingernail-sized chip, the most dense to date, this innovation holds the potential for greener data centers and safer autonomous vehicles.

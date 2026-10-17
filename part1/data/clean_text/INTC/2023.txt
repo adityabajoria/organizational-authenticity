@@ -1,0 +1,69 @@
+Intel Shapes the Future of Technology
+Intel’s more than 121,000 employees are shaping the future with computing and connectivity technologies.
+Our Purpose
+We create world-changing technology that improves the life of every person on the planet.
+Intel put the silicon in Silicon Valley. For more than 50 years, Intel and our people have had a profound influence on the world, driving business and society forward by creating radical innovation that revolutionizes the way we live.
+Today we are applying our reach, scale, and resources to enable our customers to capitalize more fully on the power of digital technology. Inspired by Moore’s Law, we continuously work to advance the design and manufacturing of semiconductors to help address our customers’ greatest challenges.
+Our Values
+Our values guide how we make decisions, treat each other, and serve our customers. They underpin how we achieve our purpose: We create world-changing technology that improves the life of every person on the planet. More than simply words, our values are the common thread that unites us.
+Our RISE Strategy
+Leading in the future means living up to our purpose, which is much bigger than the products we create. Our purpose is enabled by our technology and delivered through the expertise and passion of our employees.
+Intel’s longstanding commitment to corporate responsibility and sustainability—built on a strong foundation of transparency, governance, and ethics—is deeply integrated throughout all aspects of our business.
+Our Beliefs
+We have four critical beliefs that guide the way Intel is shaping the future of technology.
+We are in an era of sustained, long‑term demand
+We're on the front end of sustained growth in semiconductors and technologies, driven by the digitization of everything. Technology is increasingly central to every aspect of humanity and semiconductors are needed for everything digital. This is driven by the four technology superpowers:
+- Ubiquitous compute: Microprocessors permeate every aspect of humanity.
+- Cloud-to-edge infrastructure: From the largest clouds to high-capability low-latency edge devices.
+- Pervasive connectivity: Everyone and everything becoming connected.
+- Artificial intelligence: Making sense of it all.
+The world desperately needs more geographically resilient supply chains
+COVID-19 and the resulting semiconductor shortage caused a rapid and extraordinary disruption of every aspect of the economy. Over the past 30 years, the industry went from 80% of semiconductor manufacturing in the west, including the US and Europe, to 80% in Asia.
+Our moonshot goal is that by the end of this decade, the US will have gone from 12% to 30%; Europe from 9% to 20%; that we’ll collectively go from 80% to 20% to 50% by the end of this decade, creating a geographically balanced and more resilient supply chains for the future. A bet on Intel is a hedge against geopolitical instability in the world.
+Moore's Law is alive and well
+We're on a path from 100 billion transistors this year to a trillion transistors on a package by 2030. And we're going to keep pushing that arc and bending physics to keep Moore's Law alive and well.
+Open ecosystems are more powerful than closed
+They unleash innovation, democratize compute, and we have a long history as a company in this area. We saw the industry move from central to decentral to centralized computing with cloud, and we believe that the pendulum of computing’s next swing to the edge is now underway. And we're committed to being the company that creates, democratizes, and enables these open ecosystems.
+Our Strategy
+Intel is uniquely positioned to capitalize as the entire world becomes digital with our depth and breadth of software, silicon and platforms, and packaging and process with at-scale manufacturing.
+This advantage is what makes Intel uniquely Intel.
+Product Leadership
+Lead and democratize compute with Intel x86 and XPU
+As we transform beyond a PC-centric company to address the needs of the new data-centric world, we have expanded our product offerings to provide end-to-end solutions, scaling from edge computing to 5G network, cloud, and the emerging fields of AI and autonomous driving.
+Intel is at the forefront of developing new semiconductor technologies, products, and solutions as building blocks for an increasingly smart and connected world across a broad spectrum of markets.
+Open Platforms
+Standards accelerate innovation
+Around the globe, companies are building their networks, systems, and solutions on open standards-based platforms such as Linux, Android, and others. Intel has helped set the stage for this movement, with our historic leadership in developing standards for the world’s companies to use.
+These open platforms are constantly innovated by the world’s developers, expanding their capabilities while increasing their stability, reliability, and security. In addition, microservices have enabled the development of flexible, loosely coupled services connected via APIs to create end-to-end processes.
+Intel uses industry collaboration, co-engineering, and open-source contributions to accelerate software innovation. Optimized for Intel hardware, Intel software connects millions of developers to develop and evolve new technologies, solve critical problems, and create opportunity. We also deliver a steady stream of open-source code and optimizations for projects across virtually every platform and usage model.
+We are committed to co-engineering and jointly designing, building, and validating new products with software industry leaders to accelerate mutual technology advancements and help new software and hardware work seamlessly together.
+Manufacturing at Scale
+Create world-changing technology and at-scale manufacturing with IDM 2.0
+We have always been in the business of defying physics and building the future, and that’s not going to change. Intel is and will remain a leading developer of process technology and a major manufacturer of semiconductors. We are also a leading provider of silicon globally.
+To meet the accelerating global demand for semiconductors and advance our IDM 2.0 strategy, we are expanding our manufacturing capacity, starting with approximately a $20 billion fab investment in Arizona and New Mexico, a more than $20 billion fab investment in Ohio, the acquisition of Tower Semiconductor, and plans to invest as much as 80 billion euros in the European Union over the next decade along the entire semiconductor value chain.
+IDM 2.0 is a differentiated and winning manufacturing strategy that’s only available to Intel. IDM 2.0 will give us the ability to design the best products and manufacture them in the best way possible, every time. It means leading in process, product, supply, and costs.
+Discover your place in our world-changing work.
+At Intel, we innovate, we inspire, and we lead by bringing people together from across the globe, united in pushing the boundaries of technology.
+To us, those boundaries are opportunities.
+Opportunities to show what we’re capable of.
+Opportunities to develop life-altering breakthroughs.
+Opportunities for us to shine, to keep learning, and to further our careers.
+It’s these opportunities that attract people like us. Because people like us believe our work can change the world.
+From the challenging and rewarding work, to the supportive benefits and programs, to the inclusive, welcoming environment, Intel is committed to helping every one of us learn, grow and thrive at work and beyond. Because that's how we solve the most complex problems to improve the lives of every single person on the planet.
+That’s what drives us.
+That’s what sets us apart.
+That’s what makes us Intel.
+Our Scale
+$63B
+total revenue in 2022
+$17.5B
+invested in R&D in 2022
+$70B
+Intel RISE Technology Initiative contributions since 2020
+9.6 B
+gallons of water conserved in 2022
+93%
+of our global power was green power in 2022
+More About Intel
+Working at Intel
+2200 Mission College Blvd.
