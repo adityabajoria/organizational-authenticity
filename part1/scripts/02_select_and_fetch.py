@@ -16,7 +16,7 @@ WAYBACK_URL = re.compile(r"web\.archive\.org/web/(\d{14})[a-z_]*/(.+)$")
 
 INDEX_COLUMNS = ["ticker", "company_name", "sector", "year", "status", "gap_reason",
                  "about_url", "snapshot_date", "days_from_july1",
-                 "n_candidates_in_year", "redirected_from", "wayback_url"]
+                 "n_candidates_in_year", "wayback_url"]
 
 
 def url_for_year(timeline, ticker, year, default):
@@ -88,7 +88,6 @@ def snapshot_meta(cap, year, n_candidates):
         "original": cap["original"],
         "digest": cap.get("digest", ""),
         "n_candidates_in_year": n_candidates,
-        "redirected_from": cap.get("redirected_from", ""),
         "wayback_url": f"https://web.archive.org/web/{cap['timestamp']}/{cap['original']}",
     }
 
@@ -167,7 +166,7 @@ def main():
             index.append({**row, **meta})
             print(f"    {year}: ok {meta['snapshot_date']}", flush=True)
 
-    index = pd.DataFrame(index).reindex(columns=INDEX_COLUMNS)
+    index = pd.DataFrame(index).reindex(columns=INDEX_COLUMNS).sort_values(["ticker", "year"])
     for col in ["days_from_july1", "n_candidates_in_year"]:
         index[col] = index[col].astype("Int64")
     index.to_csv(DATA / "snapshot_index.csv", index=False)

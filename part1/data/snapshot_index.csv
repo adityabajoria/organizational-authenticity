@@ -1,451 +1,451 @@
-ticker,company_name,sector,year,status,gap_reason,about_url,snapshot_date,days_from_july1,n_candidates_in_year,redirected_from,wayback_url
-MSFT,Microsoft,Technology,2016,ok,,microsoft.com/en-us/about,2016-06-29,2,101,,https://web.archive.org/web/20160629135234/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2017,ok,,microsoft.com/en-us/about,2017-07-01,0,130,,https://web.archive.org/web/20170701045506/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2018,ok,,microsoft.com/en-us/about,2018-06-30,1,175,,https://web.archive.org/web/20180630121020/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2019,ok,,microsoft.com/en-us/about,2019-06-30,1,270,,https://web.archive.org/web/20190630212349/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2020,ok,,microsoft.com/en-us/about,2020-07-01,0,246,,https://web.archive.org/web/20200701214157/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2021,ok,,microsoft.com/en-us/about,2021-06-30,1,311,,https://web.archive.org/web/20210630051241/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2022,ok,,microsoft.com/en-us/about,2022-06-30,1,280,,https://web.archive.org/web/20220630144336/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2023,ok,,microsoft.com/en-us/about,2023-06-30,1,311,,https://web.archive.org/web/20230630172439/https://www.microsoft.com/en-us/about
-MSFT,Microsoft,Technology,2024,ok,,microsoft.com/en-us/about,2024-07-01,0,297,,https://web.archive.org/web/20240701230101/https://www.microsoft.com/en-us/about
-AAPL,Apple,Technology,2016,gap,no_archived_url_for_year,,,,,,
-AAPL,Apple,Technology,2017,gap,no_archived_url_for_year,,,,,,
-AAPL,Apple,Technology,2018,gap,no_archived_url_for_year,,,,,,
-AAPL,Apple,Technology,2019,ok,,investor.apple.com/apple-values/default.aspx,2019-08-17,47,3,,https://web.archive.org/web/20190817134154/https://investor.apple.com/apple-values/default.aspx
-AAPL,Apple,Technology,2020,ok,,investor.apple.com/apple-values/default.aspx,2020-06-09,22,6,,https://web.archive.org/web/20200609045855/https://investor.apple.com/apple-values/default.aspx
-AAPL,Apple,Technology,2021,gap,no_archived_url_for_year,,,,,,
-AAPL,Apple,Technology,2022,gap,no_archived_url_for_year,,,,,,
-AAPL,Apple,Technology,2023,gap,no_archived_url_for_year,,,,,,
-AAPL,Apple,Technology,2024,ok,,investor.apple.com/our_values/default.aspx,2024-07-21,20,12,,https://web.archive.org/web/20240721115837/https://investor.apple.com/our_values/default.aspx
-NVDA,NVIDIA,Technology,2016,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,,
-NVDA,NVIDIA,Technology,2017,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,,
-NVDA,NVIDIA,Technology,2018,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,,
-NVDA,NVIDIA,Technology,2019,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2019-07-22,21,5,,https://web.archive.org/web/20190722015918/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
-NVDA,NVIDIA,Technology,2020,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2020-06-21,10,10,,https://web.archive.org/web/20200621190345/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
-NVDA,NVIDIA,Technology,2021,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2021-07-03,2,15,,https://web.archive.org/web/20210703120631/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
-NVDA,NVIDIA,Technology,2022,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2022-06-30,1,12,,https://web.archive.org/web/20220630170320/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
-NVDA,NVIDIA,Technology,2023,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2023-06-08,23,10,,https://web.archive.org/web/20230608054502/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
-NVDA,NVIDIA,Technology,2024,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2024-07-13,12,15,,https://web.archive.org/web/20240713045718/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
-GOOGL,Alphabet,Technology,2016,gap,no_captures_in_year,google.com/about/philosophy.html,,,,,
-GOOGL,Alphabet,Technology,2017,ok,,google.com/about/philosophy.html,2017-08-29,59,8,,https://web.archive.org/web/20170829214250/https://www.google.com/about/philosophy.html
-GOOGL,Alphabet,Technology,2018,ok,,google.com/about/philosophy.html,2018-07-10,9,44,,https://web.archive.org/web/20180710104223/http://www.google.com:80/about/philosophy.html
-GOOGL,Alphabet,Technology,2019,ok,,google.com/about/philosophy.html,2019-06-30,1,79,,https://web.archive.org/web/20190630020842/https://www.google.com/about/philosophy.html
-GOOGL,Alphabet,Technology,2020,ok,,google.com/about/philosophy.html,2020-07-01,0,142,,https://web.archive.org/web/20200701093457/https://www.google.com/about/philosophy.html
-GOOGL,Alphabet,Technology,2021,ok,,about.google/philosophy,2021-06-30,1,155,,https://web.archive.org/web/20210630015825/https://about.google/philosophy/
-GOOGL,Alphabet,Technology,2022,ok,,about.google/philosophy,2022-07-01,0,351,,https://web.archive.org/web/20220701124058/https://about.google/philosophy/
-GOOGL,Alphabet,Technology,2023,ok,,about.google/philosophy,2023-07-02,1,333,,https://web.archive.org/web/20230702114951/https://about.google/philosophy/
-GOOGL,Alphabet,Technology,2024,ok,,about.google/philosophy,2024-06-30,1,292,,https://web.archive.org/web/20240630214057/https://about.google/philosophy/
-META,Meta Platforms,Technology,2016,ok,,newsroom.fb.com/company-info,2016-07-01,0,341,,https://web.archive.org/web/20160701080848/https://newsroom.fb.com/company-info/
-META,Meta Platforms,Technology,2017,ok,,newsroom.fb.com/company-info,2017-07-01,0,276,,https://web.archive.org/web/20170701004911/https://newsroom.fb.com/company-info/
-META,Meta Platforms,Technology,2018,ok,,newsroom.fb.com/company-info,2018-07-01,0,181,,https://web.archive.org/web/20180701140726/https://newsroom.fb.com/company-info/
-META,Meta Platforms,Technology,2019,ok,,about.fb.com/company-info,2019-11-12,134,47,,https://web.archive.org/web/20191112045228/https://about.fb.com/company-info/
-META,Meta Platforms,Technology,2020,ok,,about.fb.com/company-info,2020-06-29,2,214,,https://web.archive.org/web/20200629182427/https://about.fb.com/company-info/
-META,Meta Platforms,Technology,2021,ok,,about.fb.com/company-info,2021-07-29,28,61,,https://web.archive.org/web/20210729042716/https://about.fb.com/company-info/
-META,Meta Platforms,Technology,2022,ok,,about.fb.com/company-info,2022-08-09,39,6,,https://web.archive.org/web/20220809081045/http://www.about.fb.com/company-info/
-META,Meta Platforms,Technology,2023,ok,,about.fb.com/company-info,2023-03-22,101,4,,https://web.archive.org/web/20230322144754/https://about.fb.com/company-info/
-META,Meta Platforms,Technology,2024,ok,,about.fb.com/company-info,2024-09-27,88,3,,https://web.archive.org/web/20240927192218/https://about.fb.com/company-info/
-AVGO,Broadcom,Technology,2016,gap,no_captures_in_year,broadcom.com/company/about-us,,,,,
-AVGO,Broadcom,Technology,2017,ok,,broadcom.com/company/about-us,2017-07-12,11,4,,https://web.archive.org/web/20170712084805/https://www.broadcom.com/company/about-us/
-AVGO,Broadcom,Technology,2018,ok,,broadcom.com/company/about-us,2018-05-18,44,8,,https://web.archive.org/web/20180518235442/https://www.broadcom.com/company/about-us/
-AVGO,Broadcom,Technology,2019,ok,,broadcom.com/company/about-us,2019-07-20,19,19,,https://web.archive.org/web/20190720025241/https://www.broadcom.com/company/about-us
-AVGO,Broadcom,Technology,2020,ok,,broadcom.com/company/about-us,2020-06-29,2,97,,https://web.archive.org/web/20200629180821/https://www.broadcom.com/company/about-us
-AVGO,Broadcom,Technology,2021,ok,,broadcom.com/company/about-us,2021-06-28,3,95,,https://web.archive.org/web/20210628062150/https://www.broadcom.com/company/about-us
-AVGO,Broadcom,Technology,2022,ok,,broadcom.com/company/about-us,2022-07-01,0,110,,https://web.archive.org/web/20220701113022/https://www.broadcom.com/company/about-us
-AVGO,Broadcom,Technology,2023,ok,,broadcom.com/company/about-us,2023-06-07,24,21,,https://web.archive.org/web/20230607094113/https://www.broadcom.com/company/about-us
-AVGO,Broadcom,Technology,2024,ok,,broadcom.com/company/about-us,2024-07-02,1,56,,https://web.archive.org/web/20240702010308/https://www.broadcom.com/company/about-us
-CRM,Salesforce,Technology,2016,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2017,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2018,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2019,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2020,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2021,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2022,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,
-CRM,Salesforce,Technology,2023,ok,,salesforce.com/company/our-values/,2023-07-14,13,82,,https://web.archive.org/web/20230714063305/https://www.salesforce.com/company/our-values/
-CRM,Salesforce,Technology,2024,ok,,salesforce.com/company/our-values/,2024-07-01,0,234,,https://web.archive.org/web/20240701044750/https://www.salesforce.com/company/our-values/
-ORCL,Oracle,Technology,2016,ok,,oracle.com/corporate/,2016-09-15,76,4,,https://web.archive.org/web/20160915081447/http://oracle.com/corporate
-ORCL,Oracle,Technology,2017,ok,,oracle.com/corporate/,2017-06-06,25,3,,https://web.archive.org/web/20170606030043/http://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2018,ok,,oracle.com/corporate/,2018-08-12,42,15,,https://web.archive.org/web/20180812024732/http://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2019,ok,,oracle.com/corporate/,2019-06-30,1,105,,https://web.archive.org/web/20190630231129/https://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2020,ok,,oracle.com/corporate/,2020-07-01,0,155,,https://web.archive.org/web/20200701002451/https://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2021,ok,,oracle.com/corporate/,2021-07-01,0,115,,https://web.archive.org/web/20210701062101/https://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2022,ok,,oracle.com/corporate/,2022-06-30,1,87,,https://web.archive.org/web/20220630112545/https://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2023,ok,,oracle.com/corporate/,2023-07-02,1,53,,https://web.archive.org/web/20230702090658/https://www.oracle.com/corporate/
-ORCL,Oracle,Technology,2024,ok,,oracle.com/corporate/,2024-06-26,5,80,,https://web.archive.org/web/20240626001319/https://www.oracle.com/corporate/
-IBM,IBM,Technology,2016,gap,fetch_failed,ibm.com/about,,,,,
-IBM,IBM,Technology,2017,gap,no_captures_in_year,ibm.com/about,,,,,
-IBM,IBM,Technology,2018,ok,,ibm.com/about,2018-07-19,18,0,https://www.ibm.com/about,https://web.archive.org/web/20180719044134/https://www.ibm.com/ibm/us/en/
-IBM,IBM,Technology,2019,gap,no_captures_in_year,ibm.com/about,,,,,
-IBM,IBM,Technology,2020,ok,,ibm.com/about,2020-11-17,139,15,,https://web.archive.org/web/20201117025607/https://www.ibm.com/about
-IBM,IBM,Technology,2021,ok,,ibm.com/about,2021-06-23,8,94,,https://web.archive.org/web/20210623191025/https://www.ibm.com/about
-IBM,IBM,Technology,2022,ok,,ibm.com/about,2022-07-01,0,204,,https://web.archive.org/web/20220701045856/https://www.ibm.com/about
-IBM,IBM,Technology,2023,ok,,ibm.com/about,2023-07-01,0,354,,https://web.archive.org/web/20230701143144/https://www.ibm.com/about
-IBM,IBM,Technology,2024,ok,,ibm.com/about,2024-07-01,0,337,,https://web.archive.org/web/20240701011020/https://www.ibm.com/about
-INTC,Intel,Technology,2016,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2016-07-04,3,103,,https://web.archive.org/web/20160704145202/http://www.intel.com:80/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2017,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2017-06-10,21,40,,https://web.archive.org/web/20170610051611/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2018,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2018-07-02,1,81,,https://web.archive.org/web/20180702100629/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2019,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2019-06-30,1,136,,https://web.archive.org/web/20190630002741/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2020,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2020-06-30,1,129,,https://web.archive.org/web/20200630025443/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2021,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2021-07-02,1,144,,https://web.archive.org/web/20210702064504/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2022,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2022-07-01,0,138,,https://web.archive.org/web/20220701210341/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2023,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2023-07-01,0,104,,https://web.archive.org/web/20230701084347/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-INTC,Intel,Technology,2024,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2024-07-01,0,117,,https://web.archive.org/web/20240701141513/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
-BRK.B,Berkshire Hathaway,Financials,2016,ok,,berkshirehathaway.com/owners.html,2016-07-01,0,14,,https://web.archive.org/web/20160701170333/http://www.berkshirehathaway.com/owners.html
-BRK.B,Berkshire Hathaway,Financials,2017,ok,,berkshirehathaway.com/owners.html,2017-07-08,7,13,,https://web.archive.org/web/20170708092135/http://www.berkshirehathaway.com:80/owners.html
-BRK.B,Berkshire Hathaway,Financials,2018,ok,,berkshirehathaway.com/owners.html,2018-07-01,0,57,,https://web.archive.org/web/20180701022314/http://www.berkshirehathaway.com/owners.html
-BRK.B,Berkshire Hathaway,Financials,2019,ok,,berkshirehathaway.com/owners.html,2019-07-02,1,28,,https://web.archive.org/web/20190702152642/http://www.berkshirehathaway.com:80/owners.html
-BRK.B,Berkshire Hathaway,Financials,2020,ok,,berkshirehathaway.com/owners.html,2020-05-29,33,3,,https://web.archive.org/web/20200529164503/https://www.berkshirehathaway.com/owners.html
-BRK.B,Berkshire Hathaway,Financials,2021,ok,,berkshirehathaway.com/owners.html,2021-07-07,6,8,,https://web.archive.org/web/20210707142128/https://www.berkshirehathaway.com/owners.html
-BRK.B,Berkshire Hathaway,Financials,2022,ok,,berkshirehathaway.com/owners.html,2022-08-12,42,8,,https://web.archive.org/web/20220812185231/http://www.berkshirehathaway.com/owners.html
-BRK.B,Berkshire Hathaway,Financials,2023,ok,,berkshirehathaway.com/owners.html,2023-06-27,4,8,,https://web.archive.org/web/20230627084621/https://www.berkshirehathaway.com/owners.html
-BRK.B,Berkshire Hathaway,Financials,2024,ok,,berkshirehathaway.com/owners.html,2024-05-29,33,6,,https://web.archive.org/web/20240529152613/https://www.berkshirehathaway.com/owners.html
-JPM,JPMorgan Chase,Financials,2016,gap,no_captures_in_year,jpmorganchase.com/about,,,,,
-JPM,JPMorgan Chase,Financials,2017,gap,no_captures_in_year,jpmorganchase.com/about,,,,,
-JPM,JPMorgan Chase,Financials,2018,gap,no_captures_in_year,jpmorganchase.com/about,,,,,
-JPM,JPMorgan Chase,Financials,2019,gap,no_captures_in_year,jpmorganchase.com/about,,,,,
-JPM,JPMorgan Chase,Financials,2020,ok,,jpmorganchase.com/about,2020-10-24,115,12,,https://web.archive.org/web/20201024170002/https://www.jpmorganchase.com/about
-JPM,JPMorgan Chase,Financials,2021,ok,,jpmorganchase.com/about,2021-06-21,10,37,,https://web.archive.org/web/20210621074724/https://www.jpmorganchase.com/about
-JPM,JPMorgan Chase,Financials,2022,ok,,jpmorganchase.com/about,2022-06-30,1,30,,https://web.archive.org/web/20220630124911/https://www.jpmorganchase.com/about
-JPM,JPMorgan Chase,Financials,2023,ok,,jpmorganchase.com/about,2023-07-01,0,158,,https://web.archive.org/web/20230701133252/https://www.jpmorganchase.com/about
-JPM,JPMorgan Chase,Financials,2024,ok,,jpmorganchase.com/about,2024-07-03,2,177,,https://web.archive.org/web/20240703154138/https://www.jpmorganchase.com/about
-BAC,Bank of America,Financials,2016,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,
-BAC,Bank of America,Financials,2017,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,
-BAC,Bank of America,Financials,2018,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,
-BAC,Bank of America,Financials,2019,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,
-BAC,Bank of America,Financials,2020,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,
-BAC,Bank of America,Financials,2021,ok,,about.bankofamerica.com/en/our-company,2021-06-17,14,19,,https://web.archive.org/web/20210617043743/https://about.bankofamerica.com/en/our-company
-BAC,Bank of America,Financials,2022,ok,,about.bankofamerica.com/en/our-company,2022-06-27,4,27,,https://web.archive.org/web/20220627204250/https://about.bankofamerica.com/en/our-company
-BAC,Bank of America,Financials,2023,ok,,about.bankofamerica.com/en/our-company,2023-06-08,23,10,,https://web.archive.org/web/20230608213341/https://about.bankofamerica.com/en/our-company
-BAC,Bank of America,Financials,2024,ok,,about.bankofamerica.com/en/our-company,2024-07-07,6,21,,https://web.archive.org/web/20240707164049/https://about.bankofamerica.com/en/our-company
-WFC,Wells Fargo,Financials,2016,ok,,wellsfargo.com/about/,2016-06-23,8,63,,https://web.archive.org/web/20160623222653/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2017,ok,,wellsfargo.com/about/,2017-07-01,0,85,,https://web.archive.org/web/20170701110129/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2018,ok,,wellsfargo.com/about/,2018-06-30,1,73,,https://web.archive.org/web/20180630054047/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2019,ok,,wellsfargo.com/about/,2019-06-30,1,66,,https://web.archive.org/web/20190630210559/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2020,ok,,wellsfargo.com/about/,2020-07-01,0,68,,https://web.archive.org/web/20200701175034/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2021,ok,,wellsfargo.com/about/,2021-07-05,4,83,,https://web.archive.org/web/20210705062642/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2022,ok,,wellsfargo.com/about/,2022-07-05,4,64,,https://web.archive.org/web/20220705144101/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2023,ok,,wellsfargo.com/about/,2023-07-01,0,61,,https://web.archive.org/web/20230701233000/https://www.wellsfargo.com/about/
-WFC,Wells Fargo,Financials,2024,ok,,wellsfargo.com/about/,2024-07-01,0,85,,https://web.archive.org/web/20240701110220/https://www.wellsfargo.com/about/
-GS,Goldman Sachs,Financials,2016,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2016-07-10,9,14,,https://web.archive.org/web/20160710104933/http://www.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2017,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2017-07-03,2,20,,https://web.archive.org/web/20170703162309/http://www.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2018,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2018-07-09,8,15,,https://web.archive.org/web/20180709094348/http://www2.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2019,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2019-04-03,89,2,,https://web.archive.org/web/20190403072818/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2020,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2020-06-11,20,2,,https://web.archive.org/web/20200611215030/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2021,gap,no_captures_in_year,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,,,,,
-GS,Goldman Sachs,Financials,2022,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2022-03-22,101,1,,https://web.archive.org/web/20220322202856/http://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2023,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2023-10-08,99,1,,https://web.archive.org/web/20231008103712/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
-GS,Goldman Sachs,Financials,2024,ok,,goldmansachs.com/our-firm/purpose-and-values,2024-08-01,31,15,,https://web.archive.org/web/20240801104404/https://www.goldmansachs.com/our-firm/purpose-and-values
-MS,Morgan Stanley,Financials,2016,ok,,morganstanley.com/about-us,2016-06-30,1,45,,https://web.archive.org/web/20160630151300/http://www.morganstanley.com:80/about-us
-MS,Morgan Stanley,Financials,2017,ok,,morganstanley.com/about-us,2017-06-30,1,36,,https://web.archive.org/web/20170630165554/http://www.morganstanley.com:80/about-us/
-MS,Morgan Stanley,Financials,2018,ok,,morganstanley.com/about-us,2018-07-02,1,69,,https://web.archive.org/web/20180702050329/http://www.morganstanley.com/about-us
-MS,Morgan Stanley,Financials,2019,ok,,morganstanley.com/about-us,2019-06-18,13,28,,https://web.archive.org/web/20190618233102/http://www.morganstanley.com:80/about-us
-MS,Morgan Stanley,Financials,2020,ok,,morganstanley.com/about-us,2020-07-08,7,17,,https://web.archive.org/web/20200708060944/https://www.morganstanley.com/about-us
-MS,Morgan Stanley,Financials,2021,ok,,morganstanley.com/about-us,2021-07-09,8,32,,https://web.archive.org/web/20210709090054/https://www.morganstanley.com/about-us
-MS,Morgan Stanley,Financials,2022,ok,,morganstanley.com/about-us,2022-07-07,6,35,,https://web.archive.org/web/20220707131519/https://www.morganstanley.com/about-us
-MS,Morgan Stanley,Financials,2023,ok,,morganstanley.com/about-us,2023-07-01,0,26,,https://web.archive.org/web/20230701040553/https://www.morganstanley.com/about-us
-MS,Morgan Stanley,Financials,2024,ok,,morganstanley.com/about-us,2024-07-03,2,38,,https://web.archive.org/web/20240703044621/https://www.morganstanley.com/about-us
-BLK,BlackRock,Financials,2016,gap,no_captures_in_year,blackrock.com/corporate/about-us/mission-and-principles,,,,,
-BLK,BlackRock,Financials,2017,gap,no_captures_in_year,blackrock.com/corporate/about-us/mission-and-principles,,,,,
-BLK,BlackRock,Financials,2018,ok,,blackrock.com/corporate/about-us/mission-and-principles,2018-09-23,84,4,,https://web.archive.org/web/20180923091354/https://www.blackrock.com/corporate/about-us/mission-and-principles
-BLK,BlackRock,Financials,2019,ok,,blackrock.com/corporate/about-us/mission-and-principles,2019-07-21,20,6,,https://web.archive.org/web/20190721172849/https://www.blackrock.com/corporate/about-us/mission-and-principles
-BLK,BlackRock,Financials,2020,ok,,blackrock.com/corporate/about-us/mission-and-principles,2020-06-30,1,82,,https://web.archive.org/web/20200630174455/https://www.blackrock.com/corporate/about-us/mission-and-principles
-BLK,BlackRock,Financials,2021,ok,,blackrock.com/corporate/about-us/mission-and-principles,2021-07-11,10,19,,https://web.archive.org/web/20210711083758/https://www.blackrock.com/corporate/about-us/mission-and-principles
-BLK,BlackRock,Financials,2022,ok,,blackrock.com/corporate/about-us/mission-and-principles,2022-06-29,2,17,,https://web.archive.org/web/20220629113820/https://www.blackrock.com/corporate/about-us/mission-and-principles
-BLK,BlackRock,Financials,2023,ok,,blackrock.com/corporate/about-us/mission-and-principles,2023-07-09,8,15,,https://web.archive.org/web/20230709132346/https://www.blackrock.com/corporate/about-us/mission-and-principles
-BLK,BlackRock,Financials,2024,ok,,blackrock.com/corporate/about-us/mission-and-principles,2024-07-19,18,11,,https://web.archive.org/web/20240719101027/https://www.blackrock.com/corporate/about-us/mission-and-principles
-SCHW,Charles Schwab,Financials,2016,ok,,aboutschwab.com/about,2016-07-01,0,8,,https://web.archive.org/web/20160701130313/https://www.aboutschwab.com/about/
-SCHW,Charles Schwab,Financials,2017,ok,,aboutschwab.com/about,2017-06-22,9,6,,https://web.archive.org/web/20170622171843/https://www.aboutschwab.com/about
-SCHW,Charles Schwab,Financials,2018,ok,,aboutschwab.com/about,2018-07-06,5,26,,https://web.archive.org/web/20180706121732/http://www.aboutschwab.com/about/
-SCHW,Charles Schwab,Financials,2019,ok,,aboutschwab.com/who-we-are,2019-08-04,34,6,,https://web.archive.org/web/20190804032154/https://www.aboutschwab.com/who-we-are
-SCHW,Charles Schwab,Financials,2020,ok,,aboutschwab.com/who-we-are,2020-06-20,11,13,,https://web.archive.org/web/20200620022728/https://www.aboutschwab.com/who-we-are
-SCHW,Charles Schwab,Financials,2021,ok,,aboutschwab.com/who-we-are,2021-06-25,6,19,,https://web.archive.org/web/20210625125121/https://www.aboutschwab.com/who-we-are
-SCHW,Charles Schwab,Financials,2022,ok,,aboutschwab.com/who-we-are,2022-07-06,5,16,,https://web.archive.org/web/20220706004227/https://www.aboutschwab.com/who-we-are
-SCHW,Charles Schwab,Financials,2023,ok,,aboutschwab.com/who-we-are,2023-06-20,11,123,,https://web.archive.org/web/20230620094248/https://www.aboutschwab.com/who-we-are
-SCHW,Charles Schwab,Financials,2024,ok,,aboutschwab.com/our-company,2024-07-18,17,22,,https://web.archive.org/web/20240718091403/https://www.aboutschwab.com/our-company
-AXP,American Express,Financials,2016,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2017,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2018,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2019,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2020,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2021,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2022,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,
-AXP,American Express,Financials,2023,ok,,americanexpress.com/en-us/company/who-we-are,2023-06-09,22,9,,https://web.archive.org/web/20230609192334/https://www.americanexpress.com/en-us/company/who-we-are/
-AXP,American Express,Financials,2024,ok,,americanexpress.com/en-us/company/who-we-are,2024-07-18,17,44,,https://web.archive.org/web/20240718065711/https://www.americanexpress.com/en-us/company/who-we-are/
-C,Citigroup,Financials,2016,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2017,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2018,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2019,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2020,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2021,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2022,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,
-C,Citigroup,Financials,2023,ok,,citigroup.com/global/about-us,2023-07-22,21,22,,https://web.archive.org/web/20230722101707/https://www.citigroup.com/global/about-us
-C,Citigroup,Financials,2024,ok,,citigroup.com/global/about-us,2024-07-02,1,40,,https://web.archive.org/web/20240702093443/https://www.citigroup.com/global/about-us
-LLY,Eli Lilly,Healthcare,2016,ok,,lilly.com/about,2016-06-03,28,3,,https://web.archive.org/web/20160603104854/https://www.lilly.com/about/
-LLY,Eli Lilly,Healthcare,2017,ok,,lilly.com/about,2017-06-06,25,3,,https://web.archive.org/web/20170606104256/http://lilly.com/about
-LLY,Eli Lilly,Healthcare,2018,gap,no_captures_in_year,lilly.com/about,,,,,
-LLY,Eli Lilly,Healthcare,2019,ok,,lilly.com/about,2019-02-20,131,1,,https://web.archive.org/web/20190220162128/http://lilly.com/about
-LLY,Eli Lilly,Healthcare,2020,ok,,lilly.com/about,2020-07-17,16,0,http://lilly.com/about/,https://web.archive.org/web/20200717052334/http://www.lilly.com/who-we-are/about-lilly
-LLY,Eli Lilly,Healthcare,2021,gap,no_captures_in_year,lilly.com/about,,,,,
-LLY,Eli Lilly,Healthcare,2022,ok,,lilly.com/about,2022-06-12,19,1,,https://web.archive.org/web/20220612095748/https://www.lilly.com/About/
-LLY,Eli Lilly,Healthcare,2023,gap,no_captures_in_year,lilly.com/about,,,,,
-LLY,Eli Lilly,Healthcare,2024,ok,,lilly.com/about,2024-06-17,14,0,https://lilly.com/about/,https://web.archive.org/web/20240617225035/https://www.lilly.com/who-we-are/about-lilly
-UNH,UnitedHealth Group,Healthcare,2016,ok,,uhc.com/about-us,2016-04-14,78,5,,https://web.archive.org/web/20160414015137/http://www.uhc.com:80/about-us
-UNH,UnitedHealth Group,Healthcare,2017,ok,,uhc.com/about-us,2017-07-11,10,3,,https://web.archive.org/web/20170711145439/https://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2018,ok,,uhc.com/about-us,2018-08-23,53,3,,https://web.archive.org/web/20180823212612/http://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2019,ok,,uhc.com/about-us,2019-10-02,93,3,,https://web.archive.org/web/20191002055448/https://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2020,ok,,uhc.com/about-us,2020-06-17,14,11,,https://web.archive.org/web/20200617195327/https://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2021,ok,,uhc.com/about-us,2021-05-21,41,7,,https://web.archive.org/web/20210521200204/https://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2022,ok,,uhc.com/about-us,2022-06-28,3,11,,https://web.archive.org/web/20220628033151/https://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2023,ok,,uhc.com/about-us,2023-07-01,0,31,,https://web.archive.org/web/20230701063403/https://www.uhc.com/about-us
-UNH,UnitedHealth Group,Healthcare,2024,ok,,uhc.com/about-us,2024-07-01,0,99,,https://web.archive.org/web/20240701172546/https://www.uhc.com/about-us
-JNJ,Johnson & Johnson,Healthcare,2016,gap,no_captures_in_year,jnj.com/credo,,,,,
-JNJ,Johnson & Johnson,Healthcare,2017,gap,no_captures_in_year,jnj.com/credo,,,,,
-JNJ,Johnson & Johnson,Healthcare,2018,ok,,jnj.com/credo,2018-06-23,8,14,,https://web.archive.org/web/20180623052322/https://www.jnj.com/credo/
-JNJ,Johnson & Johnson,Healthcare,2019,ok,,jnj.com/credo,2019-07-19,18,25,,https://web.archive.org/web/20190719090120/https://www.jnj.com/credo/
-JNJ,Johnson & Johnson,Healthcare,2020,ok,,jnj.com/credo,2020-06-24,7,43,,https://web.archive.org/web/20200624155919/https://www.jnj.com/credo/
-JNJ,Johnson & Johnson,Healthcare,2021,ok,,jnj.com/credo,2021-06-30,1,66,,https://web.archive.org/web/20210630202000/https://www.jnj.com/credo/
-JNJ,Johnson & Johnson,Healthcare,2022,ok,,jnj.com/credo,2022-07-16,15,53,,https://web.archive.org/web/20220716203840/https://www.jnj.com/credo/
-JNJ,Johnson & Johnson,Healthcare,2023,ok,,jnj.com/credo,2023-07-08,7,19,,https://web.archive.org/web/20230708104059/https://www.jnj.com/credo/
-JNJ,Johnson & Johnson,Healthcare,2024,ok,,jnj.com/credo,2024-07-10,9,3,,https://web.archive.org/web/20240710000032/https://www.jnj.com/credo/
-ABBV,AbbVie,Healthcare,2016,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2017,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2018,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2019,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2020,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2021,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2022,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,
-ABBV,AbbVie,Healthcare,2023,ok,,abbvie.com/who-we-are.html,2023-06-14,17,20,,https://web.archive.org/web/20230614135656/https://www.abbvie.com/who-we-are.html
-ABBV,AbbVie,Healthcare,2024,ok,,abbvie.com/who-we-are.html,2024-06-20,11,18,,https://web.archive.org/web/20240620175013/https://www.abbvie.com/who-we-are.html
-MRK,Merck,Healthcare,2016,gap,no_captures_in_year,merck.com/company-overview/,,,,,
-MRK,Merck,Healthcare,2017,gap,no_captures_in_year,merck.com/company-overview/,,,,,
-MRK,Merck,Healthcare,2018,gap,no_captures_in_year,merck.com/company-overview/,,,,,
-MRK,Merck,Healthcare,2019,gap,no_captures_in_year,merck.com/company-overview/,,,,,
-MRK,Merck,Healthcare,2020,ok,,merck.com/company-overview/,2020-08-11,41,34,,https://web.archive.org/web/20200811063349/https://www.merck.com/company-overview/
-MRK,Merck,Healthcare,2021,ok,,merck.com/company-overview/,2021-07-03,2,102,,https://web.archive.org/web/20210703001224/https://www.merck.com/company-overview/
-MRK,Merck,Healthcare,2022,ok,,merck.com/company-overview/,2022-07-01,0,67,,https://web.archive.org/web/20220701224411/https://www.merck.com/company-overview/
-MRK,Merck,Healthcare,2023,ok,,merck.com/company-overview/,2023-07-01,0,67,,https://web.archive.org/web/20230701182214/https://www.merck.com/company-overview/
-MRK,Merck,Healthcare,2024,ok,,merck.com/company-overview/,2024-06-28,3,64,,https://web.archive.org/web/20240628010012/https://www.merck.com/company-overview/
-TMO,Thermo Fisher Scientific,Healthcare,2016,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2017,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2018,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2019,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2020,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2021,ok,,corporate.thermofisher.com/us/en/index/about.html,2021-06-15,16,16,,https://web.archive.org/web/20210615144449/https://corporate.thermofisher.com/us/en/index/about.html
-TMO,Thermo Fisher Scientific,Healthcare,2022,ok,,corporate.thermofisher.com/us/en/index/about.html,2022-07-01,0,21,,https://web.archive.org/web/20220701173717/https://corporate.thermofisher.com/us/en/index/about.html
-TMO,Thermo Fisher Scientific,Healthcare,2023,ok,,corporate.thermofisher.com/us/en/index/about.html,2023-07-13,12,17,,https://web.archive.org/web/20230713033335/https://corporate.thermofisher.com/us/en/index/about.html
-TMO,Thermo Fisher Scientific,Healthcare,2024,ok,,corporate.thermofisher.com/us/en/index/about.html,2024-07-14,13,14,,https://web.archive.org/web/20240714235931/https://corporate.thermofisher.com/us/en/index/about.html
-ABT,Abbott Laboratories,Healthcare,2016,ok,,abbott.com/about-abbott.html,2016-07-02,1,47,,https://web.archive.org/web/20160702192741/http://www.abbott.com:80/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2017,ok,,abbott.com/about-abbott.html,2017-07-02,1,35,,https://web.archive.org/web/20170702073816/http://www.abbott.com:80/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2018,ok,,abbott.com/about-abbott.html,2018-07-02,1,71,,https://web.archive.org/web/20180702131800/http://www.abbott.com/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2019,ok,,abbott.com/about-abbott.html,2019-06-10,21,24,,https://web.archive.org/web/20190610194507/https://www.abbott.com/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2020,ok,,abbott.com/about-abbott.html,2020-06-25,6,26,,https://web.archive.org/web/20200625163559/https://www.abbott.com/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2021,ok,,abbott.com/about-abbott.html,2021-06-17,14,30,,https://web.archive.org/web/20210617092724/https://www.abbott.com/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2022,ok,,abbott.com/about-abbott.html,2022-07-04,3,20,,https://web.archive.org/web/20220704093903/http://www.abbott.com/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2023,ok,,abbott.com/about-abbott.html,2023-07-01,0,24,,https://web.archive.org/web/20230701174340/https://www.abbott.com/about-abbott.html
-ABT,Abbott Laboratories,Healthcare,2024,ok,,abbott.com/about-abbott.html,2024-07-05,4,30,,https://web.archive.org/web/20240705075929/https://www.abbott.com/about-abbott.html
-PFE,Pfizer,Healthcare,2016,ok,,pfizer.com/about,2016-07-03,2,27,,https://web.archive.org/web/20160703061437/http://www.pfizer.com:80/about
-PFE,Pfizer,Healthcare,2017,ok,,pfizer.com/about,2017-07-08,7,5,,https://web.archive.org/web/20170708031110/http://www.pfizer.com/about/
-PFE,Pfizer,Healthcare,2018,ok,,pfizer.com/about,2018-08-22,52,2,,https://web.archive.org/web/20180822000201/http://www.pfizer.com/about
-PFE,Pfizer,Healthcare,2019,ok,,pfizer.com/about,2019-07-08,7,2,,https://web.archive.org/web/20190708051311/https://www.pfizer.com/about
-PFE,Pfizer,Healthcare,2020,ok,,pfizer.com/about,2020-05-31,31,4,,https://web.archive.org/web/20200531194601/http://www.pfizer.com/about/
-PFE,Pfizer,Healthcare,2021,ok,,pfizer.com/about,2021-12-16,168,6,,https://web.archive.org/web/20211216141830/https://www.pfizer.com/about
-PFE,Pfizer,Healthcare,2022,ok,,pfizer.com/about,2022-07-02,1,51,,https://web.archive.org/web/20220702200438/https://www.pfizer.com/about#our-people
-PFE,Pfizer,Healthcare,2023,ok,,pfizer.com/about,2023-07-22,21,38,,https://web.archive.org/web/20230722094342/https://www.pfizer.com/about
-PFE,Pfizer,Healthcare,2024,ok,,pfizer.com/about,2024-07-01,0,81,,https://web.archive.org/web/20240701235055/https://www.pfizer.com/about
-MDT,Medtronic,Healthcare,2016,ok,,medtronic.com/us-en/about/mission.html,2016-07-07,6,22,,https://web.archive.org/web/20160707113616/http://www.medtronic.com:80/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2017,ok,,medtronic.com/us-en/about/mission.html,2017-07-05,4,21,,https://web.archive.org/web/20170705115229/http://www.medtronic.com:80/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2018,ok,,medtronic.com/us-en/about/mission.html,2018-07-05,4,33,,https://web.archive.org/web/20180705124209/http://www.medtronic.com:80/us-en/about/mission.html?
-MDT,Medtronic,Healthcare,2019,ok,,medtronic.com/us-en/about/mission.html,2019-07-22,21,11,,https://web.archive.org/web/20190722054005/https://www.medtronic.com/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2020,ok,,medtronic.com/us-en/about/mission.html,2020-06-30,1,19,,https://web.archive.org/web/20200630205203/http://www.medtronic.com/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2021,ok,,medtronic.com/us-en/about/mission.html,2021-06-24,7,8,,https://web.archive.org/web/20210624130543/https://www.medtronic.com/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2022,ok,,medtronic.com/us-en/about/mission.html,2022-03-07,116,2,,https://web.archive.org/web/20220307120545/http://www.medtronic.com/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2023,ok,,medtronic.com/us-en/about/mission.html,2023-03-07,116,3,,https://web.archive.org/web/20230307094951/https://www.medtronic.com/us-en/about/mission.html
-MDT,Medtronic,Healthcare,2024,ok,,medtronic.com/us-en/about/mission.html,2024-04-09,83,1,,https://web.archive.org/web/20240409072436/https://www.medtronic.com/us-en/about/mission.html
-BMY,Bristol-Myers Squibb,Healthcare,2016,gap,no_captures_in_year,bms.com/about-us.html,,,,,
-BMY,Bristol-Myers Squibb,Healthcare,2017,ok,,bms.com/about-us.html,2017-06-06,25,3,,https://web.archive.org/web/20170606231506/https://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2018,ok,,bms.com/about-us.html,2018-06-28,3,7,,https://web.archive.org/web/20180628075820/http://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2019,ok,,bms.com/about-us.html,2019-07-30,29,15,,https://web.archive.org/web/20190730184845/https://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2020,ok,,bms.com/about-us.html,2020-06-30,1,25,,https://web.archive.org/web/20200630211129/https://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2021,ok,,bms.com/about-us.html,2021-07-12,11,64,,https://web.archive.org/web/20210712091849/https://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2022,ok,,bms.com/about-us.html,2022-07-07,6,36,,https://web.archive.org/web/20220707115313/https://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2023,ok,,bms.com/about-us.html,2023-07-01,0,40,,https://web.archive.org/web/20230701233652/https://www.bms.com/about-us.html
-BMY,Bristol-Myers Squibb,Healthcare,2024,ok,,bms.com/about-us.html,2024-07-03,2,41,,https://web.archive.org/web/20240703222208/https://www.bms.com/about-us.html
-AMZN,Amazon,Consumer Discretionary,2016,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,
-AMZN,Amazon,Consumer Discretionary,2017,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,
-AMZN,Amazon,Consumer Discretionary,2018,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,
-AMZN,Amazon,Consumer Discretionary,2019,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,
-AMZN,Amazon,Consumer Discretionary,2020,ok,,aboutamazon.com/about-us,2020-11-24,146,4,,https://web.archive.org/web/20201124040148/https://www.aboutamazon.com/about-us
-AMZN,Amazon,Consumer Discretionary,2021,ok,,aboutamazon.com/about-us,2021-07-03,2,50,,https://web.archive.org/web/20210703223852/https://www.aboutamazon.com/about-us
-AMZN,Amazon,Consumer Discretionary,2022,ok,,aboutamazon.com/about-us,2022-07-01,0,74,,https://web.archive.org/web/20220701195656/https://www.aboutamazon.com/about-us
-AMZN,Amazon,Consumer Discretionary,2023,ok,,aboutamazon.com/about-us,2023-07-01,0,61,,https://web.archive.org/web/20230701061232/https://www.aboutamazon.com/about-us
-AMZN,Amazon,Consumer Discretionary,2024,ok,,aboutamazon.com/about-us,2024-07-03,2,96,,https://web.archive.org/web/20240703063930/https://www.aboutamazon.com/about-us
-TSLA,Tesla,Consumer Discretionary,2016,ok,,tesla.com/about,2016-07-20,19,48,,https://web.archive.org/web/20160720164257/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2017,ok,,tesla.com/about,2017-06-23,8,46,,https://web.archive.org/web/20170623054234/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2018,ok,,tesla.com/about,2018-06-22,9,33,,https://web.archive.org/web/20180622174840/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2019,ok,,tesla.com/about,2019-07-02,1,104,,https://web.archive.org/web/20190702011047/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2020,ok,,tesla.com/about,2020-06-29,2,49,,https://web.archive.org/web/20200629052217/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2021,ok,,tesla.com/about,2021-07-05,4,137,,https://web.archive.org/web/20210705040413/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2022,ok,,tesla.com/about,2022-07-01,0,92,,https://web.archive.org/web/20220701192509/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2023,ok,,tesla.com/about,2023-07-06,5,75,,https://web.archive.org/web/20230706192013/https://www.tesla.com/about
-TSLA,Tesla,Consumer Discretionary,2024,ok,,tesla.com/about,2024-07-02,1,104,,https://web.archive.org/web/20240702053739/https://www.tesla.com/about
-HD,Home Depot,Consumer Discretionary,2016,ok,,corporate.homedepot.com/about,2016-06-21,10,5,,https://web.archive.org/web/20160621072235/http://corporate.homedepot.com:80/about
-HD,Home Depot,Consumer Discretionary,2017,ok,,corporate.homedepot.com/about,2017-06-06,25,7,,https://web.archive.org/web/20170606013334/http://corporate.homedepot.com/about
-HD,Home Depot,Consumer Discretionary,2018,ok,,corporate.homedepot.com/about,2018-08-19,49,2,,https://web.archive.org/web/20180819185938/http://corporate.homedepot.com/about
-HD,Home Depot,Consumer Discretionary,2019,ok,,corporate.homedepot.com/about,2019-07-08,7,9,,https://web.archive.org/web/20190708210521/https://corporate.homedepot.com/about
-HD,Home Depot,Consumer Discretionary,2020,ok,,corporate.homedepot.com/about,2020-07-09,8,18,,https://web.archive.org/web/20200709093400/https://corporate.homedepot.com/about
-HD,Home Depot,Consumer Discretionary,2021,ok,,corporate.homedepot.com/about,2021-07-05,4,32,,https://web.archive.org/web/20210705003348/https://corporate.homedepot.com/about
-HD,Home Depot,Consumer Discretionary,2022,ok,,corporate.homedepot.com/about,2022-07-14,13,12,,https://web.archive.org/web/20220714204536/https://corporate.homedepot.com/about
-HD,Home Depot,Consumer Discretionary,2023,ok,,corporate.homedepot.com/about,2023-06-11,20,0,https://corporate.homedepot.com/about,https://web.archive.org/web/20230611062745/https://corporate.homedepot.com/page/about-us
-HD,Home Depot,Consumer Discretionary,2024,ok,,corporate.homedepot.com/about,2024-01-18,165,1,,https://web.archive.org/web/20240118070259/https://corporate.homedepot.com/about
-MCD,McDonald's,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,
-MCD,McDonald's,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,
-MCD,McDonald's,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,
-MCD,McDonald's,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,
-MCD,McDonald's,Consumer Discretionary,2020,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2020-11-24,146,2,,https://web.archive.org/web/20201124145746/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
-MCD,McDonald's,Consumer Discretionary,2021,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2021-06-16,15,15,,https://web.archive.org/web/20210616161403/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
-MCD,McDonald's,Consumer Discretionary,2022,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2022-07-12,11,18,,https://web.archive.org/web/20220712171320/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
-MCD,McDonald's,Consumer Discretionary,2023,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2023-06-04,27,14,,https://web.archive.org/web/20230604222154/http://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
-MCD,McDonald's,Consumer Discretionary,2024,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2024-06-19,12,21,,https://web.archive.org/web/20240619032108/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
-NKE,Nike,Consumer Discretionary,2016,ok,,about.nike.com,2016-07-09,8,63,,https://web.archive.org/web/20160709084719/http://about.nike.com/
-NKE,Nike,Consumer Discretionary,2017,ok,,about.nike.com,2017-06-30,1,30,,https://web.archive.org/web/20170630111643/http://about.nike.com/
-NKE,Nike,Consumer Discretionary,2018,ok,,about.nike.com,2018-07-02,1,48,,https://web.archive.org/web/20180702180133/http://about.nike.com/
-NKE,Nike,Consumer Discretionary,2019,ok,,about.nike.com,2019-07-01,0,40,,https://web.archive.org/web/20190701200710/https://about.nike.com/
-NKE,Nike,Consumer Discretionary,2020,ok,,about.nike.com,2020-07-01,0,103,,https://web.archive.org/web/20200701040440/https://about.nike.com/
-NKE,Nike,Consumer Discretionary,2021,ok,,about.nike.com,2021-07-01,0,237,,https://web.archive.org/web/20210701063913/https://about.nike.com/
-NKE,Nike,Consumer Discretionary,2022,ok,,about.nike.com,2022-06-30,1,233,,https://web.archive.org/web/20220630202408/https://about.nike.com/
-NKE,Nike,Consumer Discretionary,2023,ok,,about.nike.com,2023-06-19,12,271,,https://web.archive.org/web/20230619190319/https://about.nike.com/
-NKE,Nike,Consumer Discretionary,2024,ok,,about.nike.com,2024-06-18,13,122,,https://web.archive.org/web/20240618001902/http://about.nike.com/
-SBUX,Starbucks,Consumer Discretionary,2016,ok,,starbucks.com/about-us,2016-07-03,2,54,,https://web.archive.org/web/20160703073131/http://www.starbucks.com:80/about-us
-SBUX,Starbucks,Consumer Discretionary,2017,ok,,starbucks.com/about-us,2017-06-30,1,37,,https://web.archive.org/web/20170630200111/https://www.starbucks.com/about-us
-SBUX,Starbucks,Consumer Discretionary,2018,ok,,starbucks.com/about-us,2018-07-25,24,9,,https://web.archive.org/web/20180725004757/https://www.starbucks.com/about-us
-SBUX,Starbucks,Consumer Discretionary,2019,ok,,starbucks.com/about-us,2019-06-30,1,17,,https://web.archive.org/web/20190630122528/https://www.starbucks.com/about-us/
-SBUX,Starbucks,Consumer Discretionary,2020,ok,,starbucks.com/about-us,2020-06-10,21,15,,https://web.archive.org/web/20200610192632/https://www.starbucks.com/about-us
-SBUX,Starbucks,Consumer Discretionary,2021,ok,,starbucks.com/about-us,2021-06-06,25,55,,https://web.archive.org/web/20210606063238/https://www.starbucks.com/about-us
-SBUX,Starbucks,Consumer Discretionary,2022,ok,,starbucks.com/about-us,2022-07-01,0,84,,https://web.archive.org/web/20220701194900/https://www.starbucks.com/about-us/
-SBUX,Starbucks,Consumer Discretionary,2023,ok,,starbucks.com/about-us,2023-07-02,1,137,,https://web.archive.org/web/20230702050942/https://www.starbucks.com/about-us/
-SBUX,Starbucks,Consumer Discretionary,2024,ok,,starbucks.com/about-us,2024-07-01,0,170,,https://web.archive.org/web/20240701194211/https://www.starbucks.com/about-us/
-TGT,Target,Consumer Discretionary,2016,ok,,corporate.target.com/about,2016-07-16,15,10,,https://web.archive.org/web/20160716093842/https://corporate.target.com/about/
-TGT,Target,Consumer Discretionary,2017,ok,,corporate.target.com/about,2017-07-01,0,11,,https://web.archive.org/web/20170701120115/https://corporate.target.com/about/
-TGT,Target,Consumer Discretionary,2018,ok,,corporate.target.com/about,2018-08-15,45,4,,https://web.archive.org/web/20180815145624/https://corporate.target.com/about/
-TGT,Target,Consumer Discretionary,2019,ok,,corporate.target.com/about,2019-07-17,16,38,,https://web.archive.org/web/20190717024326/https://corporate.target.com/about
-TGT,Target,Consumer Discretionary,2020,ok,,corporate.target.com/about,2020-06-29,2,63,,https://web.archive.org/web/20200629172012/https://corporate.target.com/about
-TGT,Target,Consumer Discretionary,2021,ok,,corporate.target.com/about,2021-06-26,5,55,,https://web.archive.org/web/20210626220320/https://corporate.target.com/about
-TGT,Target,Consumer Discretionary,2022,ok,,corporate.target.com/about,2022-07-02,1,93,,https://web.archive.org/web/20220702032434/https://corporate.target.com/about
-TGT,Target,Consumer Discretionary,2023,ok,,corporate.target.com/about,2023-06-14,17,45,,https://web.archive.org/web/20230614080005/https://corporate.target.com/about
-TGT,Target,Consumer Discretionary,2024,ok,,corporate.target.com/about,2024-07-05,4,70,,https://web.archive.org/web/20240705025654/https://corporate.target.com/about
-LOW,Lowe's,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,
-LOW,Lowe's,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,
-LOW,Lowe's,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,
-LOW,Lowe's,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,
-LOW,Lowe's,Consumer Discretionary,2020,ok,,corporate.lowes.com/who-we-are,2020-10-01,92,6,,https://web.archive.org/web/20201001030214/https://corporate.lowes.com/who-we-are
-LOW,Lowe's,Consumer Discretionary,2021,ok,,corporate.lowes.com/who-we-are,2021-06-06,25,18,,https://web.archive.org/web/20210606040732/https://corporate.lowes.com/who-we-are
-LOW,Lowe's,Consumer Discretionary,2022,ok,,corporate.lowes.com/who-we-are,2022-06-30,1,14,,https://web.archive.org/web/20220630061300/https://corporate.lowes.com/who-we-are
-LOW,Lowe's,Consumer Discretionary,2023,ok,,corporate.lowes.com/who-we-are,2023-06-06,25,6,,https://web.archive.org/web/20230606045138/https://corporate.lowes.com/who-we-are
-LOW,Lowe's,Consumer Discretionary,2024,ok,,corporate.lowes.com/who-we-are,2024-05-29,33,4,,https://web.archive.org/web/20240529095241/https://corporate.lowes.com/who-we-are
-TJX,TJX Companies,Consumer Discretionary,2016,gap,no_captures_in_year,tjx.com/company,,,,,
-TJX,TJX Companies,Consumer Discretionary,2017,ok,,tjx.com/company,2017-06-06,25,5,,https://web.archive.org/web/20170606070337/http://www.tjx.com/company/
-TJX,TJX Companies,Consumer Discretionary,2018,ok,,tjx.com/company,2018-07-01,0,14,,https://web.archive.org/web/20180701131228/http://www.tjx.com/company/
-TJX,TJX Companies,Consumer Discretionary,2019,ok,,tjx.com/company,2019-07-18,17,12,,https://web.archive.org/web/20190718235300/https://www.tjx.com/company/
-TJX,TJX Companies,Consumer Discretionary,2020,ok,,tjx.com/company,2020-07-04,3,13,,https://web.archive.org/web/20200704104401/https://www.tjx.com/company/
-TJX,TJX Companies,Consumer Discretionary,2021,ok,,tjx.com/company,2021-07-21,20,22,,https://web.archive.org/web/20210721163611/https://www.tjx.com/company/
-TJX,TJX Companies,Consumer Discretionary,2022,ok,,tjx.com/company,2022-06-10,21,12,,https://web.archive.org/web/20220610204728/https://www.tjx.com/company
-TJX,TJX Companies,Consumer Discretionary,2023,ok,,tjx.com/company,2023-06-25,6,15,,https://web.archive.org/web/20230625060911/https://www.tjx.com/company/
-TJX,TJX Companies,Consumer Discretionary,2024,ok,,tjx.com/company,2024-07-25,24,2,,https://web.archive.org/web/20240725082441/https://www.tjx.com/company
-F,Ford Motor,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,
-F,Ford Motor,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,
-F,Ford Motor,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,
-F,Ford Motor,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,
-F,Ford Motor,Consumer Discretionary,2020,ok,,corporate.ford.com/about.html,2020-07-26,25,7,,https://web.archive.org/web/20200726092803/https://corporate.ford.com/about.html
-F,Ford Motor,Consumer Discretionary,2021,ok,,corporate.ford.com/about.html,2021-06-07,24,17,,https://web.archive.org/web/20210607050942/https://corporate.ford.com/about.html
-F,Ford Motor,Consumer Discretionary,2022,ok,,corporate.ford.com/about.html,2022-06-24,7,18,,https://web.archive.org/web/20220624050146/https://corporate.ford.com/about.html
-F,Ford Motor,Consumer Discretionary,2023,ok,,corporate.ford.com/about.html,2023-07-25,24,22,,https://web.archive.org/web/20230725034918/https://corporate.ford.com/about.html
-F,Ford Motor,Consumer Discretionary,2024,ok,,corporate.ford.com/about.html,2024-06-25,6,23,,https://web.archive.org/web/20240625224035/https://corporate.ford.com/about.html
-XOM,ExxonMobil,Energy,2016,ok,,corporate.exxonmobil.com/en/company/about-us,2016-07-10,9,19,,https://web.archive.org/web/20160710130259/http://corporate.exxonmobil.com:80/en/company/about-us
-XOM,ExxonMobil,Energy,2017,ok,,corporate.exxonmobil.com/en/company/about-us,2017-06-30,1,23,,https://web.archive.org/web/20170630062243/http://corporate.exxonmobil.com/en/company/about-us
-XOM,ExxonMobil,Energy,2018,ok,,corporate.exxonmobil.com/en/company/about-us,2018-07-12,11,16,,https://web.archive.org/web/20180712091109/http://corporate.exxonmobil.com:80/en/company/about-us
-XOM,ExxonMobil,Energy,2019,ok,,corporate.exxonmobil.com/en/company/who-we-are,2019-07-18,17,17,,https://web.archive.org/web/20190718072626/https://corporate.exxonmobil.com/en/Company/Who-we-are
-XOM,ExxonMobil,Energy,2020,ok,,corporate.exxonmobil.com/en/company/who-we-are,2020-06-19,12,7,,https://web.archive.org/web/20200619074133/https://corporate.exxonmobil.com/en/Company/Who-we-are
-XOM,ExxonMobil,Energy,2021,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,,
-XOM,ExxonMobil,Energy,2022,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,,
-XOM,ExxonMobil,Energy,2023,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,,
-XOM,ExxonMobil,Energy,2024,gap,fetch_failed,corporate.exxonmobil.com/en/company/about-us,,,,,
-CVX,Chevron,Energy,2016,ok,,chevron.com/about/the-chevron-way,2016-06-20,11,6,,https://web.archive.org/web/20160620191413/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2017,ok,,chevron.com/about/the-chevron-way,2017-07-11,10,10,,https://web.archive.org/web/20170711194421/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2018,ok,,chevron.com/about/the-chevron-way,2018-07-01,0,12,,https://web.archive.org/web/20180701051628/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2019,ok,,chevron.com/about/the-chevron-way,2019-07-14,13,11,,https://web.archive.org/web/20190714085805/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2020,ok,,chevron.com/about/the-chevron-way,2020-06-26,5,17,,https://web.archive.org/web/20200626003521/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2021,ok,,chevron.com/about/the-chevron-way,2021-07-30,29,16,,https://web.archive.org/web/20210730084241/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2022,ok,,chevron.com/about/the-chevron-way,2022-06-09,22,15,,https://web.archive.org/web/20220609091646/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2023,ok,,chevron.com/about/the-chevron-way,2023-07-02,1,20,,https://web.archive.org/web/20230702054814/https://www.chevron.com/about/the-chevron-way
-CVX,Chevron,Energy,2024,ok,,chevron.com/about/the-chevron-way,2024-07-13,12,1,,https://web.archive.org/web/20240713153505/https://www.chevron.com/about/the-chevron-way
-COP,ConocoPhillips,Energy,2016,gap,no_captures_in_year,conocophillips.com/about-us/,,,,,
-COP,ConocoPhillips,Energy,2017,ok,,conocophillips.com/about-us/,2017-12-04,156,3,,https://web.archive.org/web/20171204023000/http://www.conocophillips.com:80/about-us/
-COP,ConocoPhillips,Energy,2018,ok,,conocophillips.com/about-us/,2018-06-25,6,10,,https://web.archive.org/web/20180625204927/http://www.conocophillips.com/about-us/
-COP,ConocoPhillips,Energy,2019,ok,,conocophillips.com/about-us/,2019-06-20,11,13,,https://web.archive.org/web/20190620164530/http://www.conocophillips.com/about-us/
-COP,ConocoPhillips,Energy,2020,ok,,conocophillips.com/about-us/,2020-06-27,4,12,,https://web.archive.org/web/20200627113744/http://www.conocophillips.com:80/about-us/
-COP,ConocoPhillips,Energy,2021,ok,,conocophillips.com/about-us/,2021-05-11,51,14,,https://web.archive.org/web/20210511065250/https://www.conocophillips.com/about-us/
-COP,ConocoPhillips,Energy,2022,ok,,conocophillips.com/about-us/,2022-05-22,40,6,,https://web.archive.org/web/20220522113959/https://www.conocophillips.com/about-us/
-COP,ConocoPhillips,Energy,2023,ok,,conocophillips.com/about-us/,2023-07-03,2,14,,https://web.archive.org/web/20230703160512/https://www.conocophillips.com/about-us/
-COP,ConocoPhillips,Energy,2024,ok,,conocophillips.com/about-us/,2024-07-03,2,18,,https://web.archive.org/web/20240703093500/https://www.conocophillips.com/about-us/
-EOG,EOG Resources,Energy,2016,gap,no_archived_url_for_year,,,,,,
-EOG,EOG Resources,Energy,2017,gap,no_archived_url_for_year,,,,,,
-EOG,EOG Resources,Energy,2018,ok,,eogresources.com/company,2018-10-30,121,1,,https://web.archive.org/web/20181030195241/http://www.eogresources.com:80/company/
-EOG,EOG Resources,Energy,2019,ok,,eogresources.com/company,2019-08-25,55,4,,https://web.archive.org/web/20190825203420/https://www.eogresources.com/company/
-EOG,EOG Resources,Energy,2020,ok,,eogresources.com/company,2020-06-03,28,5,,https://web.archive.org/web/20200603115016/https://www.eogresources.com/company/
-EOG,EOG Resources,Energy,2021,ok,,eogresources.com/company,2021-07-26,25,16,,https://web.archive.org/web/20210726022247/https://www.eogresources.com/company
-EOG,EOG Resources,Energy,2022,ok,,eogresources.com/company,2022-06-30,1,21,,https://web.archive.org/web/20220630192300/https://www.eogresources.com/company
-EOG,EOG Resources,Energy,2023,ok,,eogresources.com/company,2023-06-27,4,12,,https://web.archive.org/web/20230627224203/https://www.eogresources.com/company
-EOG,EOG Resources,Energy,2024,ok,,eogresources.com/company,2024-06-14,17,13,,https://web.archive.org/web/20240614130417/https://www.eogresources.com/company/
-SLB,SLB (Schlumberger),Energy,2016,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,
-SLB,SLB (Schlumberger),Energy,2017,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,
-SLB,SLB (Schlumberger),Energy,2018,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,
-SLB,SLB (Schlumberger),Energy,2019,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,
-SLB,SLB (Schlumberger),Energy,2020,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,
-SLB,SLB (Schlumberger),Energy,2021,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,
-SLB,SLB (Schlumberger),Energy,2022,ok,,slb.com/about/who-we-are,2022-10-26,117,6,,https://web.archive.org/web/20221026181530/https://www.slb.com/about/who-we-are
-SLB,SLB (Schlumberger),Energy,2023,ok,,slb.com/about/who-we-are,2023-07-01,0,21,,https://web.archive.org/web/20230701125507/https://www.slb.com/about/who-we-are
-SLB,SLB (Schlumberger),Energy,2024,ok,,slb.com/about/who-we-are,2024-07-04,3,29,,https://web.archive.org/web/20240704080745/https://www.slb.com/about/who-we-are
-MPC,Marathon Petroleum,Energy,2016,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,,
-MPC,Marathon Petroleum,Energy,2017,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,,
-MPC,Marathon Petroleum,Energy,2018,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,,
-MPC,Marathon Petroleum,Energy,2019,ok,,marathonpetroleum.com/About/,2019-06-20,11,10,,https://web.archive.org/web/20190620170933/https://www.marathonpetroleum.com/About/
-MPC,Marathon Petroleum,Energy,2020,ok,,marathonpetroleum.com/About/,2020-06-05,26,9,,https://web.archive.org/web/20200605053550/https://www.marathonpetroleum.com/About/
-MPC,Marathon Petroleum,Energy,2021,ok,,marathonpetroleum.com/About/,2021-06-14,17,18,,https://web.archive.org/web/20210614153143/https://www.marathonpetroleum.com/About/
-MPC,Marathon Petroleum,Energy,2022,ok,,marathonpetroleum.com/About/,2022-06-20,11,14,,https://web.archive.org/web/20220620002237/https://www.marathonpetroleum.com/About/
-MPC,Marathon Petroleum,Energy,2023,ok,,marathonpetroleum.com/About/,2023-06-07,24,6,,https://web.archive.org/web/20230607132624/https://www.marathonpetroleum.com/About/
-MPC,Marathon Petroleum,Energy,2024,ok,,marathonpetroleum.com/About/,2024-06-20,11,9,,https://web.archive.org/web/20240620092623/https://www.marathonpetroleum.com/About/
-PSX,Phillips 66,Energy,2016,ok,,phillips66.com,2016-07-05,4,99,,https://web.archive.org/web/20160705201333/http://www.phillips66.com/
-PSX,Phillips 66,Energy,2017,ok,,phillips66.com,2017-07-01,0,216,,https://web.archive.org/web/20170701141504/http://www.phillips66.com/
-PSX,Phillips 66,Energy,2018,ok,,phillips66.com,2018-07-01,0,198,,https://web.archive.org/web/20180701174629/http://www.phillips66.com/
-PSX,Phillips 66,Energy,2019,ok,,phillips66.com,2019-07-11,10,32,,https://web.archive.org/web/20190711082809/https://www.phillips66.com/
-PSX,Phillips 66,Energy,2020,ok,,phillips66.com,2020-07-14,13,44,,https://web.archive.org/web/20200714212304/https://www.phillips66.com/
-PSX,Phillips 66,Energy,2021,ok,,phillips66.com,2021-06-24,7,60,,https://web.archive.org/web/20210624061334/https://www.phillips66.com/
-PSX,Phillips 66,Energy,2022,ok,,phillips66.com,2022-06-29,2,71,,https://web.archive.org/web/20220629210838/https://www.phillips66.com/
-PSX,Phillips 66,Energy,2023,ok,,phillips66.com,2023-07-01,0,78,,https://web.archive.org/web/20230701040835/https://www.phillips66.com/
-PSX,Phillips 66,Energy,2024,ok,,phillips66.com,2024-07-01,0,95,,https://web.archive.org/web/20240701095138/https://www.phillips66.com/
-VLO,Valero Energy,Energy,2016,gap,no_captures_in_year,valero.com/about,,,,,
-VLO,Valero Energy,Energy,2017,gap,no_captures_in_year,valero.com/about,,,,,
-VLO,Valero Energy,Energy,2018,gap,no_captures_in_year,valero.com/about,,,,,
-VLO,Valero Energy,Energy,2019,gap,no_captures_in_year,valero.com/about,,,,,
-VLO,Valero Energy,Energy,2020,ok,,valero.com/about,2020-11-26,148,1,,https://web.archive.org/web/20201126153724/https://www.valero.com/about
-VLO,Valero Energy,Energy,2021,ok,,valero.com/about,2021-06-23,8,18,,https://web.archive.org/web/20210623212645/https://www.valero.com/about
-VLO,Valero Energy,Energy,2022,ok,,valero.com/about,2022-05-24,38,9,,https://web.archive.org/web/20220524061456/https://www.valero.com/about
-VLO,Valero Energy,Energy,2023,ok,,valero.com/about,2023-06-28,3,24,,https://web.archive.org/web/20230628185731/https://www.valero.com/about
-VLO,Valero Energy,Energy,2024,ok,,valero.com/about,2024-07-01,0,26,,https://web.archive.org/web/20240701195229/https://www.valero.com/about
-OXY,Occidental Petroleum,Energy,2016,gap,no_captures_in_year,oxy.com/about/,,,,,
-OXY,Occidental Petroleum,Energy,2017,gap,no_captures_in_year,oxy.com/about/,,,,,
-OXY,Occidental Petroleum,Energy,2018,gap,no_captures_in_year,oxy.com/about/,,,,,
-OXY,Occidental Petroleum,Energy,2019,gap,no_captures_in_year,oxy.com/about/,,,,,
-OXY,Occidental Petroleum,Energy,2020,gap,no_captures_in_year,oxy.com/about/,,,,,
-OXY,Occidental Petroleum,Energy,2021,ok,,oxy.com/about/,2021-11-12,134,4,,https://web.archive.org/web/20211112101711/https://www.oxy.com/about/
-OXY,Occidental Petroleum,Energy,2022,ok,,oxy.com/about/,2022-07-12,11,13,,https://web.archive.org/web/20220712184252/https://www.oxy.com/about/
-OXY,Occidental Petroleum,Energy,2023,ok,,oxy.com/about/,2023-07-02,1,24,,https://web.archive.org/web/20230702001514/https://www.oxy.com/about/
-OXY,Occidental Petroleum,Energy,2024,ok,,oxy.com/about/,2024-07-02,1,31,,https://web.archive.org/web/20240702054827/https://www.oxy.com/about/
-HAL,Halliburton,Energy,2016,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,
-HAL,Halliburton,Energy,2017,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,
-HAL,Halliburton,Energy,2018,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,
-HAL,Halliburton,Energy,2019,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,
-HAL,Halliburton,Energy,2020,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,
-HAL,Halliburton,Energy,2021,ok,,halliburton.com/en/about-us,2021-06-19,12,13,,https://web.archive.org/web/20210619184439/https://www.halliburton.com/en/about-us
-HAL,Halliburton,Energy,2022,ok,,halliburton.com/en/about-us,2022-07-06,5,11,,https://web.archive.org/web/20220706043557/https://www.halliburton.com/en/about-us
-HAL,Halliburton,Energy,2023,ok,,halliburton.com/en/about-us,2023-07-02,1,19,,https://web.archive.org/web/20230702071747/http://www.halliburton.com/en/about-us
-HAL,Halliburton,Energy,2024,ok,,halliburton.com/en/about-us,2024-07-01,0,22,,https://web.archive.org/web/20240701173643/https://www.halliburton.com/en/about-us
+ticker,company_name,sector,year,status,gap_reason,about_url,snapshot_date,days_from_july1,n_candidates_in_year,wayback_url
+AAPL,Apple,Technology,2016,gap,no_archived_url_for_year,,,,,
+AAPL,Apple,Technology,2017,gap,no_archived_url_for_year,,,,,
+AAPL,Apple,Technology,2018,gap,no_archived_url_for_year,,,,,
+AAPL,Apple,Technology,2019,ok,,investor.apple.com/apple-values/default.aspx,2019-08-17,47,3,https://web.archive.org/web/20190817134154/https://investor.apple.com/apple-values/default.aspx
+AAPL,Apple,Technology,2020,ok,,investor.apple.com/apple-values/default.aspx,2020-06-09,22,6,https://web.archive.org/web/20200609045855/https://investor.apple.com/apple-values/default.aspx
+AAPL,Apple,Technology,2021,gap,no_archived_url_for_year,,,,,
+AAPL,Apple,Technology,2022,gap,no_archived_url_for_year,,,,,
+AAPL,Apple,Technology,2023,gap,no_archived_url_for_year,,,,,
+AAPL,Apple,Technology,2024,ok,,investor.apple.com/our_values/default.aspx,2024-07-21,20,12,https://web.archive.org/web/20240721115837/https://investor.apple.com/our_values/default.aspx
+ABBV,AbbVie,Healthcare,2016,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2017,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2018,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2019,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2020,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2021,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2022,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,
+ABBV,AbbVie,Healthcare,2023,ok,,abbvie.com/who-we-are.html,2023-06-14,17,20,https://web.archive.org/web/20230614135656/https://www.abbvie.com/who-we-are.html
+ABBV,AbbVie,Healthcare,2024,ok,,abbvie.com/who-we-are.html,2024-06-20,11,18,https://web.archive.org/web/20240620175013/https://www.abbvie.com/who-we-are.html
+ABT,Abbott Laboratories,Healthcare,2016,ok,,abbott.com/about-abbott.html,2016-07-02,1,47,https://web.archive.org/web/20160702192741/http://www.abbott.com:80/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2017,ok,,abbott.com/about-abbott.html,2017-07-02,1,35,https://web.archive.org/web/20170702073816/http://www.abbott.com:80/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2018,ok,,abbott.com/about-abbott.html,2018-07-02,1,71,https://web.archive.org/web/20180702131800/http://www.abbott.com/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2019,ok,,abbott.com/about-abbott.html,2019-06-10,21,24,https://web.archive.org/web/20190610194507/https://www.abbott.com/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2020,ok,,abbott.com/about-abbott.html,2020-06-25,6,26,https://web.archive.org/web/20200625163559/https://www.abbott.com/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2021,ok,,abbott.com/about-abbott.html,2021-06-17,14,30,https://web.archive.org/web/20210617092724/https://www.abbott.com/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2022,ok,,abbott.com/about-abbott.html,2022-07-04,3,20,https://web.archive.org/web/20220704093903/http://www.abbott.com/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2023,ok,,abbott.com/about-abbott.html,2023-07-01,0,24,https://web.archive.org/web/20230701174340/https://www.abbott.com/about-abbott.html
+ABT,Abbott Laboratories,Healthcare,2024,ok,,abbott.com/about-abbott.html,2024-07-05,4,30,https://web.archive.org/web/20240705075929/https://www.abbott.com/about-abbott.html
+AMZN,Amazon,Consumer Discretionary,2016,gap,no_captures_in_year,aboutamazon.com/about-us,,,,
+AMZN,Amazon,Consumer Discretionary,2017,gap,no_captures_in_year,aboutamazon.com/about-us,,,,
+AMZN,Amazon,Consumer Discretionary,2018,gap,no_captures_in_year,aboutamazon.com/about-us,,,,
+AMZN,Amazon,Consumer Discretionary,2019,gap,no_captures_in_year,aboutamazon.com/about-us,,,,
+AMZN,Amazon,Consumer Discretionary,2020,ok,,aboutamazon.com/about-us,2020-11-24,146,4,https://web.archive.org/web/20201124040148/https://www.aboutamazon.com/about-us
+AMZN,Amazon,Consumer Discretionary,2021,ok,,aboutamazon.com/about-us,2021-07-03,2,50,https://web.archive.org/web/20210703223852/https://www.aboutamazon.com/about-us
+AMZN,Amazon,Consumer Discretionary,2022,ok,,aboutamazon.com/about-us,2022-07-01,0,74,https://web.archive.org/web/20220701195656/https://www.aboutamazon.com/about-us
+AMZN,Amazon,Consumer Discretionary,2023,ok,,aboutamazon.com/about-us,2023-07-01,0,61,https://web.archive.org/web/20230701061232/https://www.aboutamazon.com/about-us
+AMZN,Amazon,Consumer Discretionary,2024,ok,,aboutamazon.com/about-us,2024-07-03,2,96,https://web.archive.org/web/20240703063930/https://www.aboutamazon.com/about-us
+AVGO,Broadcom,Technology,2016,gap,no_captures_in_year,broadcom.com/company/about-us,,,,
+AVGO,Broadcom,Technology,2017,ok,,broadcom.com/company/about-us,2017-07-12,11,4,https://web.archive.org/web/20170712084805/https://www.broadcom.com/company/about-us/
+AVGO,Broadcom,Technology,2018,ok,,broadcom.com/company/about-us,2018-05-18,44,8,https://web.archive.org/web/20180518235442/https://www.broadcom.com/company/about-us/
+AVGO,Broadcom,Technology,2019,ok,,broadcom.com/company/about-us,2019-07-20,19,19,https://web.archive.org/web/20190720025241/https://www.broadcom.com/company/about-us
+AVGO,Broadcom,Technology,2020,ok,,broadcom.com/company/about-us,2020-06-29,2,97,https://web.archive.org/web/20200629180821/https://www.broadcom.com/company/about-us
+AVGO,Broadcom,Technology,2021,ok,,broadcom.com/company/about-us,2021-06-28,3,95,https://web.archive.org/web/20210628062150/https://www.broadcom.com/company/about-us
+AVGO,Broadcom,Technology,2022,ok,,broadcom.com/company/about-us,2022-07-01,0,110,https://web.archive.org/web/20220701113022/https://www.broadcom.com/company/about-us
+AVGO,Broadcom,Technology,2023,ok,,broadcom.com/company/about-us,2023-06-07,24,21,https://web.archive.org/web/20230607094113/https://www.broadcom.com/company/about-us
+AVGO,Broadcom,Technology,2024,ok,,broadcom.com/company/about-us,2024-07-02,1,56,https://web.archive.org/web/20240702010308/https://www.broadcom.com/company/about-us
+AXP,American Express,Financials,2016,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2017,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2018,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2019,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2020,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2021,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2022,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,
+AXP,American Express,Financials,2023,ok,,americanexpress.com/en-us/company/who-we-are,2023-06-09,22,9,https://web.archive.org/web/20230609192334/https://www.americanexpress.com/en-us/company/who-we-are/
+AXP,American Express,Financials,2024,ok,,americanexpress.com/en-us/company/who-we-are,2024-07-18,17,44,https://web.archive.org/web/20240718065711/https://www.americanexpress.com/en-us/company/who-we-are/
+BAC,Bank of America,Financials,2016,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,
+BAC,Bank of America,Financials,2017,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,
+BAC,Bank of America,Financials,2018,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,
+BAC,Bank of America,Financials,2019,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,
+BAC,Bank of America,Financials,2020,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,
+BAC,Bank of America,Financials,2021,ok,,about.bankofamerica.com/en/our-company,2021-06-17,14,19,https://web.archive.org/web/20210617043743/https://about.bankofamerica.com/en/our-company
+BAC,Bank of America,Financials,2022,ok,,about.bankofamerica.com/en/our-company,2022-06-27,4,27,https://web.archive.org/web/20220627204250/https://about.bankofamerica.com/en/our-company
+BAC,Bank of America,Financials,2023,ok,,about.bankofamerica.com/en/our-company,2023-06-08,23,10,https://web.archive.org/web/20230608213341/https://about.bankofamerica.com/en/our-company
+BAC,Bank of America,Financials,2024,ok,,about.bankofamerica.com/en/our-company,2024-07-07,6,21,https://web.archive.org/web/20240707164049/https://about.bankofamerica.com/en/our-company
+BLK,BlackRock,Financials,2016,gap,no_captures_in_year,blackrock.com/corporate/about-us/mission-and-principles,,,,
+BLK,BlackRock,Financials,2017,gap,no_captures_in_year,blackrock.com/corporate/about-us/mission-and-principles,,,,
+BLK,BlackRock,Financials,2018,ok,,blackrock.com/corporate/about-us/mission-and-principles,2018-09-23,84,4,https://web.archive.org/web/20180923091354/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BLK,BlackRock,Financials,2019,ok,,blackrock.com/corporate/about-us/mission-and-principles,2019-07-21,20,6,https://web.archive.org/web/20190721172849/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BLK,BlackRock,Financials,2020,ok,,blackrock.com/corporate/about-us/mission-and-principles,2020-06-30,1,82,https://web.archive.org/web/20200630174455/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BLK,BlackRock,Financials,2021,ok,,blackrock.com/corporate/about-us/mission-and-principles,2021-07-11,10,19,https://web.archive.org/web/20210711083758/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BLK,BlackRock,Financials,2022,ok,,blackrock.com/corporate/about-us/mission-and-principles,2022-06-29,2,17,https://web.archive.org/web/20220629113820/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BLK,BlackRock,Financials,2023,ok,,blackrock.com/corporate/about-us/mission-and-principles,2023-07-09,8,15,https://web.archive.org/web/20230709132346/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BLK,BlackRock,Financials,2024,ok,,blackrock.com/corporate/about-us/mission-and-principles,2024-07-19,18,11,https://web.archive.org/web/20240719101027/https://www.blackrock.com/corporate/about-us/mission-and-principles
+BMY,Bristol-Myers Squibb,Healthcare,2016,gap,no_captures_in_year,bms.com/about-us.html,,,,
+BMY,Bristol-Myers Squibb,Healthcare,2017,ok,,bms.com/about-us.html,2017-06-06,25,3,https://web.archive.org/web/20170606231506/https://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2018,ok,,bms.com/about-us.html,2018-06-28,3,7,https://web.archive.org/web/20180628075820/http://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2019,ok,,bms.com/about-us.html,2019-07-30,29,15,https://web.archive.org/web/20190730184845/https://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2020,ok,,bms.com/about-us.html,2020-06-30,1,25,https://web.archive.org/web/20200630211129/https://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2021,ok,,bms.com/about-us.html,2021-07-12,11,64,https://web.archive.org/web/20210712091849/https://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2022,ok,,bms.com/about-us.html,2022-07-07,6,36,https://web.archive.org/web/20220707115313/https://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2023,ok,,bms.com/about-us.html,2023-07-01,0,40,https://web.archive.org/web/20230701233652/https://www.bms.com/about-us.html
+BMY,Bristol-Myers Squibb,Healthcare,2024,ok,,bms.com/about-us.html,2024-07-03,2,41,https://web.archive.org/web/20240703222208/https://www.bms.com/about-us.html
+BRK.B,Berkshire Hathaway,Financials,2016,ok,,berkshirehathaway.com/owners.html,2016-07-01,0,14,https://web.archive.org/web/20160701170333/http://www.berkshirehathaway.com/owners.html
+BRK.B,Berkshire Hathaway,Financials,2017,ok,,berkshirehathaway.com/owners.html,2017-07-08,7,13,https://web.archive.org/web/20170708092135/http://www.berkshirehathaway.com:80/owners.html
+BRK.B,Berkshire Hathaway,Financials,2018,ok,,berkshirehathaway.com/owners.html,2018-07-01,0,57,https://web.archive.org/web/20180701022314/http://www.berkshirehathaway.com/owners.html
+BRK.B,Berkshire Hathaway,Financials,2019,ok,,berkshirehathaway.com/owners.html,2019-07-02,1,28,https://web.archive.org/web/20190702152642/http://www.berkshirehathaway.com:80/owners.html
+BRK.B,Berkshire Hathaway,Financials,2020,ok,,berkshirehathaway.com/owners.html,2020-05-29,33,3,https://web.archive.org/web/20200529164503/https://www.berkshirehathaway.com/owners.html
+BRK.B,Berkshire Hathaway,Financials,2021,ok,,berkshirehathaway.com/owners.html,2021-07-07,6,8,https://web.archive.org/web/20210707142128/https://www.berkshirehathaway.com/owners.html
+BRK.B,Berkshire Hathaway,Financials,2022,ok,,berkshirehathaway.com/owners.html,2022-08-12,42,8,https://web.archive.org/web/20220812185231/http://www.berkshirehathaway.com/owners.html
+BRK.B,Berkshire Hathaway,Financials,2023,ok,,berkshirehathaway.com/owners.html,2023-06-27,4,8,https://web.archive.org/web/20230627084621/https://www.berkshirehathaway.com/owners.html
+BRK.B,Berkshire Hathaway,Financials,2024,ok,,berkshirehathaway.com/owners.html,2024-05-29,33,6,https://web.archive.org/web/20240529152613/https://www.berkshirehathaway.com/owners.html
+C,Citigroup,Financials,2016,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2017,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2018,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2019,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2020,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2021,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2022,gap,no_captures_in_year,citigroup.com/global/about-us,,,,
+C,Citigroup,Financials,2023,ok,,citigroup.com/global/about-us,2023-07-22,21,22,https://web.archive.org/web/20230722101707/https://www.citigroup.com/global/about-us
+C,Citigroup,Financials,2024,ok,,citigroup.com/global/about-us,2024-07-02,1,40,https://web.archive.org/web/20240702093443/https://www.citigroup.com/global/about-us
+COP,ConocoPhillips,Energy,2016,gap,no_captures_in_year,conocophillips.com/about-us/,,,,
+COP,ConocoPhillips,Energy,2017,ok,,conocophillips.com/about-us/,2017-12-04,156,3,https://web.archive.org/web/20171204023000/http://www.conocophillips.com:80/about-us/
+COP,ConocoPhillips,Energy,2018,ok,,conocophillips.com/about-us/,2018-06-25,6,10,https://web.archive.org/web/20180625204927/http://www.conocophillips.com/about-us/
+COP,ConocoPhillips,Energy,2019,ok,,conocophillips.com/about-us/,2019-06-20,11,13,https://web.archive.org/web/20190620164530/http://www.conocophillips.com/about-us/
+COP,ConocoPhillips,Energy,2020,ok,,conocophillips.com/about-us/,2020-06-27,4,12,https://web.archive.org/web/20200627113744/http://www.conocophillips.com:80/about-us/
+COP,ConocoPhillips,Energy,2021,ok,,conocophillips.com/about-us/,2021-05-11,51,14,https://web.archive.org/web/20210511065250/https://www.conocophillips.com/about-us/
+COP,ConocoPhillips,Energy,2022,ok,,conocophillips.com/about-us/,2022-05-22,40,6,https://web.archive.org/web/20220522113959/https://www.conocophillips.com/about-us/
+COP,ConocoPhillips,Energy,2023,ok,,conocophillips.com/about-us/,2023-07-03,2,14,https://web.archive.org/web/20230703160512/https://www.conocophillips.com/about-us/
+COP,ConocoPhillips,Energy,2024,ok,,conocophillips.com/about-us/,2024-07-03,2,18,https://web.archive.org/web/20240703093500/https://www.conocophillips.com/about-us/
+CRM,Salesforce,Technology,2016,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2017,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2018,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2019,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2020,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2021,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2022,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,
+CRM,Salesforce,Technology,2023,ok,,salesforce.com/company/our-values/,2023-07-14,13,82,https://web.archive.org/web/20230714063305/https://www.salesforce.com/company/our-values/
+CRM,Salesforce,Technology,2024,ok,,salesforce.com/company/our-values/,2024-07-01,0,234,https://web.archive.org/web/20240701044750/https://www.salesforce.com/company/our-values/
+CVX,Chevron,Energy,2016,ok,,chevron.com/about/the-chevron-way,2016-06-20,11,6,https://web.archive.org/web/20160620191413/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2017,ok,,chevron.com/about/the-chevron-way,2017-07-11,10,10,https://web.archive.org/web/20170711194421/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2018,ok,,chevron.com/about/the-chevron-way,2018-07-01,0,12,https://web.archive.org/web/20180701051628/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2019,ok,,chevron.com/about/the-chevron-way,2019-07-14,13,11,https://web.archive.org/web/20190714085805/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2020,ok,,chevron.com/about/the-chevron-way,2020-06-26,5,17,https://web.archive.org/web/20200626003521/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2021,ok,,chevron.com/about/the-chevron-way,2021-07-30,29,16,https://web.archive.org/web/20210730084241/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2022,ok,,chevron.com/about/the-chevron-way,2022-06-09,22,15,https://web.archive.org/web/20220609091646/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2023,ok,,chevron.com/about/the-chevron-way,2023-07-02,1,20,https://web.archive.org/web/20230702054814/https://www.chevron.com/about/the-chevron-way
+CVX,Chevron,Energy,2024,ok,,chevron.com/about/the-chevron-way,2024-07-13,12,1,https://web.archive.org/web/20240713153505/https://www.chevron.com/about/the-chevron-way
+EOG,EOG Resources,Energy,2016,gap,no_archived_url_for_year,,,,,
+EOG,EOG Resources,Energy,2017,gap,no_archived_url_for_year,,,,,
+EOG,EOG Resources,Energy,2018,ok,,eogresources.com/company,2018-10-30,121,1,https://web.archive.org/web/20181030195241/http://www.eogresources.com:80/company/
+EOG,EOG Resources,Energy,2019,ok,,eogresources.com/company,2019-08-25,55,4,https://web.archive.org/web/20190825203420/https://www.eogresources.com/company/
+EOG,EOG Resources,Energy,2020,ok,,eogresources.com/company,2020-06-03,28,5,https://web.archive.org/web/20200603115016/https://www.eogresources.com/company/
+EOG,EOG Resources,Energy,2021,ok,,eogresources.com/company,2021-07-26,25,16,https://web.archive.org/web/20210726022247/https://www.eogresources.com/company
+EOG,EOG Resources,Energy,2022,ok,,eogresources.com/company,2022-06-30,1,21,https://web.archive.org/web/20220630192300/https://www.eogresources.com/company
+EOG,EOG Resources,Energy,2023,ok,,eogresources.com/company,2023-06-27,4,12,https://web.archive.org/web/20230627224203/https://www.eogresources.com/company
+EOG,EOG Resources,Energy,2024,ok,,eogresources.com/company,2024-06-14,17,13,https://web.archive.org/web/20240614130417/https://www.eogresources.com/company/
+F,Ford Motor,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.ford.com/about.html,,,,
+F,Ford Motor,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.ford.com/about.html,,,,
+F,Ford Motor,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.ford.com/about.html,,,,
+F,Ford Motor,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.ford.com/about.html,,,,
+F,Ford Motor,Consumer Discretionary,2020,ok,,corporate.ford.com/about.html,2020-07-26,25,7,https://web.archive.org/web/20200726092803/https://corporate.ford.com/about.html
+F,Ford Motor,Consumer Discretionary,2021,ok,,corporate.ford.com/about.html,2021-06-07,24,17,https://web.archive.org/web/20210607050942/https://corporate.ford.com/about.html
+F,Ford Motor,Consumer Discretionary,2022,ok,,corporate.ford.com/about.html,2022-06-24,7,18,https://web.archive.org/web/20220624050146/https://corporate.ford.com/about.html
+F,Ford Motor,Consumer Discretionary,2023,ok,,corporate.ford.com/about.html,2023-07-25,24,22,https://web.archive.org/web/20230725034918/https://corporate.ford.com/about.html
+F,Ford Motor,Consumer Discretionary,2024,ok,,corporate.ford.com/about.html,2024-06-25,6,23,https://web.archive.org/web/20240625224035/https://corporate.ford.com/about.html
+GOOGL,Alphabet,Technology,2016,gap,no_captures_in_year,google.com/about/philosophy.html,,,,
+GOOGL,Alphabet,Technology,2017,ok,,google.com/about/philosophy.html,2017-08-29,59,8,https://web.archive.org/web/20170829214250/https://www.google.com/about/philosophy.html
+GOOGL,Alphabet,Technology,2018,ok,,google.com/about/philosophy.html,2018-07-10,9,44,https://web.archive.org/web/20180710104223/http://www.google.com:80/about/philosophy.html
+GOOGL,Alphabet,Technology,2019,ok,,google.com/about/philosophy.html,2019-06-30,1,79,https://web.archive.org/web/20190630020842/https://www.google.com/about/philosophy.html
+GOOGL,Alphabet,Technology,2020,ok,,google.com/about/philosophy.html,2020-07-01,0,142,https://web.archive.org/web/20200701093457/https://www.google.com/about/philosophy.html
+GOOGL,Alphabet,Technology,2021,ok,,about.google/philosophy,2021-06-30,1,155,https://web.archive.org/web/20210630015825/https://about.google/philosophy/
+GOOGL,Alphabet,Technology,2022,ok,,about.google/philosophy,2022-07-01,0,351,https://web.archive.org/web/20220701124058/https://about.google/philosophy/
+GOOGL,Alphabet,Technology,2023,ok,,about.google/philosophy,2023-07-02,1,333,https://web.archive.org/web/20230702114951/https://about.google/philosophy/
+GOOGL,Alphabet,Technology,2024,ok,,about.google/philosophy,2024-06-30,1,292,https://web.archive.org/web/20240630214057/https://about.google/philosophy/
+GS,Goldman Sachs,Financials,2016,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2016-07-10,9,14,https://web.archive.org/web/20160710104933/http://www.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2017,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2017-07-03,2,20,https://web.archive.org/web/20170703162309/http://www.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2018,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2018-07-09,8,15,https://web.archive.org/web/20180709094348/http://www2.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2019,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2019-04-03,89,2,https://web.archive.org/web/20190403072818/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2020,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2020-06-11,20,2,https://web.archive.org/web/20200611215030/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2021,gap,no_captures_in_year,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,,,,
+GS,Goldman Sachs,Financials,2022,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2022-03-22,101,1,https://web.archive.org/web/20220322202856/http://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2023,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2023-10-08,99,1,https://web.archive.org/web/20231008103712/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html
+GS,Goldman Sachs,Financials,2024,ok,,goldmansachs.com/our-firm/purpose-and-values,2024-08-01,31,15,https://web.archive.org/web/20240801104404/https://www.goldmansachs.com/our-firm/purpose-and-values
+HAL,Halliburton,Energy,2016,gap,no_captures_in_year,halliburton.com/en/about-us,,,,
+HAL,Halliburton,Energy,2017,gap,no_captures_in_year,halliburton.com/en/about-us,,,,
+HAL,Halliburton,Energy,2018,gap,no_captures_in_year,halliburton.com/en/about-us,,,,
+HAL,Halliburton,Energy,2019,gap,no_captures_in_year,halliburton.com/en/about-us,,,,
+HAL,Halliburton,Energy,2020,gap,no_captures_in_year,halliburton.com/en/about-us,,,,
+HAL,Halliburton,Energy,2021,ok,,halliburton.com/en/about-us,2021-06-19,12,13,https://web.archive.org/web/20210619184439/https://www.halliburton.com/en/about-us
+HAL,Halliburton,Energy,2022,ok,,halliburton.com/en/about-us,2022-07-06,5,11,https://web.archive.org/web/20220706043557/https://www.halliburton.com/en/about-us
+HAL,Halliburton,Energy,2023,ok,,halliburton.com/en/about-us,2023-07-02,1,19,https://web.archive.org/web/20230702071747/http://www.halliburton.com/en/about-us
+HAL,Halliburton,Energy,2024,ok,,halliburton.com/en/about-us,2024-07-01,0,22,https://web.archive.org/web/20240701173643/https://www.halliburton.com/en/about-us
+HD,Home Depot,Consumer Discretionary,2016,ok,,corporate.homedepot.com/about,2016-06-21,10,5,https://web.archive.org/web/20160621072235/http://corporate.homedepot.com:80/about
+HD,Home Depot,Consumer Discretionary,2017,ok,,corporate.homedepot.com/about,2017-06-06,25,7,https://web.archive.org/web/20170606013334/http://corporate.homedepot.com/about
+HD,Home Depot,Consumer Discretionary,2018,ok,,corporate.homedepot.com/about,2018-08-19,49,2,https://web.archive.org/web/20180819185938/http://corporate.homedepot.com/about
+HD,Home Depot,Consumer Discretionary,2019,ok,,corporate.homedepot.com/about,2019-07-08,7,9,https://web.archive.org/web/20190708210521/https://corporate.homedepot.com/about
+HD,Home Depot,Consumer Discretionary,2020,ok,,corporate.homedepot.com/about,2020-07-09,8,18,https://web.archive.org/web/20200709093400/https://corporate.homedepot.com/about
+HD,Home Depot,Consumer Discretionary,2021,ok,,corporate.homedepot.com/about,2021-07-05,4,32,https://web.archive.org/web/20210705003348/https://corporate.homedepot.com/about
+HD,Home Depot,Consumer Discretionary,2022,ok,,corporate.homedepot.com/about,2022-07-14,13,12,https://web.archive.org/web/20220714204536/https://corporate.homedepot.com/about
+HD,Home Depot,Consumer Discretionary,2023,ok,,corporate.homedepot.com/about,2023-06-11,20,0,https://web.archive.org/web/20230611062745/https://corporate.homedepot.com/page/about-us
+HD,Home Depot,Consumer Discretionary,2024,ok,,corporate.homedepot.com/about,2024-01-18,165,1,https://web.archive.org/web/20240118070259/https://corporate.homedepot.com/about
+IBM,IBM,Technology,2016,gap,fetch_failed,ibm.com/about,,,,
+IBM,IBM,Technology,2017,gap,no_captures_in_year,ibm.com/about,,,,
+IBM,IBM,Technology,2018,ok,,ibm.com/about,2018-07-19,18,0,https://web.archive.org/web/20180719044134/https://www.ibm.com/ibm/us/en/
+IBM,IBM,Technology,2019,gap,no_captures_in_year,ibm.com/about,,,,
+IBM,IBM,Technology,2020,ok,,ibm.com/about,2020-11-17,139,15,https://web.archive.org/web/20201117025607/https://www.ibm.com/about
+IBM,IBM,Technology,2021,ok,,ibm.com/about,2021-06-23,8,94,https://web.archive.org/web/20210623191025/https://www.ibm.com/about
+IBM,IBM,Technology,2022,ok,,ibm.com/about,2022-07-01,0,204,https://web.archive.org/web/20220701045856/https://www.ibm.com/about
+IBM,IBM,Technology,2023,ok,,ibm.com/about,2023-07-01,0,354,https://web.archive.org/web/20230701143144/https://www.ibm.com/about
+IBM,IBM,Technology,2024,ok,,ibm.com/about,2024-07-01,0,337,https://web.archive.org/web/20240701011020/https://www.ibm.com/about
+INTC,Intel,Technology,2016,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2016-07-04,3,103,https://web.archive.org/web/20160704145202/http://www.intel.com:80/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2017,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2017-06-10,21,40,https://web.archive.org/web/20170610051611/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2018,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2018-07-02,1,81,https://web.archive.org/web/20180702100629/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2019,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2019-06-30,1,136,https://web.archive.org/web/20190630002741/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2020,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2020-06-30,1,129,https://web.archive.org/web/20200630025443/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2021,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2021-07-02,1,144,https://web.archive.org/web/20210702064504/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2022,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2022-07-01,0,138,https://web.archive.org/web/20220701210341/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2023,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2023-07-01,0,104,https://web.archive.org/web/20230701084347/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+INTC,Intel,Technology,2024,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2024-07-01,0,117,https://web.archive.org/web/20240701141513/https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+JNJ,Johnson & Johnson,Healthcare,2016,gap,no_captures_in_year,jnj.com/credo,,,,
+JNJ,Johnson & Johnson,Healthcare,2017,gap,no_captures_in_year,jnj.com/credo,,,,
+JNJ,Johnson & Johnson,Healthcare,2018,ok,,jnj.com/credo,2018-06-23,8,14,https://web.archive.org/web/20180623052322/https://www.jnj.com/credo/
+JNJ,Johnson & Johnson,Healthcare,2019,ok,,jnj.com/credo,2019-07-19,18,25,https://web.archive.org/web/20190719090120/https://www.jnj.com/credo/
+JNJ,Johnson & Johnson,Healthcare,2020,ok,,jnj.com/credo,2020-06-24,7,43,https://web.archive.org/web/20200624155919/https://www.jnj.com/credo/
+JNJ,Johnson & Johnson,Healthcare,2021,ok,,jnj.com/credo,2021-06-30,1,66,https://web.archive.org/web/20210630202000/https://www.jnj.com/credo/
+JNJ,Johnson & Johnson,Healthcare,2022,ok,,jnj.com/credo,2022-07-16,15,53,https://web.archive.org/web/20220716203840/https://www.jnj.com/credo/
+JNJ,Johnson & Johnson,Healthcare,2023,ok,,jnj.com/credo,2023-07-08,7,19,https://web.archive.org/web/20230708104059/https://www.jnj.com/credo/
+JNJ,Johnson & Johnson,Healthcare,2024,ok,,jnj.com/credo,2024-07-10,9,3,https://web.archive.org/web/20240710000032/https://www.jnj.com/credo/
+JPM,JPMorgan Chase,Financials,2016,gap,no_captures_in_year,jpmorganchase.com/about,,,,
+JPM,JPMorgan Chase,Financials,2017,gap,no_captures_in_year,jpmorganchase.com/about,,,,
+JPM,JPMorgan Chase,Financials,2018,gap,no_captures_in_year,jpmorganchase.com/about,,,,
+JPM,JPMorgan Chase,Financials,2019,gap,no_captures_in_year,jpmorganchase.com/about,,,,
+JPM,JPMorgan Chase,Financials,2020,ok,,jpmorganchase.com/about,2020-10-24,115,12,https://web.archive.org/web/20201024170002/https://www.jpmorganchase.com/about
+JPM,JPMorgan Chase,Financials,2021,ok,,jpmorganchase.com/about,2021-06-21,10,37,https://web.archive.org/web/20210621074724/https://www.jpmorganchase.com/about
+JPM,JPMorgan Chase,Financials,2022,ok,,jpmorganchase.com/about,2022-06-30,1,30,https://web.archive.org/web/20220630124911/https://www.jpmorganchase.com/about
+JPM,JPMorgan Chase,Financials,2023,ok,,jpmorganchase.com/about,2023-07-01,0,158,https://web.archive.org/web/20230701133252/https://www.jpmorganchase.com/about
+JPM,JPMorgan Chase,Financials,2024,ok,,jpmorganchase.com/about,2024-07-03,2,177,https://web.archive.org/web/20240703154138/https://www.jpmorganchase.com/about
+LLY,Eli Lilly,Healthcare,2016,ok,,lilly.com/about,2016-06-03,28,3,https://web.archive.org/web/20160603104854/https://www.lilly.com/about/
+LLY,Eli Lilly,Healthcare,2017,ok,,lilly.com/about,2017-06-06,25,3,https://web.archive.org/web/20170606104256/http://lilly.com/about
+LLY,Eli Lilly,Healthcare,2018,gap,no_captures_in_year,lilly.com/about,,,,
+LLY,Eli Lilly,Healthcare,2019,ok,,lilly.com/about,2019-02-20,131,1,https://web.archive.org/web/20190220162128/http://lilly.com/about
+LLY,Eli Lilly,Healthcare,2020,ok,,lilly.com/about,2020-07-17,16,0,https://web.archive.org/web/20200717052334/http://www.lilly.com/who-we-are/about-lilly
+LLY,Eli Lilly,Healthcare,2021,gap,no_captures_in_year,lilly.com/about,,,,
+LLY,Eli Lilly,Healthcare,2022,ok,,lilly.com/about,2022-06-12,19,1,https://web.archive.org/web/20220612095748/https://www.lilly.com/About/
+LLY,Eli Lilly,Healthcare,2023,gap,no_captures_in_year,lilly.com/about,,,,
+LLY,Eli Lilly,Healthcare,2024,ok,,lilly.com/about,2024-06-17,14,0,https://web.archive.org/web/20240617225035/https://www.lilly.com/who-we-are/about-lilly
+LOW,Lowe's,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,
+LOW,Lowe's,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,
+LOW,Lowe's,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,
+LOW,Lowe's,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,
+LOW,Lowe's,Consumer Discretionary,2020,ok,,corporate.lowes.com/who-we-are,2020-10-01,92,6,https://web.archive.org/web/20201001030214/https://corporate.lowes.com/who-we-are
+LOW,Lowe's,Consumer Discretionary,2021,ok,,corporate.lowes.com/who-we-are,2021-06-06,25,18,https://web.archive.org/web/20210606040732/https://corporate.lowes.com/who-we-are
+LOW,Lowe's,Consumer Discretionary,2022,ok,,corporate.lowes.com/who-we-are,2022-06-30,1,14,https://web.archive.org/web/20220630061300/https://corporate.lowes.com/who-we-are
+LOW,Lowe's,Consumer Discretionary,2023,ok,,corporate.lowes.com/who-we-are,2023-06-06,25,6,https://web.archive.org/web/20230606045138/https://corporate.lowes.com/who-we-are
+LOW,Lowe's,Consumer Discretionary,2024,ok,,corporate.lowes.com/who-we-are,2024-05-29,33,4,https://web.archive.org/web/20240529095241/https://corporate.lowes.com/who-we-are
+MCD,McDonald's,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,
+MCD,McDonald's,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,
+MCD,McDonald's,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,
+MCD,McDonald's,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,
+MCD,McDonald's,Consumer Discretionary,2020,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2020-11-24,146,2,https://web.archive.org/web/20201124145746/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+MCD,McDonald's,Consumer Discretionary,2021,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2021-06-16,15,15,https://web.archive.org/web/20210616161403/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+MCD,McDonald's,Consumer Discretionary,2022,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2022-07-12,11,18,https://web.archive.org/web/20220712171320/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+MCD,McDonald's,Consumer Discretionary,2023,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2023-06-04,27,14,https://web.archive.org/web/20230604222154/http://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+MCD,McDonald's,Consumer Discretionary,2024,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2024-06-19,12,21,https://web.archive.org/web/20240619032108/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+MDT,Medtronic,Healthcare,2016,ok,,medtronic.com/us-en/about/mission.html,2016-07-07,6,22,https://web.archive.org/web/20160707113616/http://www.medtronic.com:80/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2017,ok,,medtronic.com/us-en/about/mission.html,2017-07-05,4,21,https://web.archive.org/web/20170705115229/http://www.medtronic.com:80/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2018,ok,,medtronic.com/us-en/about/mission.html,2018-07-05,4,33,https://web.archive.org/web/20180705124209/http://www.medtronic.com:80/us-en/about/mission.html?
+MDT,Medtronic,Healthcare,2019,ok,,medtronic.com/us-en/about/mission.html,2019-07-22,21,11,https://web.archive.org/web/20190722054005/https://www.medtronic.com/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2020,ok,,medtronic.com/us-en/about/mission.html,2020-06-30,1,19,https://web.archive.org/web/20200630205203/http://www.medtronic.com/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2021,ok,,medtronic.com/us-en/about/mission.html,2021-06-24,7,8,https://web.archive.org/web/20210624130543/https://www.medtronic.com/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2022,ok,,medtronic.com/us-en/about/mission.html,2022-03-07,116,2,https://web.archive.org/web/20220307120545/http://www.medtronic.com/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2023,ok,,medtronic.com/us-en/about/mission.html,2023-03-07,116,3,https://web.archive.org/web/20230307094951/https://www.medtronic.com/us-en/about/mission.html
+MDT,Medtronic,Healthcare,2024,ok,,medtronic.com/us-en/about/mission.html,2024-04-09,83,1,https://web.archive.org/web/20240409072436/https://www.medtronic.com/us-en/about/mission.html
+META,Meta Platforms,Technology,2016,ok,,newsroom.fb.com/company-info,2016-07-01,0,341,https://web.archive.org/web/20160701080848/https://newsroom.fb.com/company-info/
+META,Meta Platforms,Technology,2017,ok,,newsroom.fb.com/company-info,2017-07-01,0,276,https://web.archive.org/web/20170701004911/https://newsroom.fb.com/company-info/
+META,Meta Platforms,Technology,2018,ok,,newsroom.fb.com/company-info,2018-07-01,0,181,https://web.archive.org/web/20180701140726/https://newsroom.fb.com/company-info/
+META,Meta Platforms,Technology,2019,ok,,about.fb.com/company-info,2019-11-12,134,47,https://web.archive.org/web/20191112045228/https://about.fb.com/company-info/
+META,Meta Platforms,Technology,2020,ok,,about.fb.com/company-info,2020-06-29,2,214,https://web.archive.org/web/20200629182427/https://about.fb.com/company-info/
+META,Meta Platforms,Technology,2021,ok,,about.fb.com/company-info,2021-07-29,28,61,https://web.archive.org/web/20210729042716/https://about.fb.com/company-info/
+META,Meta Platforms,Technology,2022,ok,,about.fb.com/company-info,2022-08-09,39,6,https://web.archive.org/web/20220809081045/http://www.about.fb.com/company-info/
+META,Meta Platforms,Technology,2023,ok,,about.fb.com/company-info,2023-03-22,101,4,https://web.archive.org/web/20230322144754/https://about.fb.com/company-info/
+META,Meta Platforms,Technology,2024,ok,,about.fb.com/company-info,2024-09-27,88,3,https://web.archive.org/web/20240927192218/https://about.fb.com/company-info/
+MPC,Marathon Petroleum,Energy,2016,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,
+MPC,Marathon Petroleum,Energy,2017,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,
+MPC,Marathon Petroleum,Energy,2018,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,
+MPC,Marathon Petroleum,Energy,2019,ok,,marathonpetroleum.com/About/,2019-06-20,11,10,https://web.archive.org/web/20190620170933/https://www.marathonpetroleum.com/About/
+MPC,Marathon Petroleum,Energy,2020,ok,,marathonpetroleum.com/About/,2020-06-05,26,9,https://web.archive.org/web/20200605053550/https://www.marathonpetroleum.com/About/
+MPC,Marathon Petroleum,Energy,2021,ok,,marathonpetroleum.com/About/,2021-06-14,17,18,https://web.archive.org/web/20210614153143/https://www.marathonpetroleum.com/About/
+MPC,Marathon Petroleum,Energy,2022,ok,,marathonpetroleum.com/About/,2022-06-20,11,14,https://web.archive.org/web/20220620002237/https://www.marathonpetroleum.com/About/
+MPC,Marathon Petroleum,Energy,2023,ok,,marathonpetroleum.com/About/,2023-06-07,24,6,https://web.archive.org/web/20230607132624/https://www.marathonpetroleum.com/About/
+MPC,Marathon Petroleum,Energy,2024,ok,,marathonpetroleum.com/About/,2024-06-20,11,9,https://web.archive.org/web/20240620092623/https://www.marathonpetroleum.com/About/
+MRK,Merck,Healthcare,2016,gap,no_captures_in_year,merck.com/company-overview/,,,,
+MRK,Merck,Healthcare,2017,gap,no_captures_in_year,merck.com/company-overview/,,,,
+MRK,Merck,Healthcare,2018,gap,no_captures_in_year,merck.com/company-overview/,,,,
+MRK,Merck,Healthcare,2019,gap,no_captures_in_year,merck.com/company-overview/,,,,
+MRK,Merck,Healthcare,2020,ok,,merck.com/company-overview/,2020-08-11,41,34,https://web.archive.org/web/20200811063349/https://www.merck.com/company-overview/
+MRK,Merck,Healthcare,2021,ok,,merck.com/company-overview/,2021-07-03,2,102,https://web.archive.org/web/20210703001224/https://www.merck.com/company-overview/
+MRK,Merck,Healthcare,2022,ok,,merck.com/company-overview/,2022-07-01,0,67,https://web.archive.org/web/20220701224411/https://www.merck.com/company-overview/
+MRK,Merck,Healthcare,2023,ok,,merck.com/company-overview/,2023-07-01,0,67,https://web.archive.org/web/20230701182214/https://www.merck.com/company-overview/
+MRK,Merck,Healthcare,2024,ok,,merck.com/company-overview/,2024-06-28,3,64,https://web.archive.org/web/20240628010012/https://www.merck.com/company-overview/
+MS,Morgan Stanley,Financials,2016,ok,,morganstanley.com/about-us,2016-06-30,1,45,https://web.archive.org/web/20160630151300/http://www.morganstanley.com:80/about-us
+MS,Morgan Stanley,Financials,2017,ok,,morganstanley.com/about-us,2017-06-30,1,36,https://web.archive.org/web/20170630165554/http://www.morganstanley.com:80/about-us/
+MS,Morgan Stanley,Financials,2018,ok,,morganstanley.com/about-us,2018-07-02,1,69,https://web.archive.org/web/20180702050329/http://www.morganstanley.com/about-us
+MS,Morgan Stanley,Financials,2019,ok,,morganstanley.com/about-us,2019-06-18,13,28,https://web.archive.org/web/20190618233102/http://www.morganstanley.com:80/about-us
+MS,Morgan Stanley,Financials,2020,ok,,morganstanley.com/about-us,2020-07-08,7,17,https://web.archive.org/web/20200708060944/https://www.morganstanley.com/about-us
+MS,Morgan Stanley,Financials,2021,ok,,morganstanley.com/about-us,2021-07-09,8,32,https://web.archive.org/web/20210709090054/https://www.morganstanley.com/about-us
+MS,Morgan Stanley,Financials,2022,ok,,morganstanley.com/about-us,2022-07-07,6,35,https://web.archive.org/web/20220707131519/https://www.morganstanley.com/about-us
+MS,Morgan Stanley,Financials,2023,ok,,morganstanley.com/about-us,2023-07-01,0,26,https://web.archive.org/web/20230701040553/https://www.morganstanley.com/about-us
+MS,Morgan Stanley,Financials,2024,ok,,morganstanley.com/about-us,2024-07-03,2,38,https://web.archive.org/web/20240703044621/https://www.morganstanley.com/about-us
+MSFT,Microsoft,Technology,2016,ok,,microsoft.com/en-us/about,2016-06-29,2,101,https://web.archive.org/web/20160629135234/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2017,ok,,microsoft.com/en-us/about,2017-07-01,0,130,https://web.archive.org/web/20170701045506/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2018,ok,,microsoft.com/en-us/about,2018-06-30,1,175,https://web.archive.org/web/20180630121020/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2019,ok,,microsoft.com/en-us/about,2019-06-30,1,270,https://web.archive.org/web/20190630212349/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2020,ok,,microsoft.com/en-us/about,2020-07-01,0,246,https://web.archive.org/web/20200701214157/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2021,ok,,microsoft.com/en-us/about,2021-06-30,1,311,https://web.archive.org/web/20210630051241/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2022,ok,,microsoft.com/en-us/about,2022-06-30,1,280,https://web.archive.org/web/20220630144336/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2023,ok,,microsoft.com/en-us/about,2023-06-30,1,311,https://web.archive.org/web/20230630172439/https://www.microsoft.com/en-us/about
+MSFT,Microsoft,Technology,2024,ok,,microsoft.com/en-us/about,2024-07-01,0,297,https://web.archive.org/web/20240701230101/https://www.microsoft.com/en-us/about
+NKE,Nike,Consumer Discretionary,2016,ok,,about.nike.com,2016-07-09,8,63,https://web.archive.org/web/20160709084719/http://about.nike.com/
+NKE,Nike,Consumer Discretionary,2017,ok,,about.nike.com,2017-06-30,1,30,https://web.archive.org/web/20170630111643/http://about.nike.com/
+NKE,Nike,Consumer Discretionary,2018,ok,,about.nike.com,2018-07-02,1,48,https://web.archive.org/web/20180702180133/http://about.nike.com/
+NKE,Nike,Consumer Discretionary,2019,ok,,about.nike.com,2019-07-01,0,40,https://web.archive.org/web/20190701200710/https://about.nike.com/
+NKE,Nike,Consumer Discretionary,2020,ok,,about.nike.com,2020-07-01,0,103,https://web.archive.org/web/20200701040440/https://about.nike.com/
+NKE,Nike,Consumer Discretionary,2021,ok,,about.nike.com,2021-07-01,0,237,https://web.archive.org/web/20210701063913/https://about.nike.com/
+NKE,Nike,Consumer Discretionary,2022,ok,,about.nike.com,2022-06-30,1,233,https://web.archive.org/web/20220630202408/https://about.nike.com/
+NKE,Nike,Consumer Discretionary,2023,ok,,about.nike.com,2023-06-19,12,271,https://web.archive.org/web/20230619190319/https://about.nike.com/
+NKE,Nike,Consumer Discretionary,2024,ok,,about.nike.com,2024-06-18,13,122,https://web.archive.org/web/20240618001902/http://about.nike.com/
+NVDA,NVIDIA,Technology,2016,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,
+NVDA,NVIDIA,Technology,2017,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,
+NVDA,NVIDIA,Technology,2018,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,
+NVDA,NVIDIA,Technology,2019,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2019-07-22,21,5,https://web.archive.org/web/20190722015918/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+NVDA,NVIDIA,Technology,2020,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2020-06-21,10,10,https://web.archive.org/web/20200621190345/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+NVDA,NVIDIA,Technology,2021,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2021-07-03,2,15,https://web.archive.org/web/20210703120631/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+NVDA,NVIDIA,Technology,2022,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2022-06-30,1,12,https://web.archive.org/web/20220630170320/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+NVDA,NVIDIA,Technology,2023,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2023-06-08,23,10,https://web.archive.org/web/20230608054502/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+NVDA,NVIDIA,Technology,2024,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2024-07-13,12,15,https://web.archive.org/web/20240713045718/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/
+ORCL,Oracle,Technology,2016,ok,,oracle.com/corporate/,2016-09-15,76,4,https://web.archive.org/web/20160915081447/http://oracle.com/corporate
+ORCL,Oracle,Technology,2017,ok,,oracle.com/corporate/,2017-06-06,25,3,https://web.archive.org/web/20170606030043/http://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2018,ok,,oracle.com/corporate/,2018-08-12,42,15,https://web.archive.org/web/20180812024732/http://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2019,ok,,oracle.com/corporate/,2019-06-30,1,105,https://web.archive.org/web/20190630231129/https://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2020,ok,,oracle.com/corporate/,2020-07-01,0,155,https://web.archive.org/web/20200701002451/https://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2021,ok,,oracle.com/corporate/,2021-07-01,0,115,https://web.archive.org/web/20210701062101/https://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2022,ok,,oracle.com/corporate/,2022-06-30,1,87,https://web.archive.org/web/20220630112545/https://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2023,ok,,oracle.com/corporate/,2023-07-02,1,53,https://web.archive.org/web/20230702090658/https://www.oracle.com/corporate/
+ORCL,Oracle,Technology,2024,ok,,oracle.com/corporate/,2024-06-26,5,80,https://web.archive.org/web/20240626001319/https://www.oracle.com/corporate/
+OXY,Occidental Petroleum,Energy,2016,gap,no_captures_in_year,oxy.com/about/,,,,
+OXY,Occidental Petroleum,Energy,2017,gap,no_captures_in_year,oxy.com/about/,,,,
+OXY,Occidental Petroleum,Energy,2018,gap,no_captures_in_year,oxy.com/about/,,,,
+OXY,Occidental Petroleum,Energy,2019,gap,no_captures_in_year,oxy.com/about/,,,,
+OXY,Occidental Petroleum,Energy,2020,gap,no_captures_in_year,oxy.com/about/,,,,
+OXY,Occidental Petroleum,Energy,2021,ok,,oxy.com/about/,2021-11-12,134,4,https://web.archive.org/web/20211112101711/https://www.oxy.com/about/
+OXY,Occidental Petroleum,Energy,2022,ok,,oxy.com/about/,2022-07-12,11,13,https://web.archive.org/web/20220712184252/https://www.oxy.com/about/
+OXY,Occidental Petroleum,Energy,2023,ok,,oxy.com/about/,2023-07-02,1,24,https://web.archive.org/web/20230702001514/https://www.oxy.com/about/
+OXY,Occidental Petroleum,Energy,2024,ok,,oxy.com/about/,2024-07-02,1,31,https://web.archive.org/web/20240702054827/https://www.oxy.com/about/
+PFE,Pfizer,Healthcare,2016,ok,,pfizer.com/about,2016-07-03,2,27,https://web.archive.org/web/20160703061437/http://www.pfizer.com:80/about
+PFE,Pfizer,Healthcare,2017,ok,,pfizer.com/about,2017-07-08,7,5,https://web.archive.org/web/20170708031110/http://www.pfizer.com/about/
+PFE,Pfizer,Healthcare,2018,ok,,pfizer.com/about,2018-08-22,52,2,https://web.archive.org/web/20180822000201/http://www.pfizer.com/about
+PFE,Pfizer,Healthcare,2019,ok,,pfizer.com/about,2019-07-08,7,2,https://web.archive.org/web/20190708051311/https://www.pfizer.com/about
+PFE,Pfizer,Healthcare,2020,ok,,pfizer.com/about,2020-05-31,31,4,https://web.archive.org/web/20200531194601/http://www.pfizer.com/about/
+PFE,Pfizer,Healthcare,2021,ok,,pfizer.com/about,2021-12-16,168,6,https://web.archive.org/web/20211216141830/https://www.pfizer.com/about
+PFE,Pfizer,Healthcare,2022,ok,,pfizer.com/about,2022-07-02,1,51,https://web.archive.org/web/20220702200438/https://www.pfizer.com/about#our-people
+PFE,Pfizer,Healthcare,2023,ok,,pfizer.com/about,2023-07-22,21,38,https://web.archive.org/web/20230722094342/https://www.pfizer.com/about
+PFE,Pfizer,Healthcare,2024,ok,,pfizer.com/about,2024-07-01,0,81,https://web.archive.org/web/20240701235055/https://www.pfizer.com/about
+PSX,Phillips 66,Energy,2016,ok,,phillips66.com,2016-07-05,4,99,https://web.archive.org/web/20160705201333/http://www.phillips66.com/
+PSX,Phillips 66,Energy,2017,ok,,phillips66.com,2017-07-01,0,216,https://web.archive.org/web/20170701141504/http://www.phillips66.com/
+PSX,Phillips 66,Energy,2018,ok,,phillips66.com,2018-07-01,0,198,https://web.archive.org/web/20180701174629/http://www.phillips66.com/
+PSX,Phillips 66,Energy,2019,ok,,phillips66.com,2019-07-11,10,32,https://web.archive.org/web/20190711082809/https://www.phillips66.com/
+PSX,Phillips 66,Energy,2020,ok,,phillips66.com,2020-07-14,13,44,https://web.archive.org/web/20200714212304/https://www.phillips66.com/
+PSX,Phillips 66,Energy,2021,ok,,phillips66.com,2021-06-24,7,60,https://web.archive.org/web/20210624061334/https://www.phillips66.com/
+PSX,Phillips 66,Energy,2022,ok,,phillips66.com,2022-06-29,2,71,https://web.archive.org/web/20220629210838/https://www.phillips66.com/
+PSX,Phillips 66,Energy,2023,ok,,phillips66.com,2023-07-01,0,78,https://web.archive.org/web/20230701040835/https://www.phillips66.com/
+PSX,Phillips 66,Energy,2024,ok,,phillips66.com,2024-07-01,0,95,https://web.archive.org/web/20240701095138/https://www.phillips66.com/
+SBUX,Starbucks,Consumer Discretionary,2016,ok,,starbucks.com/about-us,2016-07-03,2,54,https://web.archive.org/web/20160703073131/http://www.starbucks.com:80/about-us
+SBUX,Starbucks,Consumer Discretionary,2017,ok,,starbucks.com/about-us,2017-06-30,1,37,https://web.archive.org/web/20170630200111/https://www.starbucks.com/about-us
+SBUX,Starbucks,Consumer Discretionary,2018,ok,,starbucks.com/about-us,2018-07-25,24,9,https://web.archive.org/web/20180725004757/https://www.starbucks.com/about-us
+SBUX,Starbucks,Consumer Discretionary,2019,ok,,starbucks.com/about-us,2019-06-30,1,17,https://web.archive.org/web/20190630122528/https://www.starbucks.com/about-us/
+SBUX,Starbucks,Consumer Discretionary,2020,ok,,starbucks.com/about-us,2020-06-10,21,15,https://web.archive.org/web/20200610192632/https://www.starbucks.com/about-us
+SBUX,Starbucks,Consumer Discretionary,2021,ok,,starbucks.com/about-us,2021-06-06,25,55,https://web.archive.org/web/20210606063238/https://www.starbucks.com/about-us
+SBUX,Starbucks,Consumer Discretionary,2022,ok,,starbucks.com/about-us,2022-07-01,0,84,https://web.archive.org/web/20220701194900/https://www.starbucks.com/about-us/
+SBUX,Starbucks,Consumer Discretionary,2023,ok,,starbucks.com/about-us,2023-07-02,1,137,https://web.archive.org/web/20230702050942/https://www.starbucks.com/about-us/
+SBUX,Starbucks,Consumer Discretionary,2024,ok,,starbucks.com/about-us,2024-07-01,0,170,https://web.archive.org/web/20240701194211/https://www.starbucks.com/about-us/
+SCHW,Charles Schwab,Financials,2016,ok,,aboutschwab.com/about,2016-07-01,0,8,https://web.archive.org/web/20160701130313/https://www.aboutschwab.com/about/
+SCHW,Charles Schwab,Financials,2017,ok,,aboutschwab.com/about,2017-06-22,9,6,https://web.archive.org/web/20170622171843/https://www.aboutschwab.com/about
+SCHW,Charles Schwab,Financials,2018,ok,,aboutschwab.com/about,2018-07-06,5,26,https://web.archive.org/web/20180706121732/http://www.aboutschwab.com/about/
+SCHW,Charles Schwab,Financials,2019,ok,,aboutschwab.com/who-we-are,2019-08-04,34,6,https://web.archive.org/web/20190804032154/https://www.aboutschwab.com/who-we-are
+SCHW,Charles Schwab,Financials,2020,ok,,aboutschwab.com/who-we-are,2020-06-20,11,13,https://web.archive.org/web/20200620022728/https://www.aboutschwab.com/who-we-are
+SCHW,Charles Schwab,Financials,2021,ok,,aboutschwab.com/who-we-are,2021-06-25,6,19,https://web.archive.org/web/20210625125121/https://www.aboutschwab.com/who-we-are
+SCHW,Charles Schwab,Financials,2022,ok,,aboutschwab.com/who-we-are,2022-07-06,5,16,https://web.archive.org/web/20220706004227/https://www.aboutschwab.com/who-we-are
+SCHW,Charles Schwab,Financials,2023,ok,,aboutschwab.com/who-we-are,2023-06-20,11,123,https://web.archive.org/web/20230620094248/https://www.aboutschwab.com/who-we-are
+SCHW,Charles Schwab,Financials,2024,ok,,aboutschwab.com/our-company,2024-07-18,17,22,https://web.archive.org/web/20240718091403/https://www.aboutschwab.com/our-company
+SLB,SLB (Schlumberger),Energy,2016,gap,no_captures_in_year,slb.com/about/who-we-are,,,,
+SLB,SLB (Schlumberger),Energy,2017,gap,no_captures_in_year,slb.com/about/who-we-are,,,,
+SLB,SLB (Schlumberger),Energy,2018,gap,no_captures_in_year,slb.com/about/who-we-are,,,,
+SLB,SLB (Schlumberger),Energy,2019,gap,no_captures_in_year,slb.com/about/who-we-are,,,,
+SLB,SLB (Schlumberger),Energy,2020,gap,no_captures_in_year,slb.com/about/who-we-are,,,,
+SLB,SLB (Schlumberger),Energy,2021,gap,no_captures_in_year,slb.com/about/who-we-are,,,,
+SLB,SLB (Schlumberger),Energy,2022,ok,,slb.com/about/who-we-are,2022-10-26,117,6,https://web.archive.org/web/20221026181530/https://www.slb.com/about/who-we-are
+SLB,SLB (Schlumberger),Energy,2023,ok,,slb.com/about/who-we-are,2023-07-01,0,21,https://web.archive.org/web/20230701125507/https://www.slb.com/about/who-we-are
+SLB,SLB (Schlumberger),Energy,2024,ok,,slb.com/about/who-we-are,2024-07-04,3,29,https://web.archive.org/web/20240704080745/https://www.slb.com/about/who-we-are
+TGT,Target,Consumer Discretionary,2016,ok,,corporate.target.com/about,2016-07-16,15,10,https://web.archive.org/web/20160716093842/https://corporate.target.com/about/
+TGT,Target,Consumer Discretionary,2017,ok,,corporate.target.com/about,2017-07-01,0,11,https://web.archive.org/web/20170701120115/https://corporate.target.com/about/
+TGT,Target,Consumer Discretionary,2018,ok,,corporate.target.com/about,2018-08-15,45,4,https://web.archive.org/web/20180815145624/https://corporate.target.com/about/
+TGT,Target,Consumer Discretionary,2019,ok,,corporate.target.com/about,2019-07-17,16,38,https://web.archive.org/web/20190717024326/https://corporate.target.com/about
+TGT,Target,Consumer Discretionary,2020,ok,,corporate.target.com/about,2020-06-29,2,63,https://web.archive.org/web/20200629172012/https://corporate.target.com/about
+TGT,Target,Consumer Discretionary,2021,ok,,corporate.target.com/about,2021-06-26,5,55,https://web.archive.org/web/20210626220320/https://corporate.target.com/about
+TGT,Target,Consumer Discretionary,2022,ok,,corporate.target.com/about,2022-07-02,1,93,https://web.archive.org/web/20220702032434/https://corporate.target.com/about
+TGT,Target,Consumer Discretionary,2023,ok,,corporate.target.com/about,2023-06-14,17,45,https://web.archive.org/web/20230614080005/https://corporate.target.com/about
+TGT,Target,Consumer Discretionary,2024,ok,,corporate.target.com/about,2024-07-05,4,70,https://web.archive.org/web/20240705025654/https://corporate.target.com/about
+TJX,TJX Companies,Consumer Discretionary,2016,gap,no_captures_in_year,tjx.com/company,,,,
+TJX,TJX Companies,Consumer Discretionary,2017,ok,,tjx.com/company,2017-06-06,25,5,https://web.archive.org/web/20170606070337/http://www.tjx.com/company/
+TJX,TJX Companies,Consumer Discretionary,2018,ok,,tjx.com/company,2018-07-01,0,14,https://web.archive.org/web/20180701131228/http://www.tjx.com/company/
+TJX,TJX Companies,Consumer Discretionary,2019,ok,,tjx.com/company,2019-07-18,17,12,https://web.archive.org/web/20190718235300/https://www.tjx.com/company/
+TJX,TJX Companies,Consumer Discretionary,2020,ok,,tjx.com/company,2020-07-04,3,13,https://web.archive.org/web/20200704104401/https://www.tjx.com/company/
+TJX,TJX Companies,Consumer Discretionary,2021,ok,,tjx.com/company,2021-07-21,20,22,https://web.archive.org/web/20210721163611/https://www.tjx.com/company/
+TJX,TJX Companies,Consumer Discretionary,2022,ok,,tjx.com/company,2022-06-10,21,12,https://web.archive.org/web/20220610204728/https://www.tjx.com/company
+TJX,TJX Companies,Consumer Discretionary,2023,ok,,tjx.com/company,2023-06-25,6,15,https://web.archive.org/web/20230625060911/https://www.tjx.com/company/
+TJX,TJX Companies,Consumer Discretionary,2024,ok,,tjx.com/company,2024-07-25,24,2,https://web.archive.org/web/20240725082441/https://www.tjx.com/company
+TMO,Thermo Fisher Scientific,Healthcare,2016,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,
+TMO,Thermo Fisher Scientific,Healthcare,2017,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,
+TMO,Thermo Fisher Scientific,Healthcare,2018,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,
+TMO,Thermo Fisher Scientific,Healthcare,2019,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,
+TMO,Thermo Fisher Scientific,Healthcare,2020,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,
+TMO,Thermo Fisher Scientific,Healthcare,2021,ok,,corporate.thermofisher.com/us/en/index/about.html,2021-06-15,16,16,https://web.archive.org/web/20210615144449/https://corporate.thermofisher.com/us/en/index/about.html
+TMO,Thermo Fisher Scientific,Healthcare,2022,ok,,corporate.thermofisher.com/us/en/index/about.html,2022-07-01,0,21,https://web.archive.org/web/20220701173717/https://corporate.thermofisher.com/us/en/index/about.html
+TMO,Thermo Fisher Scientific,Healthcare,2023,ok,,corporate.thermofisher.com/us/en/index/about.html,2023-07-13,12,17,https://web.archive.org/web/20230713033335/https://corporate.thermofisher.com/us/en/index/about.html
+TMO,Thermo Fisher Scientific,Healthcare,2024,ok,,corporate.thermofisher.com/us/en/index/about.html,2024-07-14,13,14,https://web.archive.org/web/20240714235931/https://corporate.thermofisher.com/us/en/index/about.html
+TSLA,Tesla,Consumer Discretionary,2016,ok,,tesla.com/about,2016-07-20,19,48,https://web.archive.org/web/20160720164257/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2017,ok,,tesla.com/about,2017-06-23,8,46,https://web.archive.org/web/20170623054234/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2018,ok,,tesla.com/about,2018-06-22,9,33,https://web.archive.org/web/20180622174840/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2019,ok,,tesla.com/about,2019-07-02,1,104,https://web.archive.org/web/20190702011047/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2020,ok,,tesla.com/about,2020-06-29,2,49,https://web.archive.org/web/20200629052217/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2021,ok,,tesla.com/about,2021-07-05,4,137,https://web.archive.org/web/20210705040413/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2022,ok,,tesla.com/about,2022-07-01,0,92,https://web.archive.org/web/20220701192509/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2023,ok,,tesla.com/about,2023-07-06,5,75,https://web.archive.org/web/20230706192013/https://www.tesla.com/about
+TSLA,Tesla,Consumer Discretionary,2024,ok,,tesla.com/about,2024-07-02,1,104,https://web.archive.org/web/20240702053739/https://www.tesla.com/about
+UNH,UnitedHealth Group,Healthcare,2016,ok,,uhc.com/about-us,2016-04-14,78,5,https://web.archive.org/web/20160414015137/http://www.uhc.com:80/about-us
+UNH,UnitedHealth Group,Healthcare,2017,ok,,uhc.com/about-us,2017-07-11,10,3,https://web.archive.org/web/20170711145439/https://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2018,ok,,uhc.com/about-us,2018-08-23,53,3,https://web.archive.org/web/20180823212612/http://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2019,ok,,uhc.com/about-us,2019-10-02,93,3,https://web.archive.org/web/20191002055448/https://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2020,ok,,uhc.com/about-us,2020-06-17,14,11,https://web.archive.org/web/20200617195327/https://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2021,ok,,uhc.com/about-us,2021-05-21,41,7,https://web.archive.org/web/20210521200204/https://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2022,ok,,uhc.com/about-us,2022-06-28,3,11,https://web.archive.org/web/20220628033151/https://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2023,ok,,uhc.com/about-us,2023-07-01,0,31,https://web.archive.org/web/20230701063403/https://www.uhc.com/about-us
+UNH,UnitedHealth Group,Healthcare,2024,ok,,uhc.com/about-us,2024-07-01,0,99,https://web.archive.org/web/20240701172546/https://www.uhc.com/about-us
+VLO,Valero Energy,Energy,2016,gap,no_captures_in_year,valero.com/about,,,,
+VLO,Valero Energy,Energy,2017,gap,no_captures_in_year,valero.com/about,,,,
+VLO,Valero Energy,Energy,2018,gap,no_captures_in_year,valero.com/about,,,,
+VLO,Valero Energy,Energy,2019,gap,no_captures_in_year,valero.com/about,,,,
+VLO,Valero Energy,Energy,2020,ok,,valero.com/about,2020-11-26,148,1,https://web.archive.org/web/20201126153724/https://www.valero.com/about
+VLO,Valero Energy,Energy,2021,ok,,valero.com/about,2021-06-23,8,18,https://web.archive.org/web/20210623212645/https://www.valero.com/about
+VLO,Valero Energy,Energy,2022,ok,,valero.com/about,2022-05-24,38,9,https://web.archive.org/web/20220524061456/https://www.valero.com/about
+VLO,Valero Energy,Energy,2023,ok,,valero.com/about,2023-06-28,3,24,https://web.archive.org/web/20230628185731/https://www.valero.com/about
+VLO,Valero Energy,Energy,2024,ok,,valero.com/about,2024-07-01,0,26,https://web.archive.org/web/20240701195229/https://www.valero.com/about
+WFC,Wells Fargo,Financials,2016,ok,,wellsfargo.com/about/,2016-06-23,8,63,https://web.archive.org/web/20160623222653/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2017,ok,,wellsfargo.com/about/,2017-07-01,0,85,https://web.archive.org/web/20170701110129/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2018,ok,,wellsfargo.com/about/,2018-06-30,1,73,https://web.archive.org/web/20180630054047/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2019,ok,,wellsfargo.com/about/,2019-06-30,1,66,https://web.archive.org/web/20190630210559/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2020,ok,,wellsfargo.com/about/,2020-07-01,0,68,https://web.archive.org/web/20200701175034/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2021,ok,,wellsfargo.com/about/,2021-07-05,4,83,https://web.archive.org/web/20210705062642/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2022,ok,,wellsfargo.com/about/,2022-07-05,4,64,https://web.archive.org/web/20220705144101/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2023,ok,,wellsfargo.com/about/,2023-07-01,0,61,https://web.archive.org/web/20230701233000/https://www.wellsfargo.com/about/
+WFC,Wells Fargo,Financials,2024,ok,,wellsfargo.com/about/,2024-07-01,0,85,https://web.archive.org/web/20240701110220/https://www.wellsfargo.com/about/
+XOM,ExxonMobil,Energy,2016,ok,,corporate.exxonmobil.com/en/company/about-us,2016-07-10,9,19,https://web.archive.org/web/20160710130259/http://corporate.exxonmobil.com:80/en/company/about-us
+XOM,ExxonMobil,Energy,2017,ok,,corporate.exxonmobil.com/en/company/about-us,2017-06-30,1,23,https://web.archive.org/web/20170630062243/http://corporate.exxonmobil.com/en/company/about-us
+XOM,ExxonMobil,Energy,2018,ok,,corporate.exxonmobil.com/en/company/about-us,2018-07-12,11,16,https://web.archive.org/web/20180712091109/http://corporate.exxonmobil.com:80/en/company/about-us
+XOM,ExxonMobil,Energy,2019,ok,,corporate.exxonmobil.com/en/company/who-we-are,2019-07-18,17,17,https://web.archive.org/web/20190718072626/https://corporate.exxonmobil.com/en/Company/Who-we-are
+XOM,ExxonMobil,Energy,2020,ok,,corporate.exxonmobil.com/en/company/who-we-are,2020-06-19,12,7,https://web.archive.org/web/20200619074133/https://corporate.exxonmobil.com/en/Company/Who-we-are
+XOM,ExxonMobil,Energy,2021,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,
+XOM,ExxonMobil,Energy,2022,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,
+XOM,ExxonMobil,Energy,2023,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,
+XOM,ExxonMobil,Energy,2024,gap,fetch_failed,corporate.exxonmobil.com/en/company/about-us,,,,
