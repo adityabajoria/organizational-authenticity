@@ -4,7 +4,7 @@
 
 I first manually found an About page URL for each of the 50 companies (`companies_final.csv`). Using `01_cdx_coverage.py` (with shared helpers in `wayback.py`), I queried the Wayback Machine CDX API for every archived capture of each page from 2016 to 2024 and recorded the number of usable captures per company-year in `coverage_matrix.csv`.
 
-Many company-years had no usable capture at the original URL, mostly because some companies had moved their About page. For those 8 companies, I searched the archive for their older URLs (`01b_find_historical_urls.py`) and recorded which URL applies in which years in `url_timeline.csv`. I then selected and downloaded one snapshot per company-year (`02_select_and_fetch.py`). In total I collected 334 of 450 snapshots.
+Many company-years had no usable capture at the original URL, mostly because some companies had moved their About page. For those 8 companies, I searched the archive for their older URLs (`01b_find_historical_urls.py`) and recorded which URL applies in which years in `url_timeline.csv`. I then selected and downloaded one snapshot per company-year (`02_select_and_fetch.py`). In total I collected 334 of 450 snapshots. The 116 gaps are: 103 years with no capture, 8 years with no archived URL, and 5 failed downloads; every row's reason is in `gap_reason`.
 
 Next, I extracted the visible body text from each page (`03_extract_text.py`), removing menus, footers, cookie banners, buttons and leftover code. I excluded 35 pages: 34 had fewer than 75 words after cleaning, and 1 was an archived error page. This left 299 usable pages.
 
@@ -38,3 +38,9 @@ Finally, I combined everything into `part1_dataset.csv` (`05_build_dataset.py`):
 - Track URL changes systematically for every company from the start, rather than only after noticing gaps in the coverage matrix.
 - Split long pages into smaller chunks for the LLM instead of cutting them off at 2,000 words.
 - Check Gemini's theme labels against a small hand-coded sample to measure their accuracy.
+
+## Known limitations
+
+- Coverage is uneven over time (17 usable pages in 2016 vs 45 in 2024), so early-year trends rest on fewer companies.
+- Some pages are imperfect stand-ins: NVDA and EOG use careers pages, PSX its homepage, and UNH its subsidiary site (uhc.com).
+- Gemini only reads the first 2,000 words of each page, so long pages (e.g. BRK.B) are partly ignored.
