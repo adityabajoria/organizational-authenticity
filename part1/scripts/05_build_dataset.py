@@ -1,16 +1,12 @@
-import json
-
 import pandas as pd
 
 from wayback import DATA
 
-CACHE = DATA / "llm_cache"
 CLEAN = DATA / "clean_text"
 
 COLUMNS = [
     "ticker", "company_name", "sector", "year", "page_text_clean",
-    "changed_from_prior", "theme_categories", "analyst_notes",
-    "status", "gap_reason", "snapshot_date", "wayback_url", "theme_evidence",
+    "changed_from_prior", "theme_categories", "analyst_notes", "status",
 ]
 
 GAP_NOTES = {
@@ -26,13 +22,6 @@ def load_text(row):
     if row.status != "ok":
         return ""
     return " ".join((CLEAN / row.ticker / f"{row.year}.txt").read_text().split())
-
-
-def load_evidence(row):
-    if row.status != "ok":
-        return ""
-    return json.dumps(json.loads((CACHE / f"{row.ticker}_{row.year}.json").read_text()),
-                      ensure_ascii=False)
 
 
 def label_status(df):
@@ -69,11 +58,10 @@ def main():
     df = label_status(df)
     df["prior_year"] = prior_years(df)
     df["page_text_clean"] = df.apply(load_text, axis=1)
-    df["theme_evidence"] = df.apply(load_evidence, axis=1)
     df["analyst_notes"] = df.apply(fill_notes, axis=1)
-    df["theme_categories"] = df.theme_categories.fillna("")
+    df.loc[(df.status == "ok") & df.prior_year.isna(), "changed_from_prior"] = "FIRST_YEAR"
 
-    df = df[COLUMNS].sort_values(["ticker", "year"])
+    df = df[COLUMNS].replace("", None).fillna("MISSING").sort_values(["ticker", "year"])
     df.to_csv(DATA / "part1_dataset.csv", index=False)
 
     print(f"Saved {len(df)} rows to data/part1_dataset.csv")
