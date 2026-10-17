@@ -1,14 +1,13 @@
 import re
-from pathlib import Path
 
 import pandas as pd
 import trafilatura
 from bs4 import BeautifulSoup
 
-PART1 = Path(__file__).resolve().parent.parent
-DATA = PART1 / "data"
-RAW = DATA / "raw_html"
-CLEAN = DATA / "clean_text"
+from wayback import OUTPUT
+
+RAW = OUTPUT / "raw_html"
+CLEAN = OUTPUT / "clean_text"
 
 MIN_WORDS = 75
 MENU_RUN_MIN = 8
@@ -145,7 +144,7 @@ def extract(html):
 
 
 def main():
-    index = pd.read_csv(DATA / "snapshot_index.csv")
+    index = pd.read_csv(OUTPUT / "snapshot_index.csv")
     rows = []
 
     for snap in index[index.status == "ok"].itertuples():
@@ -160,7 +159,7 @@ def main():
                      "flag_archive_error": bool(ARCHIVE_ERROR.search(text[:500]))})
 
     df = pd.DataFrame(rows)
-    df.to_csv(DATA / "extracted.csv", index=False)
+    df.to_csv(OUTPUT / "extracted.csv", index=False)
     print(f"Extracted {len(df)} snapshots")
     print(f"Too short: {df.flag_too_short.sum()}")
     print(f"Archive error: {df.flag_archive_error.sum()}")

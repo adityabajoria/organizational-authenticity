@@ -1,6 +1,6 @@
 import pandas as pd
 
-from wayback import DATA, YEARS, is_usable, query_cdx
+from wayback import INPUT, OUTPUT, YEARS, is_usable, query_cdx
 
 
 def usable_per_year(captures):
@@ -10,7 +10,7 @@ def usable_per_year(captures):
 
 
 def main():
-    companies = pd.read_csv(DATA / "companies_final.csv")
+    companies = pd.read_csv(INPUT / "companies_final.csv")
     matrix = {}
 
     for i, co in companies.iterrows():
@@ -19,7 +19,7 @@ def main():
 
     matrix = pd.DataFrame.from_dict(matrix, orient="index")
     matrix.index.name = "ticker"
-    matrix.to_csv(DATA / "coverage_matrix.csv")
+    matrix.to_csv(OUTPUT / "coverage_matrix.csv")
 
     covered = (matrix > 0).sum().sum()
     print(f"\nCompany-years with a usable capture: {covered}/{matrix.size} "

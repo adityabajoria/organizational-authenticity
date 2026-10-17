@@ -1,6 +1,6 @@
 import pandas as pd
 
-from wayback import CDX_ENDPOINT, DATA, YEARS, is_usable, polite_get, query_cdx
+from wayback import CDX_ENDPOINT, OUTPUT, YEARS, is_usable, polite_get, query_cdx
 
 KEYWORDS = ("about|mission|values|purpose|philosophy|principles|"
             "who-we-are|company-info|our-company|credo|culture")
@@ -62,7 +62,7 @@ def main():
                 found.append({"ticker": ticker, "prefix": prefix,
                               "candidate_url": c["original"],
                               "first_seen": c["timestamp"][:8]})
-    pd.DataFrame(found).to_csv(DATA / "url_candidates.csv", index=False)
+    pd.DataFrame(found).to_csv(OUTPUT / "url_candidates.csv", index=False)
 
     coverage = []
     for ticker, urls in CANDIDATES.items():
@@ -74,7 +74,7 @@ def main():
                                 if c["timestamp"].startswith(str(year)) and is_usable(c))
             coverage.append(row)
     coverage = pd.DataFrame(coverage)
-    coverage.to_csv(DATA / "url_candidate_coverage.csv", index=False)
+    coverage.to_csv(OUTPUT / "url_candidate_coverage.csv", index=False)
     print(coverage.to_string(index=False))
 
 

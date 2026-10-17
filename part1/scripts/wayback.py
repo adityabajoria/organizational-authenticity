@@ -8,7 +8,10 @@ import requests
 
 PART1 = Path(__file__).resolve().parent.parent
 DATA = PART1 / "data"
-CDX_CACHE = DATA / "cdx_cache"
+INPUT = DATA / "input"
+OUTPUT = DATA / "output"
+FINAL = DATA / "final"
+CDX_CACHE = OUTPUT / "cdx_cache"
 
 CDX_ENDPOINT = "https://web.archive.org/cdx/search/cdx"
 YEARS = list(range(2016, 2025))

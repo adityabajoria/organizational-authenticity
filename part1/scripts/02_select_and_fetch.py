@@ -6,9 +6,9 @@ from urllib.parse import urlparse
 
 import pandas as pd
 
-from wayback import DATA, YEARS, is_usable, polite_get, query_cdx, ts_to_datetime
+from wayback import INPUT, OUTPUT, YEARS, is_usable, polite_get, query_cdx, ts_to_datetime
 
-RAW = DATA / "raw_html"
+RAW = OUTPUT / "raw_html"
 MAX_REDIRECT_HOPS = 5
 REDIRECTS_TO_TRY = 2
 FETCH_ATTEMPTS = 3
@@ -93,8 +93,8 @@ def snapshot_meta(cap, year, n_candidates):
 
 
 def main():
-    companies = pd.read_csv(DATA / "companies_final.csv")
-    timeline = pd.read_csv(DATA / "url_timeline.csv")
+    companies = pd.read_csv(INPUT / "companies_final.csv")
+    timeline = pd.read_csv(INPUT / "url_timeline.csv")
     index = []
 
     for i, co in companies.iterrows():
@@ -169,7 +169,7 @@ def main():
     index = pd.DataFrame(index).reindex(columns=INDEX_COLUMNS).sort_values(["ticker", "year"])
     for col in ["days_from_july1", "n_candidates_in_year"]:
         index[col] = index[col].astype("Int64")
-    index.to_csv(DATA / "snapshot_index.csv", index=False)
+    index.to_csv(OUTPUT / "snapshot_index.csv", index=False)
 
     ok = (index.status == "ok").sum()
     print(f"\nSnapshots collected: {ok}/{len(index)} ({ok / len(index):.0%})")

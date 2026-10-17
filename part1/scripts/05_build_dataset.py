@@ -1,8 +1,8 @@
 import pandas as pd
 
-from wayback import DATA
+from wayback import FINAL, OUTPUT
 
-CLEAN = DATA / "clean_text"
+CLEAN = OUTPUT / "clean_text"
 
 COLUMNS = [
     "ticker", "company_name", "sector", "year", "page_text_clean",
@@ -51,9 +51,9 @@ def fill_notes(row):
 
 
 def main():
-    df = pd.read_csv(DATA / "snapshot_index.csv")
-    df = df.merge(pd.read_csv(DATA / "extracted.csv"), on=["ticker", "year"], how="left")
-    df = df.merge(pd.read_csv(DATA / "llm_results.csv"), on=["ticker", "year"], how="left")
+    df = pd.read_csv(OUTPUT / "snapshot_index.csv")
+    df = df.merge(pd.read_csv(OUTPUT / "extracted.csv"), on=["ticker", "year"], how="left")
+    df = df.merge(pd.read_csv(OUTPUT / "llm_results.csv"), on=["ticker", "year"], how="left")
 
     df = label_status(df)
     df["prior_year"] = prior_years(df)
@@ -62,9 +62,9 @@ def main():
     df.loc[(df.status == "ok") & df.prior_year.isna(), "changed_from_prior"] = "FIRST_YEAR"
 
     df = df[COLUMNS].replace("", None).fillna("MISSING").sort_values(["ticker", "year"])
-    df.to_csv(DATA / "part1_dataset.csv", index=False)
+    df.to_csv(FINAL / "final_dataset.csv", index=False)
 
-    print(f"Saved {len(df)} rows to data/part1_dataset.csv")
+    print(f"Saved {len(df)} rows to data/final/final_dataset.csv")
     print(df.status.value_counts().to_string())
 
 

@@ -7,13 +7,13 @@ import pandas as pd
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-from wayback import DATA, PART1
+from wayback import INPUT, OUTPUT, PART1
 
 MODEL = "gemini-3.5-flash-lite"
 CHANGE_THRESHOLD = 0.98
 MAX_WORDS = 2000
-CACHE = DATA / "llm_cache"
-CLEAN = DATA / "clean_text"
+CACHE = OUTPUT / "llm_cache"
+CLEAN = OUTPUT / "clean_text"
 
 THEMES = {
     "integrity": "Honesty, ethics, transparency, trust, accountability.",
@@ -101,9 +101,9 @@ Return JSON like: {{"2019": "note", "2021": "note"}}
 
 
 def main():
-    df = pd.read_csv(DATA / "extracted.csv")
+    df = pd.read_csv(OUTPUT / "extracted.csv")
     df = df[~df.flag_too_short & ~df.flag_archive_error]
-    df = df.merge(pd.read_csv(DATA / "companies_final.csv")[["ticker", "company_name"]], on="ticker")
+    df = df.merge(pd.read_csv(INPUT / "companies_final.csv")[["ticker", "company_name"]], on="ticker")
     df["page_text_clean"] = [(CLEAN / t / f"{y}.txt").read_text() for t, y in zip(df.ticker, df.year)]
     df = add_change_columns(df)
     print(f"{len(df)} snapshots to analyse")
@@ -120,8 +120,8 @@ def main():
     df["theme_categories"] = themes
     df["analyst_notes"] = notes
     df = df[["ticker", "year", "changed_from_prior", "theme_categories", "analyst_notes"]]
-    df.to_csv(DATA / "llm_results.csv", index=False)
-    print(f"Saved {len(df)} rows to data/llm_results.csv")
+    df.to_csv(OUTPUT / "llm_results.csv", index=False)
+    print(f"Saved {len(df)} rows to data/output/llm_results.csv")
 
 
 main()

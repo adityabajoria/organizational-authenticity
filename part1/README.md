@@ -7,7 +7,7 @@
    - `changed_from_prior`: text similarity below 98% vs the previous usable year (no LLM)
    - `theme_categories`: themes each page expresses, with a supporting quote (saved in `llm_cache/`)
    - `analyst_notes`: one call per company comparing all its years
-5. **Dataset** (`05_build_dataset.py`): `part1_dataset.csv`, 450 rows. Responses are cached in `llm_cache/` for reproducibility.
+5. **Dataset** (`05_build_dataset.py`): `data/final/final_dataset.csv`, 450 rows. Responses are cached in `llm_cache/` for reproducibility.
 
 ## Why
 
