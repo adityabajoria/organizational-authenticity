@@ -1,451 +1,335 @@
-ticker,company_name,sector,year,status,gap_reason,about_url,snapshot_date,days_from_july1,n_candidates_in_year,wayback_url,extraction_method,word_count,flag_too_short,flag_archive_error
-AAPL,Apple,Technology,2016,gap,no_archived_url_for_year,,,,,,,,,
-AAPL,Apple,Technology,2017,gap,no_archived_url_for_year,,,,,,,,,
-AAPL,Apple,Technology,2018,gap,no_archived_url_for_year,,,,,,,,,
-AAPL,Apple,Technology,2019,ok,,investor.apple.com/apple-values/default.aspx,2019-08-17,47.0,3.0,https://web.archive.org/web/20190817134154/https://investor.apple.com/apple-values/default.aspx,trafilatura,17.0,True,False
-AAPL,Apple,Technology,2020,ok,,investor.apple.com/apple-values/default.aspx,2020-06-09,22.0,6.0,https://web.archive.org/web/20200609045855/https://investor.apple.com/apple-values/default.aspx,trafilatura,17.0,True,False
-AAPL,Apple,Technology,2021,gap,no_archived_url_for_year,,,,,,,,,
-AAPL,Apple,Technology,2022,gap,no_archived_url_for_year,,,,,,,,,
-AAPL,Apple,Technology,2023,gap,no_archived_url_for_year,,,,,,,,,
-AAPL,Apple,Technology,2024,ok,,investor.apple.com/our_values/default.aspx,2024-07-21,20.0,12.0,https://web.archive.org/web/20240721115837/https://investor.apple.com/our_values/default.aspx,trafilatura,234.0,False,False
-ABBV,AbbVie,Healthcare,2016,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2017,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2018,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2019,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2020,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2021,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2022,gap,no_captures_in_year,abbvie.com/who-we-are.html,,,,,,,,
-ABBV,AbbVie,Healthcare,2023,ok,,abbvie.com/who-we-are.html,2023-06-14,17.0,20.0,https://web.archive.org/web/20230614135656/https://www.abbvie.com/who-we-are.html,trafilatura,263.0,False,False
-ABBV,AbbVie,Healthcare,2024,ok,,abbvie.com/who-we-are.html,2024-06-20,11.0,18.0,https://web.archive.org/web/20240620175013/https://www.abbvie.com/who-we-are.html,trafilatura,142.0,False,False
-ABT,Abbott Laboratories,Healthcare,2016,ok,,abbott.com/about-abbott.html,2016-07-02,1.0,47.0,https://web.archive.org/web/20160702192741/http://www.abbott.com:80/about-abbott.html,trafilatura,241.0,False,False
-ABT,Abbott Laboratories,Healthcare,2017,ok,,abbott.com/about-abbott.html,2017-07-02,1.0,35.0,https://web.archive.org/web/20170702073816/http://www.abbott.com:80/about-abbott.html,trafilatura,234.0,False,False
-ABT,Abbott Laboratories,Healthcare,2018,ok,,abbott.com/about-abbott.html,2018-07-02,1.0,71.0,https://web.archive.org/web/20180702131800/http://www.abbott.com/about-abbott.html,trafilatura,234.0,False,False
-ABT,Abbott Laboratories,Healthcare,2019,ok,,abbott.com/about-abbott.html,2019-06-10,21.0,24.0,https://web.archive.org/web/20190610194507/https://www.abbott.com/about-abbott.html,trafilatura,233.0,False,False
-ABT,Abbott Laboratories,Healthcare,2020,ok,,abbott.com/about-abbott.html,2020-06-25,6.0,26.0,https://web.archive.org/web/20200625163559/https://www.abbott.com/about-abbott.html,trafilatura,183.0,False,False
-ABT,Abbott Laboratories,Healthcare,2021,ok,,abbott.com/about-abbott.html,2021-06-17,14.0,30.0,https://web.archive.org/web/20210617092724/https://www.abbott.com/about-abbott.html,trafilatura,129.0,False,False
-ABT,Abbott Laboratories,Healthcare,2022,ok,,abbott.com/about-abbott.html,2022-07-04,3.0,20.0,https://web.archive.org/web/20220704093903/http://www.abbott.com/about-abbott.html,rule_based_fallback,355.0,False,False
-ABT,Abbott Laboratories,Healthcare,2023,ok,,abbott.com/about-abbott.html,2023-07-01,0.0,24.0,https://web.archive.org/web/20230701174340/https://www.abbott.com/about-abbott.html,rule_based_fallback,355.0,False,False
-ABT,Abbott Laboratories,Healthcare,2024,ok,,abbott.com/about-abbott.html,2024-07-05,4.0,30.0,https://web.archive.org/web/20240705075929/https://www.abbott.com/about-abbott.html,trafilatura,219.0,False,False
-AMZN,Amazon,Consumer Discretionary,2016,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,,,,
-AMZN,Amazon,Consumer Discretionary,2017,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,,,,
-AMZN,Amazon,Consumer Discretionary,2018,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,,,,
-AMZN,Amazon,Consumer Discretionary,2019,gap,no_captures_in_year,aboutamazon.com/about-us,,,,,,,,
-AMZN,Amazon,Consumer Discretionary,2020,ok,,aboutamazon.com/about-us,2020-11-24,146.0,4.0,https://web.archive.org/web/20201124040148/https://www.aboutamazon.com/about-us,trafilatura,218.0,False,False
-AMZN,Amazon,Consumer Discretionary,2021,ok,,aboutamazon.com/about-us,2021-07-03,2.0,50.0,https://web.archive.org/web/20210703223852/https://www.aboutamazon.com/about-us,trafilatura,227.0,False,False
-AMZN,Amazon,Consumer Discretionary,2022,ok,,aboutamazon.com/about-us,2022-07-01,0.0,74.0,https://web.archive.org/web/20220701195656/https://www.aboutamazon.com/about-us,trafilatura,126.0,False,False
-AMZN,Amazon,Consumer Discretionary,2023,ok,,aboutamazon.com/about-us,2023-07-01,0.0,61.0,https://web.archive.org/web/20230701061232/https://www.aboutamazon.com/about-us,rule_based_fallback,460.0,False,False
-AMZN,Amazon,Consumer Discretionary,2024,ok,,aboutamazon.com/about-us,2024-07-03,2.0,96.0,https://web.archive.org/web/20240703063930/https://www.aboutamazon.com/about-us,rule_based_fallback,477.0,False,False
-AVGO,Broadcom,Technology,2016,gap,no_captures_in_year,broadcom.com/company/about-us,,,,,,,,
-AVGO,Broadcom,Technology,2017,ok,,broadcom.com/company/about-us,2017-07-12,11.0,4.0,https://web.archive.org/web/20170712084805/https://www.broadcom.com/company/about-us/,trafilatura,116.0,False,False
-AVGO,Broadcom,Technology,2018,ok,,broadcom.com/company/about-us,2018-05-18,44.0,8.0,https://web.archive.org/web/20180518235442/https://www.broadcom.com/company/about-us/,trafilatura,116.0,False,False
-AVGO,Broadcom,Technology,2019,ok,,broadcom.com/company/about-us,2019-07-20,19.0,19.0,https://web.archive.org/web/20190720025241/https://www.broadcom.com/company/about-us,trafilatura,0.0,True,False
-AVGO,Broadcom,Technology,2020,ok,,broadcom.com/company/about-us,2020-06-29,2.0,97.0,https://web.archive.org/web/20200629180821/https://www.broadcom.com/company/about-us,trafilatura,0.0,True,False
-AVGO,Broadcom,Technology,2021,ok,,broadcom.com/company/about-us,2021-06-28,3.0,95.0,https://web.archive.org/web/20210628062150/https://www.broadcom.com/company/about-us,trafilatura,0.0,True,False
-AVGO,Broadcom,Technology,2022,ok,,broadcom.com/company/about-us,2022-07-01,0.0,110.0,https://web.archive.org/web/20220701113022/https://www.broadcom.com/company/about-us,trafilatura,0.0,True,False
-AVGO,Broadcom,Technology,2023,ok,,broadcom.com/company/about-us,2023-06-07,24.0,21.0,https://web.archive.org/web/20230607094113/https://www.broadcom.com/company/about-us,trafilatura,0.0,True,False
-AVGO,Broadcom,Technology,2024,ok,,broadcom.com/company/about-us,2024-07-02,1.0,56.0,https://web.archive.org/web/20240702010308/https://www.broadcom.com/company/about-us,trafilatura,0.0,True,False
-AXP,American Express,Financials,2016,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2017,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2018,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2019,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2020,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2021,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2022,gap,no_captures_in_year,americanexpress.com/en-us/company/who-we-are,,,,,,,,
-AXP,American Express,Financials,2023,ok,,americanexpress.com/en-us/company/who-we-are,2023-06-09,22.0,9.0,https://web.archive.org/web/20230609192334/https://www.americanexpress.com/en-us/company/who-we-are/,trafilatura,1101.0,False,False
-AXP,American Express,Financials,2024,ok,,americanexpress.com/en-us/company/who-we-are,2024-07-18,17.0,44.0,https://web.archive.org/web/20240718065711/https://www.americanexpress.com/en-us/company/who-we-are/,trafilatura,754.0,False,False
-BAC,Bank of America,Financials,2016,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,,,,
-BAC,Bank of America,Financials,2017,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,,,,
-BAC,Bank of America,Financials,2018,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,,,,
-BAC,Bank of America,Financials,2019,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,,,,
-BAC,Bank of America,Financials,2020,gap,no_captures_in_year,about.bankofamerica.com/en/our-company,,,,,,,,
-BAC,Bank of America,Financials,2021,ok,,about.bankofamerica.com/en/our-company,2021-06-17,14.0,19.0,https://web.archive.org/web/20210617043743/https://about.bankofamerica.com/en/our-company,trafilatura,472.0,False,False
-BAC,Bank of America,Financials,2022,ok,,about.bankofamerica.com/en/our-company,2022-06-27,4.0,27.0,https://web.archive.org/web/20220627204250/https://about.bankofamerica.com/en/our-company,trafilatura,472.0,False,False
-BAC,Bank of America,Financials,2023,ok,,about.bankofamerica.com/en/our-company,2023-06-08,23.0,10.0,https://web.archive.org/web/20230608213341/https://about.bankofamerica.com/en/our-company,trafilatura,472.0,False,False
-BAC,Bank of America,Financials,2024,ok,,about.bankofamerica.com/en/our-company,2024-07-07,6.0,21.0,https://web.archive.org/web/20240707164049/https://about.bankofamerica.com/en/our-company,trafilatura,96.0,False,False
-BLK,BlackRock,Financials,2016,gap,no_captures_in_year,blackrock.com/corporate/about-us/mission-and-principles,,,,,,,,
-BLK,BlackRock,Financials,2017,gap,no_captures_in_year,blackrock.com/corporate/about-us/mission-and-principles,,,,,,,,
-BLK,BlackRock,Financials,2018,ok,,blackrock.com/corporate/about-us/mission-and-principles,2018-09-23,84.0,4.0,https://web.archive.org/web/20180923091354/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,264.0,False,False
-BLK,BlackRock,Financials,2019,ok,,blackrock.com/corporate/about-us/mission-and-principles,2019-07-21,20.0,6.0,https://web.archive.org/web/20190721172849/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,126.0,False,False
-BLK,BlackRock,Financials,2020,ok,,blackrock.com/corporate/about-us/mission-and-principles,2020-06-30,1.0,82.0,https://web.archive.org/web/20200630174455/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,215.0,False,False
-BLK,BlackRock,Financials,2021,ok,,blackrock.com/corporate/about-us/mission-and-principles,2021-07-11,10.0,19.0,https://web.archive.org/web/20210711083758/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,473.0,False,False
-BLK,BlackRock,Financials,2022,ok,,blackrock.com/corporate/about-us/mission-and-principles,2022-06-29,2.0,17.0,https://web.archive.org/web/20220629113820/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,473.0,False,False
-BLK,BlackRock,Financials,2023,ok,,blackrock.com/corporate/about-us/mission-and-principles,2023-07-09,8.0,15.0,https://web.archive.org/web/20230709132346/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,473.0,False,False
-BLK,BlackRock,Financials,2024,ok,,blackrock.com/corporate/about-us/mission-and-principles,2024-07-19,18.0,11.0,https://web.archive.org/web/20240719101027/https://www.blackrock.com/corporate/about-us/mission-and-principles,trafilatura,138.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2016,gap,no_captures_in_year,bms.com/about-us.html,,,,,,,,
-BMY,Bristol-Myers Squibb,Healthcare,2017,ok,,bms.com/about-us.html,2017-06-06,25.0,3.0,https://web.archive.org/web/20170606231506/https://www.bms.com/about-us.html,trafilatura,180.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2018,ok,,bms.com/about-us.html,2018-06-28,3.0,7.0,https://web.archive.org/web/20180628075820/http://www.bms.com/about-us.html,trafilatura,180.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2019,ok,,bms.com/about-us.html,2019-07-30,29.0,15.0,https://web.archive.org/web/20190730184845/https://www.bms.com/about-us.html,trafilatura,223.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2020,ok,,bms.com/about-us.html,2020-06-30,1.0,25.0,https://web.archive.org/web/20200630211129/https://www.bms.com/about-us.html,trafilatura,433.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2021,ok,,bms.com/about-us.html,2021-07-12,11.0,64.0,https://web.archive.org/web/20210712091849/https://www.bms.com/about-us.html,trafilatura,414.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2022,ok,,bms.com/about-us.html,2022-07-07,6.0,36.0,https://web.archive.org/web/20220707115313/https://www.bms.com/about-us.html,trafilatura,414.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2023,ok,,bms.com/about-us.html,2023-07-01,0.0,40.0,https://web.archive.org/web/20230701233652/https://www.bms.com/about-us.html,trafilatura,315.0,False,False
-BMY,Bristol-Myers Squibb,Healthcare,2024,ok,,bms.com/about-us.html,2024-07-03,2.0,41.0,https://web.archive.org/web/20240703222208/https://www.bms.com/about-us.html,trafilatura,315.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2016,ok,,berkshirehathaway.com/owners.html,2016-07-01,0.0,14.0,https://web.archive.org/web/20160701170333/http://www.berkshirehathaway.com/owners.html,trafilatura,5815.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2017,ok,,berkshirehathaway.com/owners.html,2017-07-08,7.0,13.0,https://web.archive.org/web/20170708092135/http://www.berkshirehathaway.com:80/owners.html,trafilatura,5815.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2018,ok,,berkshirehathaway.com/owners.html,2018-07-01,0.0,57.0,https://web.archive.org/web/20180701022314/http://www.berkshirehathaway.com/owners.html,trafilatura,5815.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2019,ok,,berkshirehathaway.com/owners.html,2019-07-02,1.0,28.0,https://web.archive.org/web/20190702152642/http://www.berkshirehathaway.com:80/owners.html,trafilatura,1154.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2020,ok,,berkshirehathaway.com/owners.html,2020-05-29,33.0,3.0,https://web.archive.org/web/20200529164503/https://www.berkshirehathaway.com/owners.html,trafilatura,1154.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2021,ok,,berkshirehathaway.com/owners.html,2021-07-07,6.0,8.0,https://web.archive.org/web/20210707142128/https://www.berkshirehathaway.com/owners.html,trafilatura,1154.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2022,ok,,berkshirehathaway.com/owners.html,2022-08-12,42.0,8.0,https://web.archive.org/web/20220812185231/http://www.berkshirehathaway.com/owners.html,rule_based_fallback,5896.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2023,ok,,berkshirehathaway.com/owners.html,2023-06-27,4.0,8.0,https://web.archive.org/web/20230627084621/https://www.berkshirehathaway.com/owners.html,rule_based_fallback,5896.0,False,False
-BRK.B,Berkshire Hathaway,Financials,2024,ok,,berkshirehathaway.com/owners.html,2024-05-29,33.0,6.0,https://web.archive.org/web/20240529152613/https://www.berkshirehathaway.com/owners.html,rule_based_fallback,5896.0,False,False
-C,Citigroup,Financials,2016,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2017,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2018,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2019,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2020,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2021,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2022,gap,no_captures_in_year,citigroup.com/global/about-us,,,,,,,,
-C,Citigroup,Financials,2023,ok,,citigroup.com/global/about-us,2023-07-22,21.0,22.0,https://web.archive.org/web/20230722101707/https://www.citigroup.com/global/about-us,trafilatura,258.0,False,False
-C,Citigroup,Financials,2024,ok,,citigroup.com/global/about-us,2024-07-02,1.0,40.0,https://web.archive.org/web/20240702093443/https://www.citigroup.com/global/about-us,trafilatura,187.0,False,False
-COP,ConocoPhillips,Energy,2016,gap,no_captures_in_year,conocophillips.com/about-us/,,,,,,,,
-COP,ConocoPhillips,Energy,2017,ok,,conocophillips.com/about-us/,2017-12-04,156.0,3.0,https://web.archive.org/web/20171204023000/http://www.conocophillips.com:80/about-us/,trafilatura,102.0,False,False
-COP,ConocoPhillips,Energy,2018,ok,,conocophillips.com/about-us/,2018-06-25,6.0,10.0,https://web.archive.org/web/20180625204927/http://www.conocophillips.com/about-us/,trafilatura,101.0,False,False
-COP,ConocoPhillips,Energy,2019,ok,,conocophillips.com/about-us/,2019-06-20,11.0,13.0,https://web.archive.org/web/20190620164530/http://www.conocophillips.com/about-us/,trafilatura,101.0,False,False
-COP,ConocoPhillips,Energy,2020,ok,,conocophillips.com/about-us/,2020-06-27,4.0,12.0,https://web.archive.org/web/20200627113744/http://www.conocophillips.com:80/about-us/,trafilatura,136.0,False,False
-COP,ConocoPhillips,Energy,2021,ok,,conocophillips.com/about-us/,2021-05-11,51.0,14.0,https://web.archive.org/web/20210511065250/https://www.conocophillips.com/about-us/,trafilatura,136.0,False,False
-COP,ConocoPhillips,Energy,2022,ok,,conocophillips.com/about-us/,2022-05-22,40.0,6.0,https://web.archive.org/web/20220522113959/https://www.conocophillips.com/about-us/,trafilatura,155.0,False,False
-COP,ConocoPhillips,Energy,2023,ok,,conocophillips.com/about-us/,2023-07-03,2.0,14.0,https://web.archive.org/web/20230703160512/https://www.conocophillips.com/about-us/,trafilatura,78.0,False,False
-COP,ConocoPhillips,Energy,2024,ok,,conocophillips.com/about-us/,2024-07-03,2.0,18.0,https://web.archive.org/web/20240703093500/https://www.conocophillips.com/about-us/,trafilatura,78.0,False,False
-CRM,Salesforce,Technology,2016,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2017,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2018,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2019,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2020,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2021,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2022,gap,no_captures_in_year,salesforce.com/company/our-values/,,,,,,,,
-CRM,Salesforce,Technology,2023,ok,,salesforce.com/company/our-values/,2023-07-14,13.0,82.0,https://web.archive.org/web/20230714063305/https://www.salesforce.com/company/our-values/,trafilatura,62.0,True,False
-CRM,Salesforce,Technology,2024,ok,,salesforce.com/company/our-values/,2024-07-01,0.0,234.0,https://web.archive.org/web/20240701044750/https://www.salesforce.com/company/our-values/,trafilatura,62.0,True,False
-CVX,Chevron,Energy,2016,ok,,chevron.com/about/the-chevron-way,2016-06-20,11.0,6.0,https://web.archive.org/web/20160620191413/https://www.chevron.com/about/the-chevron-way,trafilatura,541.0,False,False
-CVX,Chevron,Energy,2017,ok,,chevron.com/about/the-chevron-way,2017-07-11,10.0,10.0,https://web.archive.org/web/20170711194421/https://www.chevron.com/about/the-chevron-way,trafilatura,429.0,False,False
-CVX,Chevron,Energy,2018,ok,,chevron.com/about/the-chevron-way,2018-07-01,0.0,12.0,https://web.archive.org/web/20180701051628/https://www.chevron.com/about/the-chevron-way,trafilatura,394.0,False,False
-CVX,Chevron,Energy,2019,ok,,chevron.com/about/the-chevron-way,2019-07-14,13.0,11.0,https://web.archive.org/web/20190714085805/https://www.chevron.com/about/the-chevron-way,trafilatura,394.0,False,False
-CVX,Chevron,Energy,2020,ok,,chevron.com/about/the-chevron-way,2020-06-26,5.0,17.0,https://web.archive.org/web/20200626003521/https://www.chevron.com/about/the-chevron-way,rule_based_fallback,200.0,False,False
-CVX,Chevron,Energy,2021,ok,,chevron.com/about/the-chevron-way,2021-07-30,29.0,16.0,https://web.archive.org/web/20210730084241/https://www.chevron.com/about/the-chevron-way,trafilatura,101.0,False,False
-CVX,Chevron,Energy,2022,ok,,chevron.com/about/the-chevron-way,2022-06-09,22.0,15.0,https://web.archive.org/web/20220609091646/https://www.chevron.com/about/the-chevron-way,trafilatura,190.0,False,False
-CVX,Chevron,Energy,2023,ok,,chevron.com/about/the-chevron-way,2023-07-02,1.0,20.0,https://web.archive.org/web/20230702054814/https://www.chevron.com/about/the-chevron-way,trafilatura,191.0,False,False
-CVX,Chevron,Energy,2024,ok,,chevron.com/about/the-chevron-way,2024-07-13,12.0,1.0,https://web.archive.org/web/20240713153505/https://www.chevron.com/about/the-chevron-way,trafilatura,133.0,False,False
-EOG,EOG Resources,Energy,2016,gap,no_archived_url_for_year,,,,,,,,,
-EOG,EOG Resources,Energy,2017,gap,no_archived_url_for_year,,,,,,,,,
-EOG,EOG Resources,Energy,2018,ok,,eogresources.com/company,2018-10-30,121.0,1.0,https://web.archive.org/web/20181030195241/http://www.eogresources.com:80/company/,rule_based_fallback,15.0,True,False
-EOG,EOG Resources,Energy,2019,ok,,eogresources.com/company,2019-08-25,55.0,4.0,https://web.archive.org/web/20190825203420/https://www.eogresources.com/company/,rule_based_fallback,15.0,True,False
-EOG,EOG Resources,Energy,2020,ok,,eogresources.com/company,2020-06-03,28.0,5.0,https://web.archive.org/web/20200603115016/https://www.eogresources.com/company/,rule_based_fallback,15.0,True,False
-EOG,EOG Resources,Energy,2021,ok,,eogresources.com/company,2021-07-26,25.0,16.0,https://web.archive.org/web/20210726022247/https://www.eogresources.com/company,rule_based_fallback,14.0,True,False
-EOG,EOG Resources,Energy,2022,ok,,eogresources.com/company,2022-06-30,1.0,21.0,https://web.archive.org/web/20220630192300/https://www.eogresources.com/company,rule_based_fallback,14.0,True,False
-EOG,EOG Resources,Energy,2023,ok,,eogresources.com/company,2023-06-27,4.0,12.0,https://web.archive.org/web/20230627224203/https://www.eogresources.com/company,rule_based_fallback,16.0,True,False
-EOG,EOG Resources,Energy,2024,ok,,eogresources.com/company,2024-06-14,17.0,13.0,https://web.archive.org/web/20240614130417/https://www.eogresources.com/company/,rule_based_fallback,16.0,True,False
-F,Ford Motor,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,,,,
-F,Ford Motor,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,,,,
-F,Ford Motor,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,,,,
-F,Ford Motor,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.ford.com/about.html,,,,,,,,
-F,Ford Motor,Consumer Discretionary,2020,ok,,corporate.ford.com/about.html,2020-07-26,25.0,7.0,https://web.archive.org/web/20200726092803/https://corporate.ford.com/about.html,trafilatura,175.0,False,False
-F,Ford Motor,Consumer Discretionary,2021,ok,,corporate.ford.com/about.html,2021-06-07,24.0,17.0,https://web.archive.org/web/20210607050942/https://corporate.ford.com/about.html,trafilatura,259.0,False,False
-F,Ford Motor,Consumer Discretionary,2022,ok,,corporate.ford.com/about.html,2022-06-24,7.0,18.0,https://web.archive.org/web/20220624050146/https://corporate.ford.com/about.html,rule_based_fallback,269.0,False,False
-F,Ford Motor,Consumer Discretionary,2023,ok,,corporate.ford.com/about.html,2023-07-25,24.0,22.0,https://web.archive.org/web/20230725034918/https://corporate.ford.com/about.html,rule_based_fallback,216.0,False,False
-F,Ford Motor,Consumer Discretionary,2024,ok,,corporate.ford.com/about.html,2024-06-25,6.0,23.0,https://web.archive.org/web/20240625224035/https://corporate.ford.com/about.html,trafilatura,75.0,False,False
-GOOGL,Alphabet,Technology,2016,gap,no_captures_in_year,google.com/about/philosophy.html,,,,,,,,
-GOOGL,Alphabet,Technology,2017,ok,,google.com/about/philosophy.html,2017-08-29,59.0,8.0,https://web.archive.org/web/20170829214250/https://www.google.com/about/philosophy.html,trafilatura,1621.0,False,False
-GOOGL,Alphabet,Technology,2018,ok,,google.com/about/philosophy.html,2018-07-10,9.0,44.0,https://web.archive.org/web/20180710104223/http://www.google.com:80/about/philosophy.html,trafilatura,1621.0,False,False
-GOOGL,Alphabet,Technology,2019,ok,,google.com/about/philosophy.html,2019-06-30,1.0,79.0,https://web.archive.org/web/20190630020842/https://www.google.com/about/philosophy.html,trafilatura,1621.0,False,False
-GOOGL,Alphabet,Technology,2020,ok,,google.com/about/philosophy.html,2020-07-01,0.0,142.0,https://web.archive.org/web/20200701093457/https://www.google.com/about/philosophy.html,rule_based_fallback,1625.0,False,False
-GOOGL,Alphabet,Technology,2021,ok,,about.google/philosophy,2021-06-30,1.0,155.0,https://web.archive.org/web/20210630015825/https://about.google/philosophy/,rule_based_fallback,1621.0,False,False
-GOOGL,Alphabet,Technology,2022,ok,,about.google/philosophy,2022-07-01,0.0,351.0,https://web.archive.org/web/20220701124058/https://about.google/philosophy/,rule_based_fallback,1621.0,False,False
-GOOGL,Alphabet,Technology,2023,ok,,about.google/philosophy,2023-07-02,1.0,333.0,https://web.archive.org/web/20230702114951/https://about.google/philosophy/,trafilatura,580.0,False,False
-GOOGL,Alphabet,Technology,2024,ok,,about.google/philosophy,2024-06-30,1.0,292.0,https://web.archive.org/web/20240630214057/https://about.google/philosophy/,trafilatura,674.0,False,False
-GS,Goldman Sachs,Financials,2016,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2016-07-10,9.0,14.0,https://web.archive.org/web/20160710104933/http://www.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html,trafilatura,626.0,False,False
-GS,Goldman Sachs,Financials,2017,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2017-07-03,2.0,20.0,https://web.archive.org/web/20170703162309/http://www.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html,trafilatura,626.0,False,False
-GS,Goldman Sachs,Financials,2018,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2018-07-09,8.0,15.0,https://web.archive.org/web/20180709094348/http://www2.goldmansachs.com:80/who-we-are/business-standards/business-principles/index.html,trafilatura,626.0,False,False
-GS,Goldman Sachs,Financials,2019,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2019-04-03,89.0,2.0,https://web.archive.org/web/20190403072818/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html,trafilatura,144.0,False,False
-GS,Goldman Sachs,Financials,2020,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2020-06-11,20.0,2.0,https://web.archive.org/web/20200611215030/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html,trafilatura,144.0,False,False
-GS,Goldman Sachs,Financials,2021,gap,no_captures_in_year,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,,,,,,,,
-GS,Goldman Sachs,Financials,2022,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2022-03-22,101.0,1.0,https://web.archive.org/web/20220322202856/http://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html,trafilatura,144.0,False,False
-GS,Goldman Sachs,Financials,2023,ok,,goldmansachs.com/who-we-are/business-standards/business-principles/index.html,2023-10-08,99.0,1.0,https://web.archive.org/web/20231008103712/https://www.goldmansachs.com/who-we-are/business-standards/business-principles/index.html,trafilatura,1654.0,False,False
-GS,Goldman Sachs,Financials,2024,ok,,goldmansachs.com/our-firm/purpose-and-values,2024-08-01,31.0,15.0,https://web.archive.org/web/20240801104404/https://www.goldmansachs.com/our-firm/purpose-and-values,trafilatura,280.0,False,False
-HAL,Halliburton,Energy,2016,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,,,,
-HAL,Halliburton,Energy,2017,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,,,,
-HAL,Halliburton,Energy,2018,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,,,,
-HAL,Halliburton,Energy,2019,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,,,,
-HAL,Halliburton,Energy,2020,gap,no_captures_in_year,halliburton.com/en/about-us,,,,,,,,
-HAL,Halliburton,Energy,2021,ok,,halliburton.com/en/about-us,2021-06-19,12.0,13.0,https://web.archive.org/web/20210619184439/https://www.halliburton.com/en/about-us,trafilatura,435.0,False,False
-HAL,Halliburton,Energy,2022,ok,,halliburton.com/en/about-us,2022-07-06,5.0,11.0,https://web.archive.org/web/20220706043557/https://www.halliburton.com/en/about-us,trafilatura,351.0,False,False
-HAL,Halliburton,Energy,2023,ok,,halliburton.com/en/about-us,2023-07-02,1.0,19.0,https://web.archive.org/web/20230702071747/http://www.halliburton.com/en/about-us,trafilatura,356.0,False,False
-HAL,Halliburton,Energy,2024,ok,,halliburton.com/en/about-us,2024-07-01,0.0,22.0,https://web.archive.org/web/20240701173643/https://www.halliburton.com/en/about-us,trafilatura,251.0,False,False
-HD,Home Depot,Consumer Discretionary,2016,ok,,corporate.homedepot.com/about,2016-06-21,10.0,5.0,https://web.archive.org/web/20160621072235/http://corporate.homedepot.com:80/about,trafilatura,355.0,False,False
-HD,Home Depot,Consumer Discretionary,2017,ok,,corporate.homedepot.com/about,2017-06-06,25.0,7.0,https://web.archive.org/web/20170606013334/http://corporate.homedepot.com/about,trafilatura,355.0,False,False
-HD,Home Depot,Consumer Discretionary,2018,ok,,corporate.homedepot.com/about,2018-08-19,49.0,2.0,https://web.archive.org/web/20180819185938/http://corporate.homedepot.com/about,trafilatura,355.0,False,False
-HD,Home Depot,Consumer Discretionary,2019,ok,,corporate.homedepot.com/about,2019-07-08,7.0,9.0,https://web.archive.org/web/20190708210521/https://corporate.homedepot.com/about,trafilatura,102.0,False,False
-HD,Home Depot,Consumer Discretionary,2020,ok,,corporate.homedepot.com/about,2020-07-09,8.0,18.0,https://web.archive.org/web/20200709093400/https://corporate.homedepot.com/about,trafilatura,102.0,False,False
-HD,Home Depot,Consumer Discretionary,2021,ok,,corporate.homedepot.com/about,2021-07-05,4.0,32.0,https://web.archive.org/web/20210705003348/https://corporate.homedepot.com/about,trafilatura,180.0,False,False
-HD,Home Depot,Consumer Discretionary,2022,ok,,corporate.homedepot.com/about,2022-07-14,13.0,12.0,https://web.archive.org/web/20220714204536/https://corporate.homedepot.com/about,trafilatura,207.0,False,False
-HD,Home Depot,Consumer Discretionary,2023,ok,,corporate.homedepot.com/about,2023-06-11,20.0,0.0,https://web.archive.org/web/20230611062745/https://corporate.homedepot.com/page/about-us,trafilatura,268.0,False,False
-HD,Home Depot,Consumer Discretionary,2024,ok,,corporate.homedepot.com/about,2024-01-18,165.0,1.0,https://web.archive.org/web/20240118070259/https://corporate.homedepot.com/about,trafilatura,268.0,False,False
-IBM,IBM,Technology,2016,gap,fetch_failed,ibm.com/about,,,,,,,,
-IBM,IBM,Technology,2017,gap,no_captures_in_year,ibm.com/about,,,,,,,,
-IBM,IBM,Technology,2018,ok,,ibm.com/about,2018-07-19,18.0,0.0,https://web.archive.org/web/20180719044134/https://www.ibm.com/ibm/us/en/,trafilatura,158.0,False,False
-IBM,IBM,Technology,2019,gap,no_captures_in_year,ibm.com/about,,,,,,,,
-IBM,IBM,Technology,2020,ok,,ibm.com/about,2020-11-17,139.0,15.0,https://web.archive.org/web/20201117025607/https://www.ibm.com/about,trafilatura,812.0,False,False
-IBM,IBM,Technology,2021,ok,,ibm.com/about,2021-06-23,8.0,94.0,https://web.archive.org/web/20210623191025/https://www.ibm.com/about,trafilatura,958.0,False,False
-IBM,IBM,Technology,2022,ok,,ibm.com/about,2022-07-01,0.0,204.0,https://web.archive.org/web/20220701045856/https://www.ibm.com/about,trafilatura,642.0,False,False
-IBM,IBM,Technology,2023,ok,,ibm.com/about,2023-07-01,0.0,354.0,https://web.archive.org/web/20230701143144/https://www.ibm.com/about,trafilatura,135.0,False,False
-IBM,IBM,Technology,2024,ok,,ibm.com/about,2024-07-01,0.0,337.0,https://web.archive.org/web/20240701011020/https://www.ibm.com/about,trafilatura,166.0,False,False
-INTC,Intel,Technology,2016,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2016-07-04,3.0,103.0,https://web.archive.org/web/20160704145202/http://www.intel.com:80/content/www/us/en/company-overview/company-overview.html,trafilatura,141.0,False,False
-INTC,Intel,Technology,2017,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2017-06-10,21.0,40.0,https://web.archive.org/web/20170610051611/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,161.0,False,False
-INTC,Intel,Technology,2018,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2018-07-02,1.0,81.0,https://web.archive.org/web/20180702100629/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,106.0,False,False
-INTC,Intel,Technology,2019,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2019-06-30,1.0,136.0,https://web.archive.org/web/20190630002741/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,99.0,False,False
-INTC,Intel,Technology,2020,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2020-06-30,1.0,129.0,https://web.archive.org/web/20200630025443/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,335.0,False,False
-INTC,Intel,Technology,2021,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2021-07-02,1.0,144.0,https://web.archive.org/web/20210702064504/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,524.0,False,False
-INTC,Intel,Technology,2022,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2022-07-01,0.0,138.0,https://web.archive.org/web/20220701210341/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,606.0,False,False
-INTC,Intel,Technology,2023,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2023-07-01,0.0,104.0,https://web.archive.org/web/20230701084347/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,1287.0,False,False
-INTC,Intel,Technology,2024,ok,,intel.com/content/www/us/en/company-overview/company-overview.html,2024-07-01,0.0,117.0,https://web.archive.org/web/20240701141513/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,trafilatura,1285.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2016,gap,no_captures_in_year,jnj.com/credo,,,,,,,,
-JNJ,Johnson & Johnson,Healthcare,2017,gap,no_captures_in_year,jnj.com/credo,,,,,,,,
-JNJ,Johnson & Johnson,Healthcare,2018,ok,,jnj.com/credo,2018-06-23,8.0,14.0,https://web.archive.org/web/20180623052322/https://www.jnj.com/credo/,trafilatura,310.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2019,ok,,jnj.com/credo,2019-07-19,18.0,25.0,https://web.archive.org/web/20190719090120/https://www.jnj.com/credo/,trafilatura,344.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2020,ok,,jnj.com/credo,2020-06-24,7.0,43.0,https://web.archive.org/web/20200624155919/https://www.jnj.com/credo/,trafilatura,344.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2021,ok,,jnj.com/credo,2021-06-30,1.0,66.0,https://web.archive.org/web/20210630202000/https://www.jnj.com/credo/,trafilatura,342.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2022,ok,,jnj.com/credo,2022-07-16,15.0,53.0,https://web.archive.org/web/20220716203840/https://www.jnj.com/credo/,trafilatura,342.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2023,ok,,jnj.com/credo,2023-07-08,7.0,19.0,https://web.archive.org/web/20230708104059/https://www.jnj.com/credo/,trafilatura,342.0,False,False
-JNJ,Johnson & Johnson,Healthcare,2024,ok,,jnj.com/credo,2024-07-10,9.0,3.0,https://web.archive.org/web/20240710000032/https://www.jnj.com/credo/,trafilatura,342.0,False,False
-JPM,JPMorgan Chase,Financials,2016,gap,no_captures_in_year,jpmorganchase.com/about,,,,,,,,
-JPM,JPMorgan Chase,Financials,2017,gap,no_captures_in_year,jpmorganchase.com/about,,,,,,,,
-JPM,JPMorgan Chase,Financials,2018,gap,no_captures_in_year,jpmorganchase.com/about,,,,,,,,
-JPM,JPMorgan Chase,Financials,2019,gap,no_captures_in_year,jpmorganchase.com/about,,,,,,,,
-JPM,JPMorgan Chase,Financials,2020,ok,,jpmorganchase.com/about,2020-10-24,115.0,12.0,https://web.archive.org/web/20201024170002/https://www.jpmorganchase.com/about,trafilatura,156.0,False,False
-JPM,JPMorgan Chase,Financials,2021,ok,,jpmorganchase.com/about,2021-06-21,10.0,37.0,https://web.archive.org/web/20210621074724/https://www.jpmorganchase.com/about,trafilatura,160.0,False,False
-JPM,JPMorgan Chase,Financials,2022,ok,,jpmorganchase.com/about,2022-06-30,1.0,30.0,https://web.archive.org/web/20220630124911/https://www.jpmorganchase.com/about,trafilatura,160.0,False,False
-JPM,JPMorgan Chase,Financials,2023,ok,,jpmorganchase.com/about,2023-07-01,0.0,158.0,https://web.archive.org/web/20230701133252/https://www.jpmorganchase.com/about,rule_based_fallback,333.0,False,False
-JPM,JPMorgan Chase,Financials,2024,ok,,jpmorganchase.com/about,2024-07-03,2.0,177.0,https://web.archive.org/web/20240703154138/https://www.jpmorganchase.com/about,trafilatura,132.0,False,False
-LLY,Eli Lilly,Healthcare,2016,ok,,lilly.com/about,2016-06-03,28.0,3.0,https://web.archive.org/web/20160603104854/https://www.lilly.com/about/,trafilatura,167.0,False,False
-LLY,Eli Lilly,Healthcare,2017,ok,,lilly.com/about,2017-06-06,25.0,3.0,https://web.archive.org/web/20170606104256/http://lilly.com/about,trafilatura,246.0,False,False
-LLY,Eli Lilly,Healthcare,2018,gap,no_captures_in_year,lilly.com/about,,,,,,,,
-LLY,Eli Lilly,Healthcare,2019,ok,,lilly.com/about,2019-02-20,131.0,1.0,https://web.archive.org/web/20190220162128/http://lilly.com/about,trafilatura,246.0,False,False
-LLY,Eli Lilly,Healthcare,2020,ok,,lilly.com/about,2020-07-17,16.0,0.0,https://web.archive.org/web/20200717052334/http://www.lilly.com/who-we-are/about-lilly,trafilatura,298.0,False,False
-LLY,Eli Lilly,Healthcare,2021,gap,no_captures_in_year,lilly.com/about,,,,,,,,
-LLY,Eli Lilly,Healthcare,2022,ok,,lilly.com/about,2022-06-12,19.0,1.0,https://web.archive.org/web/20220612095748/https://www.lilly.com/About/,trafilatura,1.0,True,False
-LLY,Eli Lilly,Healthcare,2023,gap,no_captures_in_year,lilly.com/about,,,,,,,,
-LLY,Eli Lilly,Healthcare,2024,ok,,lilly.com/about,2024-06-17,14.0,0.0,https://web.archive.org/web/20240617225035/https://www.lilly.com/who-we-are/about-lilly,trafilatura,469.0,False,False
-LOW,Lowe's,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,,,,
-LOW,Lowe's,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,,,,
-LOW,Lowe's,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,,,,
-LOW,Lowe's,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.lowes.com/who-we-are,,,,,,,,
-LOW,Lowe's,Consumer Discretionary,2020,ok,,corporate.lowes.com/who-we-are,2020-10-01,92.0,6.0,https://web.archive.org/web/20201001030214/https://corporate.lowes.com/who-we-are,trafilatura,173.0,False,False
-LOW,Lowe's,Consumer Discretionary,2021,ok,,corporate.lowes.com/who-we-are,2021-06-06,25.0,18.0,https://web.archive.org/web/20210606040732/https://corporate.lowes.com/who-we-are,trafilatura,154.0,False,False
-LOW,Lowe's,Consumer Discretionary,2022,ok,,corporate.lowes.com/who-we-are,2022-06-30,1.0,14.0,https://web.archive.org/web/20220630061300/https://corporate.lowes.com/who-we-are,trafilatura,191.0,False,False
-LOW,Lowe's,Consumer Discretionary,2023,ok,,corporate.lowes.com/who-we-are,2023-06-06,25.0,6.0,https://web.archive.org/web/20230606045138/https://corporate.lowes.com/who-we-are,trafilatura,101.0,False,False
-LOW,Lowe's,Consumer Discretionary,2024,ok,,corporate.lowes.com/who-we-are,2024-05-29,33.0,4.0,https://web.archive.org/web/20240529095241/https://corporate.lowes.com/who-we-are,trafilatura,126.0,False,False
-MCD,McDonald's,Consumer Discretionary,2016,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,,,,
-MCD,McDonald's,Consumer Discretionary,2017,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,,,,
-MCD,McDonald's,Consumer Discretionary,2018,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,,,,
-MCD,McDonald's,Consumer Discretionary,2019,gap,no_captures_in_year,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,,,,,,,,
-MCD,McDonald's,Consumer Discretionary,2020,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2020-11-24,146.0,2.0,https://web.archive.org/web/20201124145746/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,trafilatura,557.0,False,False
-MCD,McDonald's,Consumer Discretionary,2021,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2021-06-16,15.0,15.0,https://web.archive.org/web/20210616161403/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,trafilatura,390.0,False,False
-MCD,McDonald's,Consumer Discretionary,2022,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2022-07-12,11.0,18.0,https://web.archive.org/web/20220712171320/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,trafilatura,304.0,False,False
-MCD,McDonald's,Consumer Discretionary,2023,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2023-06-04,27.0,14.0,https://web.archive.org/web/20230604222154/http://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,trafilatura,304.0,False,False
-MCD,McDonald's,Consumer Discretionary,2024,ok,,corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,2024-06-19,12.0,21.0,https://web.archive.org/web/20240619032108/https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html,trafilatura,121.0,False,False
-MDT,Medtronic,Healthcare,2016,ok,,medtronic.com/us-en/about/mission.html,2016-07-07,6.0,22.0,https://web.archive.org/web/20160707113616/http://www.medtronic.com:80/us-en/about/mission.html,trafilatura,286.0,False,False
-MDT,Medtronic,Healthcare,2017,ok,,medtronic.com/us-en/about/mission.html,2017-07-05,4.0,21.0,https://web.archive.org/web/20170705115229/http://www.medtronic.com:80/us-en/about/mission.html,trafilatura,290.0,False,False
-MDT,Medtronic,Healthcare,2018,ok,,medtronic.com/us-en/about/mission.html,2018-07-05,4.0,33.0,https://web.archive.org/web/20180705124209/http://www.medtronic.com:80/us-en/about/mission.html?,trafilatura,296.0,False,False
-MDT,Medtronic,Healthcare,2019,ok,,medtronic.com/us-en/about/mission.html,2019-07-22,21.0,11.0,https://web.archive.org/web/20190722054005/https://www.medtronic.com/us-en/about/mission.html,trafilatura,231.0,False,False
-MDT,Medtronic,Healthcare,2020,ok,,medtronic.com/us-en/about/mission.html,2020-06-30,1.0,19.0,https://web.archive.org/web/20200630205203/http://www.medtronic.com/us-en/about/mission.html,trafilatura,155.0,False,False
-MDT,Medtronic,Healthcare,2021,ok,,medtronic.com/us-en/about/mission.html,2021-06-24,7.0,8.0,https://web.archive.org/web/20210624130543/https://www.medtronic.com/us-en/about/mission.html,trafilatura,123.0,False,False
-MDT,Medtronic,Healthcare,2022,ok,,medtronic.com/us-en/about/mission.html,2022-03-07,116.0,2.0,https://web.archive.org/web/20220307120545/http://www.medtronic.com/us-en/about/mission.html,rule_based_fallback,400.0,False,False
-MDT,Medtronic,Healthcare,2023,ok,,medtronic.com/us-en/about/mission.html,2023-03-07,116.0,3.0,https://web.archive.org/web/20230307094951/https://www.medtronic.com/us-en/about/mission.html,trafilatura,318.0,False,False
-MDT,Medtronic,Healthcare,2024,ok,,medtronic.com/us-en/about/mission.html,2024-04-09,83.0,1.0,https://web.archive.org/web/20240409072436/https://www.medtronic.com/us-en/about/mission.html,trafilatura,318.0,False,False
-META,Meta Platforms,Technology,2016,ok,,newsroom.fb.com/company-info,2016-07-01,0.0,341.0,https://web.archive.org/web/20160701080848/https://newsroom.fb.com/company-info/,trafilatura,880.0,False,False
-META,Meta Platforms,Technology,2017,ok,,newsroom.fb.com/company-info,2017-07-01,0.0,276.0,https://web.archive.org/web/20170701004911/https://newsroom.fb.com/company-info/,trafilatura,897.0,False,False
-META,Meta Platforms,Technology,2018,ok,,newsroom.fb.com/company-info,2018-07-01,0.0,181.0,https://web.archive.org/web/20180701140726/https://newsroom.fb.com/company-info/,trafilatura,798.0,False,False
-META,Meta Platforms,Technology,2019,ok,,about.fb.com/company-info,2019-11-12,134.0,47.0,https://web.archive.org/web/20191112045228/https://about.fb.com/company-info/,trafilatura,320.0,False,False
-META,Meta Platforms,Technology,2020,ok,,about.fb.com/company-info,2020-06-29,2.0,214.0,https://web.archive.org/web/20200629182427/https://about.fb.com/company-info/,trafilatura,320.0,False,False
-META,Meta Platforms,Technology,2021,ok,,about.fb.com/company-info,2021-07-29,28.0,61.0,https://web.archive.org/web/20210729042716/https://about.fb.com/company-info/,trafilatura,458.0,False,False
-META,Meta Platforms,Technology,2022,ok,,about.fb.com/company-info,2022-08-09,39.0,6.0,https://web.archive.org/web/20220809081045/http://www.about.fb.com/company-info/,trafilatura,323.0,False,False
-META,Meta Platforms,Technology,2023,ok,,about.fb.com/company-info,2023-03-22,101.0,4.0,https://web.archive.org/web/20230322144754/https://about.fb.com/company-info/,trafilatura,250.0,False,False
-META,Meta Platforms,Technology,2024,ok,,about.fb.com/company-info,2024-09-27,88.0,3.0,https://web.archive.org/web/20240927192218/https://about.fb.com/company-info/,rule_based_fallback,505.0,False,False
-MPC,Marathon Petroleum,Energy,2016,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,,,,,
-MPC,Marathon Petroleum,Energy,2017,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,,,,,
-MPC,Marathon Petroleum,Energy,2018,gap,no_captures_in_year,marathonpetroleum.com/About/,,,,,,,,
-MPC,Marathon Petroleum,Energy,2019,ok,,marathonpetroleum.com/About/,2019-06-20,11.0,10.0,https://web.archive.org/web/20190620170933/https://www.marathonpetroleum.com/About/,trafilatura,317.0,False,False
-MPC,Marathon Petroleum,Energy,2020,ok,,marathonpetroleum.com/About/,2020-06-05,26.0,9.0,https://web.archive.org/web/20200605053550/https://www.marathonpetroleum.com/About/,trafilatura,309.0,False,False
-MPC,Marathon Petroleum,Energy,2021,ok,,marathonpetroleum.com/About/,2021-06-14,17.0,18.0,https://web.archive.org/web/20210614153143/https://www.marathonpetroleum.com/About/,trafilatura,228.0,False,False
-MPC,Marathon Petroleum,Energy,2022,ok,,marathonpetroleum.com/About/,2022-06-20,11.0,14.0,https://web.archive.org/web/20220620002237/https://www.marathonpetroleum.com/About/,trafilatura,228.0,False,False
-MPC,Marathon Petroleum,Energy,2023,ok,,marathonpetroleum.com/About/,2023-06-07,24.0,6.0,https://web.archive.org/web/20230607132624/https://www.marathonpetroleum.com/About/,trafilatura,228.0,False,False
-MPC,Marathon Petroleum,Energy,2024,ok,,marathonpetroleum.com/About/,2024-06-20,11.0,9.0,https://web.archive.org/web/20240620092623/https://www.marathonpetroleum.com/About/,trafilatura,183.0,False,False
-MRK,Merck,Healthcare,2016,gap,no_captures_in_year,merck.com/company-overview/,,,,,,,,
-MRK,Merck,Healthcare,2017,gap,no_captures_in_year,merck.com/company-overview/,,,,,,,,
-MRK,Merck,Healthcare,2018,gap,no_captures_in_year,merck.com/company-overview/,,,,,,,,
-MRK,Merck,Healthcare,2019,gap,no_captures_in_year,merck.com/company-overview/,,,,,,,,
-MRK,Merck,Healthcare,2020,ok,,merck.com/company-overview/,2020-08-11,41.0,34.0,https://web.archive.org/web/20200811063349/https://www.merck.com/company-overview/,trafilatura,502.0,False,False
-MRK,Merck,Healthcare,2021,ok,,merck.com/company-overview/,2021-07-03,2.0,102.0,https://web.archive.org/web/20210703001224/https://www.merck.com/company-overview/,trafilatura,542.0,False,False
-MRK,Merck,Healthcare,2022,ok,,merck.com/company-overview/,2022-07-01,0.0,67.0,https://web.archive.org/web/20220701224411/https://www.merck.com/company-overview/,trafilatura,545.0,False,False
-MRK,Merck,Healthcare,2023,ok,,merck.com/company-overview/,2023-07-01,0.0,67.0,https://web.archive.org/web/20230701182214/https://www.merck.com/company-overview/,trafilatura,279.0,False,False
-MRK,Merck,Healthcare,2024,ok,,merck.com/company-overview/,2024-06-28,3.0,64.0,https://web.archive.org/web/20240628010012/https://www.merck.com/company-overview/,trafilatura,428.0,False,False
-MS,Morgan Stanley,Financials,2016,ok,,morganstanley.com/about-us,2016-06-30,1.0,45.0,https://web.archive.org/web/20160630151300/http://www.morganstanley.com:80/about-us,trafilatura,520.0,False,False
-MS,Morgan Stanley,Financials,2017,ok,,morganstanley.com/about-us,2017-06-30,1.0,36.0,https://web.archive.org/web/20170630165554/http://www.morganstanley.com:80/about-us/,trafilatura,520.0,False,False
-MS,Morgan Stanley,Financials,2018,ok,,morganstanley.com/about-us,2018-07-02,1.0,69.0,https://web.archive.org/web/20180702050329/http://www.morganstanley.com/about-us,trafilatura,520.0,False,False
-MS,Morgan Stanley,Financials,2019,ok,,morganstanley.com/about-us,2019-06-18,13.0,28.0,https://web.archive.org/web/20190618233102/http://www.morganstanley.com:80/about-us,rule_based_fallback,750.0,False,False
-MS,Morgan Stanley,Financials,2020,ok,,morganstanley.com/about-us,2020-07-08,7.0,17.0,https://web.archive.org/web/20200708060944/https://www.morganstanley.com/about-us,rule_based_fallback,230.0,False,False
-MS,Morgan Stanley,Financials,2021,ok,,morganstanley.com/about-us,2021-07-09,8.0,32.0,https://web.archive.org/web/20210709090054/https://www.morganstanley.com/about-us,rule_based_fallback,230.0,False,False
-MS,Morgan Stanley,Financials,2022,ok,,morganstanley.com/about-us,2022-07-07,6.0,35.0,https://web.archive.org/web/20220707131519/https://www.morganstanley.com/about-us,rule_based_fallback,230.0,False,False
-MS,Morgan Stanley,Financials,2023,ok,,morganstanley.com/about-us,2023-07-01,0.0,26.0,https://web.archive.org/web/20230701040553/https://www.morganstanley.com/about-us,rule_based_fallback,230.0,False,False
-MS,Morgan Stanley,Financials,2024,ok,,morganstanley.com/about-us,2024-07-03,2.0,38.0,https://web.archive.org/web/20240703044621/https://www.morganstanley.com/about-us,rule_based_fallback,232.0,False,False
-MSFT,Microsoft,Technology,2016,ok,,microsoft.com/en-us/about,2016-06-29,2.0,101.0,https://web.archive.org/web/20160629135234/https://www.microsoft.com/en-us/about,trafilatura,142.0,False,False
-MSFT,Microsoft,Technology,2017,ok,,microsoft.com/en-us/about,2017-07-01,0.0,130.0,https://web.archive.org/web/20170701045506/https://www.microsoft.com/en-us/about,trafilatura,167.0,False,False
-MSFT,Microsoft,Technology,2018,ok,,microsoft.com/en-us/about,2018-06-30,1.0,175.0,https://web.archive.org/web/20180630121020/https://www.microsoft.com/en-us/about,trafilatura,231.0,False,False
-MSFT,Microsoft,Technology,2019,ok,,microsoft.com/en-us/about,2019-06-30,1.0,270.0,https://web.archive.org/web/20190630212349/https://www.microsoft.com/en-us/about,trafilatura,198.0,False,False
-MSFT,Microsoft,Technology,2020,ok,,microsoft.com/en-us/about,2020-07-01,0.0,246.0,https://web.archive.org/web/20200701214157/https://www.microsoft.com/en-us/about,trafilatura,202.0,False,False
-MSFT,Microsoft,Technology,2021,ok,,microsoft.com/en-us/about,2021-06-30,1.0,311.0,https://web.archive.org/web/20210630051241/https://www.microsoft.com/en-us/about,trafilatura,194.0,False,False
-MSFT,Microsoft,Technology,2022,ok,,microsoft.com/en-us/about,2022-06-30,1.0,280.0,https://web.archive.org/web/20220630144336/https://www.microsoft.com/en-us/about,trafilatura,177.0,False,False
-MSFT,Microsoft,Technology,2023,ok,,microsoft.com/en-us/about,2023-06-30,1.0,311.0,https://web.archive.org/web/20230630172439/https://www.microsoft.com/en-us/about,trafilatura,148.0,False,False
-MSFT,Microsoft,Technology,2024,ok,,microsoft.com/en-us/about,2024-07-01,0.0,297.0,https://web.archive.org/web/20240701230101/https://www.microsoft.com/en-us/about,rule_based_fallback,235.0,False,False
-NKE,Nike,Consumer Discretionary,2016,ok,,about.nike.com,2016-07-09,8.0,63.0,https://web.archive.org/web/20160709084719/http://about.nike.com/,trafilatura,108.0,False,False
-NKE,Nike,Consumer Discretionary,2017,ok,,about.nike.com,2017-06-30,1.0,30.0,https://web.archive.org/web/20170630111643/http://about.nike.com/,trafilatura,108.0,False,False
-NKE,Nike,Consumer Discretionary,2018,ok,,about.nike.com,2018-07-02,1.0,48.0,https://web.archive.org/web/20180702180133/http://about.nike.com/,trafilatura,176.0,False,False
-NKE,Nike,Consumer Discretionary,2019,ok,,about.nike.com,2019-07-01,0.0,40.0,https://web.archive.org/web/20190701200710/https://about.nike.com/,trafilatura,182.0,False,False
-NKE,Nike,Consumer Discretionary,2020,ok,,about.nike.com,2020-07-01,0.0,103.0,https://web.archive.org/web/20200701040440/https://about.nike.com/,trafilatura,155.0,False,False
-NKE,Nike,Consumer Discretionary,2021,ok,,about.nike.com,2021-07-01,0.0,237.0,https://web.archive.org/web/20210701063913/https://about.nike.com/,trafilatura,146.0,False,False
-NKE,Nike,Consumer Discretionary,2022,ok,,about.nike.com,2022-06-30,1.0,233.0,https://web.archive.org/web/20220630202408/https://about.nike.com/,trafilatura,146.0,False,False
-NKE,Nike,Consumer Discretionary,2023,ok,,about.nike.com,2023-06-19,12.0,271.0,https://web.archive.org/web/20230619190319/https://about.nike.com/,trafilatura,146.0,False,False
-NKE,Nike,Consumer Discretionary,2024,ok,,about.nike.com,2024-06-18,13.0,122.0,https://web.archive.org/web/20240618001902/http://about.nike.com/,trafilatura,7.0,True,False
-NVDA,NVIDIA,Technology,2016,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,,,,,
-NVDA,NVIDIA,Technology,2017,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,,,,,
-NVDA,NVIDIA,Technology,2018,gap,no_captures_in_year,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,,,,,,,,
-NVDA,NVIDIA,Technology,2019,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2019-07-22,21.0,5.0,https://web.archive.org/web/20190722015918/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,trafilatura,128.0,False,False
-NVDA,NVIDIA,Technology,2020,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2020-06-21,10.0,10.0,https://web.archive.org/web/20200621190345/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,rule_based_fallback,430.0,False,False
-NVDA,NVIDIA,Technology,2021,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2021-07-03,2.0,15.0,https://web.archive.org/web/20210703120631/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,trafilatura,114.0,False,False
-NVDA,NVIDIA,Technology,2022,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2022-06-30,1.0,12.0,https://web.archive.org/web/20220630170320/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,trafilatura,111.0,False,False
-NVDA,NVIDIA,Technology,2023,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2023-06-08,23.0,10.0,https://web.archive.org/web/20230608054502/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,trafilatura,216.0,False,False
-NVDA,NVIDIA,Technology,2024,ok,,nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,2024-07-13,12.0,15.0,https://web.archive.org/web/20240713045718/https://www.nvidia.com/en-us/about-nvidia/careers/life-at-nvidia/,trafilatura,196.0,False,False
-ORCL,Oracle,Technology,2016,ok,,oracle.com/corporate/,2016-09-15,76.0,4.0,https://web.archive.org/web/20160915081447/http://oracle.com/corporate,rule_based_fallback,74.0,True,False
-ORCL,Oracle,Technology,2017,ok,,oracle.com/corporate/,2017-06-06,25.0,3.0,https://web.archive.org/web/20170606030043/http://www.oracle.com/corporate/,rule_based_fallback,90.0,False,False
-ORCL,Oracle,Technology,2018,ok,,oracle.com/corporate/,2018-08-12,42.0,15.0,https://web.archive.org/web/20180812024732/http://www.oracle.com/corporate/,rule_based_fallback,90.0,False,False
-ORCL,Oracle,Technology,2019,ok,,oracle.com/corporate/,2019-06-30,1.0,105.0,https://web.archive.org/web/20190630231129/https://www.oracle.com/corporate/,trafilatura,122.0,False,False
-ORCL,Oracle,Technology,2020,ok,,oracle.com/corporate/,2020-07-01,0.0,155.0,https://web.archive.org/web/20200701002451/https://www.oracle.com/corporate/,trafilatura,440.0,False,False
-ORCL,Oracle,Technology,2021,ok,,oracle.com/corporate/,2021-07-01,0.0,115.0,https://web.archive.org/web/20210701062101/https://www.oracle.com/corporate/,trafilatura,463.0,False,False
-ORCL,Oracle,Technology,2022,ok,,oracle.com/corporate/,2022-06-30,1.0,87.0,https://web.archive.org/web/20220630112545/https://www.oracle.com/corporate/,trafilatura,528.0,False,False
-ORCL,Oracle,Technology,2023,ok,,oracle.com/corporate/,2023-07-02,1.0,53.0,https://web.archive.org/web/20230702090658/https://www.oracle.com/corporate/,trafilatura,240.0,False,False
-ORCL,Oracle,Technology,2024,ok,,oracle.com/corporate/,2024-06-26,5.0,80.0,https://web.archive.org/web/20240626001319/https://www.oracle.com/corporate/,trafilatura,225.0,False,False
-OXY,Occidental Petroleum,Energy,2016,gap,no_captures_in_year,oxy.com/about/,,,,,,,,
-OXY,Occidental Petroleum,Energy,2017,gap,no_captures_in_year,oxy.com/about/,,,,,,,,
-OXY,Occidental Petroleum,Energy,2018,gap,no_captures_in_year,oxy.com/about/,,,,,,,,
-OXY,Occidental Petroleum,Energy,2019,gap,no_captures_in_year,oxy.com/about/,,,,,,,,
-OXY,Occidental Petroleum,Energy,2020,gap,no_captures_in_year,oxy.com/about/,,,,,,,,
-OXY,Occidental Petroleum,Energy,2021,ok,,oxy.com/about/,2021-11-12,134.0,4.0,https://web.archive.org/web/20211112101711/https://www.oxy.com/about/,trafilatura,316.0,False,False
-OXY,Occidental Petroleum,Energy,2022,ok,,oxy.com/about/,2022-07-12,11.0,13.0,https://web.archive.org/web/20220712184252/https://www.oxy.com/about/,trafilatura,316.0,False,False
-OXY,Occidental Petroleum,Energy,2023,ok,,oxy.com/about/,2023-07-02,1.0,24.0,https://web.archive.org/web/20230702001514/https://www.oxy.com/about/,trafilatura,177.0,False,False
-OXY,Occidental Petroleum,Energy,2024,ok,,oxy.com/about/,2024-07-02,1.0,31.0,https://web.archive.org/web/20240702054827/https://www.oxy.com/about/,trafilatura,125.0,False,False
-PFE,Pfizer,Healthcare,2016,ok,,pfizer.com/about,2016-07-03,2.0,27.0,https://web.archive.org/web/20160703061437/http://www.pfizer.com:80/about,trafilatura,703.0,False,False
-PFE,Pfizer,Healthcare,2017,ok,,pfizer.com/about,2017-07-08,7.0,5.0,https://web.archive.org/web/20170708031110/http://www.pfizer.com/about/,trafilatura,109.0,False,False
-PFE,Pfizer,Healthcare,2018,ok,,pfizer.com/about,2018-08-22,52.0,2.0,https://web.archive.org/web/20180822000201/http://www.pfizer.com/about,rule_based_fallback,131.0,False,False
-PFE,Pfizer,Healthcare,2019,ok,,pfizer.com/about,2019-07-08,7.0,2.0,https://web.archive.org/web/20190708051311/https://www.pfizer.com/about,rule_based_fallback,131.0,False,False
-PFE,Pfizer,Healthcare,2020,ok,,pfizer.com/about,2020-05-31,31.0,4.0,https://web.archive.org/web/20200531194601/http://www.pfizer.com/about/,rule_based_fallback,131.0,False,False
-PFE,Pfizer,Healthcare,2021,ok,,pfizer.com/about,2021-12-16,168.0,6.0,https://web.archive.org/web/20211216141830/https://www.pfizer.com/about,trafilatura,5609.0,False,False
-PFE,Pfizer,Healthcare,2022,ok,,pfizer.com/about,2022-07-02,1.0,51.0,https://web.archive.org/web/20220702200438/https://www.pfizer.com/about#our-people,trafilatura,5724.0,False,False
-PFE,Pfizer,Healthcare,2023,ok,,pfizer.com/about,2023-07-22,21.0,38.0,https://web.archive.org/web/20230722094342/https://www.pfizer.com/about,trafilatura,5843.0,False,False
-PFE,Pfizer,Healthcare,2024,ok,,pfizer.com/about,2024-07-01,0.0,81.0,https://web.archive.org/web/20240701235055/https://www.pfizer.com/about,trafilatura,424.0,False,False
-PSX,Phillips 66,Energy,2016,ok,,phillips66.com,2016-07-05,4.0,99.0,https://web.archive.org/web/20160705201333/http://www.phillips66.com/,trafilatura,41.0,True,False
-PSX,Phillips 66,Energy,2017,ok,,phillips66.com,2017-07-01,0.0,216.0,https://web.archive.org/web/20170701141504/http://www.phillips66.com/,trafilatura,0.0,True,False
-PSX,Phillips 66,Energy,2018,ok,,phillips66.com,2018-07-01,0.0,198.0,https://web.archive.org/web/20180701174629/http://www.phillips66.com/,trafilatura,56.0,True,False
-PSX,Phillips 66,Energy,2019,ok,,phillips66.com,2019-07-11,10.0,32.0,https://web.archive.org/web/20190711082809/https://www.phillips66.com/,trafilatura,40.0,True,False
-PSX,Phillips 66,Energy,2020,ok,,phillips66.com,2020-07-14,13.0,44.0,https://web.archive.org/web/20200714212304/https://www.phillips66.com/,trafilatura,26.0,True,False
-PSX,Phillips 66,Energy,2021,ok,,phillips66.com,2021-06-24,7.0,60.0,https://web.archive.org/web/20210624061334/https://www.phillips66.com/,trafilatura,130.0,False,False
-PSX,Phillips 66,Energy,2022,ok,,phillips66.com,2022-06-29,2.0,71.0,https://web.archive.org/web/20220629210838/https://www.phillips66.com/,trafilatura,94.0,False,False
-PSX,Phillips 66,Energy,2023,ok,,phillips66.com,2023-07-01,0.0,78.0,https://web.archive.org/web/20230701040835/https://www.phillips66.com/,trafilatura,211.0,False,False
-PSX,Phillips 66,Energy,2024,ok,,phillips66.com,2024-07-01,0.0,95.0,https://web.archive.org/web/20240701095138/https://www.phillips66.com/,trafilatura,211.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2016,ok,,starbucks.com/about-us,2016-07-03,2.0,54.0,https://web.archive.org/web/20160703073131/http://www.starbucks.com:80/about-us,trafilatura,101.0,False,True
-SBUX,Starbucks,Consumer Discretionary,2017,ok,,starbucks.com/about-us,2017-06-30,1.0,37.0,https://web.archive.org/web/20170630200111/https://www.starbucks.com/about-us,trafilatura,133.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2018,ok,,starbucks.com/about-us,2018-07-25,24.0,9.0,https://web.archive.org/web/20180725004757/https://www.starbucks.com/about-us,trafilatura,133.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2019,ok,,starbucks.com/about-us,2019-06-30,1.0,17.0,https://web.archive.org/web/20190630122528/https://www.starbucks.com/about-us/,trafilatura,133.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2020,ok,,starbucks.com/about-us,2020-06-10,21.0,15.0,https://web.archive.org/web/20200610192632/https://www.starbucks.com/about-us,trafilatura,119.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2021,ok,,starbucks.com/about-us,2021-06-06,25.0,55.0,https://web.archive.org/web/20210606063238/https://www.starbucks.com/about-us,rule_based_fallback,154.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2022,ok,,starbucks.com/about-us,2022-07-01,0.0,84.0,https://web.archive.org/web/20220701194900/https://www.starbucks.com/about-us/,trafilatura,430.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2023,ok,,starbucks.com/about-us,2023-07-02,1.0,137.0,https://web.archive.org/web/20230702050942/https://www.starbucks.com/about-us/,trafilatura,430.0,False,False
-SBUX,Starbucks,Consumer Discretionary,2024,ok,,starbucks.com/about-us,2024-07-01,0.0,170.0,https://web.archive.org/web/20240701194211/https://www.starbucks.com/about-us/,trafilatura,430.0,False,False
-SCHW,Charles Schwab,Financials,2016,ok,,aboutschwab.com/about,2016-07-01,0.0,8.0,https://web.archive.org/web/20160701130313/https://www.aboutschwab.com/about/,trafilatura,2967.0,False,False
-SCHW,Charles Schwab,Financials,2017,ok,,aboutschwab.com/about,2017-06-22,9.0,6.0,https://web.archive.org/web/20170622171843/https://www.aboutschwab.com/about,trafilatura,201.0,False,False
-SCHW,Charles Schwab,Financials,2018,ok,,aboutschwab.com/about,2018-07-06,5.0,26.0,https://web.archive.org/web/20180706121732/http://www.aboutschwab.com/about/,trafilatura,512.0,False,False
-SCHW,Charles Schwab,Financials,2019,ok,,aboutschwab.com/who-we-are,2019-08-04,34.0,6.0,https://web.archive.org/web/20190804032154/https://www.aboutschwab.com/who-we-are,trafilatura,1298.0,False,False
-SCHW,Charles Schwab,Financials,2020,ok,,aboutschwab.com/who-we-are,2020-06-20,11.0,13.0,https://web.archive.org/web/20200620022728/https://www.aboutschwab.com/who-we-are,trafilatura,1297.0,False,False
-SCHW,Charles Schwab,Financials,2021,ok,,aboutschwab.com/who-we-are,2021-06-25,6.0,19.0,https://web.archive.org/web/20210625125121/https://www.aboutschwab.com/who-we-are,trafilatura,1354.0,False,False
-SCHW,Charles Schwab,Financials,2022,ok,,aboutschwab.com/who-we-are,2022-07-06,5.0,16.0,https://web.archive.org/web/20220706004227/https://www.aboutschwab.com/who-we-are,trafilatura,518.0,False,False
-SCHW,Charles Schwab,Financials,2023,ok,,aboutschwab.com/who-we-are,2023-06-20,11.0,123.0,https://web.archive.org/web/20230620094248/https://www.aboutschwab.com/who-we-are,trafilatura,521.0,False,False
-SCHW,Charles Schwab,Financials,2024,ok,,aboutschwab.com/our-company,2024-07-18,17.0,22.0,https://web.archive.org/web/20240718091403/https://www.aboutschwab.com/our-company,trafilatura,1188.0,False,False
-SLB,SLB (Schlumberger),Energy,2016,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,,,,
-SLB,SLB (Schlumberger),Energy,2017,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,,,,
-SLB,SLB (Schlumberger),Energy,2018,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,,,,
-SLB,SLB (Schlumberger),Energy,2019,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,,,,
-SLB,SLB (Schlumberger),Energy,2020,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,,,,
-SLB,SLB (Schlumberger),Energy,2021,gap,no_captures_in_year,slb.com/about/who-we-are,,,,,,,,
-SLB,SLB (Schlumberger),Energy,2022,ok,,slb.com/about/who-we-are,2022-10-26,117.0,6.0,https://web.archive.org/web/20221026181530/https://www.slb.com/about/who-we-are,trafilatura,573.0,False,False
-SLB,SLB (Schlumberger),Energy,2023,ok,,slb.com/about/who-we-are,2023-07-01,0.0,21.0,https://web.archive.org/web/20230701125507/https://www.slb.com/about/who-we-are,trafilatura,555.0,False,False
-SLB,SLB (Schlumberger),Energy,2024,ok,,slb.com/about/who-we-are,2024-07-04,3.0,29.0,https://web.archive.org/web/20240704080745/https://www.slb.com/about/who-we-are,trafilatura,626.0,False,False
-TGT,Target,Consumer Discretionary,2016,ok,,corporate.target.com/about,2016-07-16,15.0,10.0,https://web.archive.org/web/20160716093842/https://corporate.target.com/about/,trafilatura,69.0,True,False
-TGT,Target,Consumer Discretionary,2017,ok,,corporate.target.com/about,2017-07-01,0.0,11.0,https://web.archive.org/web/20170701120115/https://corporate.target.com/about/,trafilatura,69.0,True,False
-TGT,Target,Consumer Discretionary,2018,ok,,corporate.target.com/about,2018-08-15,45.0,4.0,https://web.archive.org/web/20180815145624/https://corporate.target.com/about/,trafilatura,69.0,True,False
-TGT,Target,Consumer Discretionary,2019,ok,,corporate.target.com/about,2019-07-17,16.0,38.0,https://web.archive.org/web/20190717024326/https://corporate.target.com/about,trafilatura,333.0,False,False
-TGT,Target,Consumer Discretionary,2020,ok,,corporate.target.com/about,2020-06-29,2.0,63.0,https://web.archive.org/web/20200629172012/https://corporate.target.com/about,trafilatura,86.0,False,False
-TGT,Target,Consumer Discretionary,2021,ok,,corporate.target.com/about,2021-06-26,5.0,55.0,https://web.archive.org/web/20210626220320/https://corporate.target.com/about,trafilatura,69.0,True,False
-TGT,Target,Consumer Discretionary,2022,ok,,corporate.target.com/about,2022-07-02,1.0,93.0,https://web.archive.org/web/20220702032434/https://corporate.target.com/about,trafilatura,42.0,True,False
-TGT,Target,Consumer Discretionary,2023,ok,,corporate.target.com/about,2023-06-14,17.0,45.0,https://web.archive.org/web/20230614080005/https://corporate.target.com/about,trafilatura,41.0,True,False
-TGT,Target,Consumer Discretionary,2024,ok,,corporate.target.com/about,2024-07-05,4.0,70.0,https://web.archive.org/web/20240705025654/https://corporate.target.com/about,trafilatura,213.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2016,gap,no_captures_in_year,tjx.com/company,,,,,,,,
-TJX,TJX Companies,Consumer Discretionary,2017,ok,,tjx.com/company,2017-06-06,25.0,5.0,https://web.archive.org/web/20170606070337/http://www.tjx.com/company/,trafilatura,494.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2018,ok,,tjx.com/company,2018-07-01,0.0,14.0,https://web.archive.org/web/20180701131228/http://www.tjx.com/company/,trafilatura,476.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2019,ok,,tjx.com/company,2019-07-18,17.0,12.0,https://web.archive.org/web/20190718235300/https://www.tjx.com/company/,trafilatura,570.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2020,ok,,tjx.com/company,2020-07-04,3.0,13.0,https://web.archive.org/web/20200704104401/https://www.tjx.com/company/,trafilatura,426.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2021,ok,,tjx.com/company,2021-07-21,20.0,22.0,https://web.archive.org/web/20210721163611/https://www.tjx.com/company/,trafilatura,627.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2022,ok,,tjx.com/company,2022-06-10,21.0,12.0,https://web.archive.org/web/20220610204728/https://www.tjx.com/company,trafilatura,567.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2023,ok,,tjx.com/company,2023-06-25,6.0,15.0,https://web.archive.org/web/20230625060911/https://www.tjx.com/company/,trafilatura,543.0,False,False
-TJX,TJX Companies,Consumer Discretionary,2024,ok,,tjx.com/company,2024-07-25,24.0,2.0,https://web.archive.org/web/20240725082441/https://www.tjx.com/company,trafilatura,337.0,False,False
-TMO,Thermo Fisher Scientific,Healthcare,2016,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2017,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2018,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2019,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2020,gap,no_captures_in_year,corporate.thermofisher.com/us/en/index/about.html,,,,,,,,
-TMO,Thermo Fisher Scientific,Healthcare,2021,ok,,corporate.thermofisher.com/us/en/index/about.html,2021-06-15,16.0,16.0,https://web.archive.org/web/20210615144449/https://corporate.thermofisher.com/us/en/index/about.html,trafilatura,495.0,False,False
-TMO,Thermo Fisher Scientific,Healthcare,2022,ok,,corporate.thermofisher.com/us/en/index/about.html,2022-07-01,0.0,21.0,https://web.archive.org/web/20220701173717/https://corporate.thermofisher.com/us/en/index/about.html,trafilatura,528.0,False,False
-TMO,Thermo Fisher Scientific,Healthcare,2023,ok,,corporate.thermofisher.com/us/en/index/about.html,2023-07-13,12.0,17.0,https://web.archive.org/web/20230713033335/https://corporate.thermofisher.com/us/en/index/about.html,trafilatura,532.0,False,False
-TMO,Thermo Fisher Scientific,Healthcare,2024,ok,,corporate.thermofisher.com/us/en/index/about.html,2024-07-14,13.0,14.0,https://web.archive.org/web/20240714235931/https://corporate.thermofisher.com/us/en/index/about.html,trafilatura,377.0,False,False
-TSLA,Tesla,Consumer Discretionary,2016,ok,,tesla.com/about,2016-07-20,19.0,48.0,https://web.archive.org/web/20160720164257/https://www.tesla.com/about,trafilatura,691.0,False,False
-TSLA,Tesla,Consumer Discretionary,2017,ok,,tesla.com/about,2017-06-23,8.0,46.0,https://web.archive.org/web/20170623054234/https://www.tesla.com/about,trafilatura,644.0,False,False
-TSLA,Tesla,Consumer Discretionary,2018,ok,,tesla.com/about,2018-06-22,9.0,33.0,https://web.archive.org/web/20180622174840/https://www.tesla.com/about,trafilatura,493.0,False,False
-TSLA,Tesla,Consumer Discretionary,2019,ok,,tesla.com/about,2019-07-02,1.0,104.0,https://web.archive.org/web/20190702011047/https://www.tesla.com/about,trafilatura,526.0,False,False
-TSLA,Tesla,Consumer Discretionary,2020,ok,,tesla.com/about,2020-06-29,2.0,49.0,https://web.archive.org/web/20200629052217/https://www.tesla.com/about,trafilatura,548.0,False,False
-TSLA,Tesla,Consumer Discretionary,2021,ok,,tesla.com/about,2021-07-05,4.0,137.0,https://web.archive.org/web/20210705040413/https://www.tesla.com/about,trafilatura,407.0,False,False
-TSLA,Tesla,Consumer Discretionary,2022,ok,,tesla.com/about,2022-07-01,0.0,92.0,https://web.archive.org/web/20220701192509/https://www.tesla.com/about,trafilatura,533.0,False,False
-TSLA,Tesla,Consumer Discretionary,2023,ok,,tesla.com/about,2023-07-06,5.0,75.0,https://web.archive.org/web/20230706192013/https://www.tesla.com/about,trafilatura,116.0,False,False
-TSLA,Tesla,Consumer Discretionary,2024,ok,,tesla.com/about,2024-07-02,1.0,104.0,https://web.archive.org/web/20240702053739/https://www.tesla.com/about,trafilatura,127.0,False,False
-UNH,UnitedHealth Group,Healthcare,2016,ok,,uhc.com/about-us,2016-04-14,78.0,5.0,https://web.archive.org/web/20160414015137/http://www.uhc.com:80/about-us,rule_based_fallback,124.0,False,False
-UNH,UnitedHealth Group,Healthcare,2017,ok,,uhc.com/about-us,2017-07-11,10.0,3.0,https://web.archive.org/web/20170711145439/https://www.uhc.com/about-us,trafilatura,149.0,False,False
-UNH,UnitedHealth Group,Healthcare,2018,ok,,uhc.com/about-us,2018-08-23,53.0,3.0,https://web.archive.org/web/20180823212612/http://www.uhc.com/about-us,trafilatura,149.0,False,False
-UNH,UnitedHealth Group,Healthcare,2019,ok,,uhc.com/about-us,2019-10-02,93.0,3.0,https://web.archive.org/web/20191002055448/https://www.uhc.com/about-us,trafilatura,149.0,False,False
-UNH,UnitedHealth Group,Healthcare,2020,ok,,uhc.com/about-us,2020-06-17,14.0,11.0,https://web.archive.org/web/20200617195327/https://www.uhc.com/about-us,trafilatura,147.0,False,False
-UNH,UnitedHealth Group,Healthcare,2021,ok,,uhc.com/about-us,2021-05-21,41.0,7.0,https://web.archive.org/web/20210521200204/https://www.uhc.com/about-us,trafilatura,494.0,False,False
-UNH,UnitedHealth Group,Healthcare,2022,ok,,uhc.com/about-us,2022-06-28,3.0,11.0,https://web.archive.org/web/20220628033151/https://www.uhc.com/about-us,trafilatura,424.0,False,False
-UNH,UnitedHealth Group,Healthcare,2023,ok,,uhc.com/about-us,2023-07-01,0.0,31.0,https://web.archive.org/web/20230701063403/https://www.uhc.com/about-us,trafilatura,437.0,False,False
-UNH,UnitedHealth Group,Healthcare,2024,ok,,uhc.com/about-us,2024-07-01,0.0,99.0,https://web.archive.org/web/20240701172546/https://www.uhc.com/about-us,trafilatura,618.0,False,False
-VLO,Valero Energy,Energy,2016,gap,no_captures_in_year,valero.com/about,,,,,,,,
-VLO,Valero Energy,Energy,2017,gap,no_captures_in_year,valero.com/about,,,,,,,,
-VLO,Valero Energy,Energy,2018,gap,no_captures_in_year,valero.com/about,,,,,,,,
-VLO,Valero Energy,Energy,2019,gap,no_captures_in_year,valero.com/about,,,,,,,,
-VLO,Valero Energy,Energy,2020,ok,,valero.com/about,2020-11-26,148.0,1.0,https://web.archive.org/web/20201126153724/https://www.valero.com/about,trafilatura,145.0,False,False
-VLO,Valero Energy,Energy,2021,ok,,valero.com/about,2021-06-23,8.0,18.0,https://web.archive.org/web/20210623212645/https://www.valero.com/about,trafilatura,151.0,False,False
-VLO,Valero Energy,Energy,2022,ok,,valero.com/about,2022-05-24,38.0,9.0,https://web.archive.org/web/20220524061456/https://www.valero.com/about,trafilatura,151.0,False,False
-VLO,Valero Energy,Energy,2023,ok,,valero.com/about,2023-06-28,3.0,24.0,https://web.archive.org/web/20230628185731/https://www.valero.com/about,trafilatura,117.0,False,False
-VLO,Valero Energy,Energy,2024,ok,,valero.com/about,2024-07-01,0.0,26.0,https://web.archive.org/web/20240701195229/https://www.valero.com/about,trafilatura,279.0,False,False
-WFC,Wells Fargo,Financials,2016,ok,,wellsfargo.com/about/,2016-06-23,8.0,63.0,https://web.archive.org/web/20160623222653/https://www.wellsfargo.com/about/,trafilatura,310.0,False,False
-WFC,Wells Fargo,Financials,2017,ok,,wellsfargo.com/about/,2017-07-01,0.0,85.0,https://web.archive.org/web/20170701110129/https://www.wellsfargo.com/about/,trafilatura,312.0,False,False
-WFC,Wells Fargo,Financials,2018,ok,,wellsfargo.com/about/,2018-06-30,1.0,73.0,https://web.archive.org/web/20180630054047/https://www.wellsfargo.com/about/,trafilatura,117.0,False,False
-WFC,Wells Fargo,Financials,2019,ok,,wellsfargo.com/about/,2019-06-30,1.0,66.0,https://web.archive.org/web/20190630210559/https://www.wellsfargo.com/about/,trafilatura,444.0,False,False
-WFC,Wells Fargo,Financials,2020,ok,,wellsfargo.com/about/,2020-07-01,0.0,68.0,https://web.archive.org/web/20200701175034/https://www.wellsfargo.com/about/,trafilatura,85.0,False,False
-WFC,Wells Fargo,Financials,2021,ok,,wellsfargo.com/about/,2021-07-05,4.0,83.0,https://web.archive.org/web/20210705062642/https://www.wellsfargo.com/about/,rule_based_fallback,597.0,False,False
-WFC,Wells Fargo,Financials,2022,ok,,wellsfargo.com/about/,2022-07-05,4.0,64.0,https://web.archive.org/web/20220705144101/https://www.wellsfargo.com/about/,trafilatura,380.0,False,False
-WFC,Wells Fargo,Financials,2023,ok,,wellsfargo.com/about/,2023-07-01,0.0,61.0,https://web.archive.org/web/20230701233000/https://www.wellsfargo.com/about/,trafilatura,76.0,False,False
-WFC,Wells Fargo,Financials,2024,ok,,wellsfargo.com/about/,2024-07-01,0.0,85.0,https://web.archive.org/web/20240701110220/https://www.wellsfargo.com/about/,trafilatura,76.0,False,False
-XOM,ExxonMobil,Energy,2016,ok,,corporate.exxonmobil.com/en/company/about-us,2016-07-10,9.0,19.0,https://web.archive.org/web/20160710130259/http://corporate.exxonmobil.com:80/en/company/about-us,trafilatura,0.0,True,False
-XOM,ExxonMobil,Energy,2017,ok,,corporate.exxonmobil.com/en/company/about-us,2017-06-30,1.0,23.0,https://web.archive.org/web/20170630062243/http://corporate.exxonmobil.com/en/company/about-us,trafilatura,48.0,True,False
-XOM,ExxonMobil,Energy,2018,ok,,corporate.exxonmobil.com/en/company/about-us,2018-07-12,11.0,16.0,https://web.archive.org/web/20180712091109/http://corporate.exxonmobil.com:80/en/company/about-us,trafilatura,0.0,True,False
-XOM,ExxonMobil,Energy,2019,ok,,corporate.exxonmobil.com/en/company/who-we-are,2019-07-18,17.0,17.0,https://web.archive.org/web/20190718072626/https://corporate.exxonmobil.com/en/Company/Who-we-are,trafilatura,144.0,False,False
-XOM,ExxonMobil,Energy,2020,ok,,corporate.exxonmobil.com/en/company/who-we-are,2020-06-19,12.0,7.0,https://web.archive.org/web/20200619074133/https://corporate.exxonmobil.com/en/Company/Who-we-are,trafilatura,144.0,False,False
-XOM,ExxonMobil,Energy,2021,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,,,,,
-XOM,ExxonMobil,Energy,2022,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,,,,,
-XOM,ExxonMobil,Energy,2023,gap,fetch_failed,corporate.exxonmobil.com/en/company/who-we-are,,,,,,,,
-XOM,ExxonMobil,Energy,2024,gap,fetch_failed,corporate.exxonmobil.com/en/company/about-us,,,,,,,,
+ticker,year,flag_too_short,flag_archive_error
+AAPL,2019,True,False
+AAPL,2020,True,False
+AAPL,2024,False,False
+ABBV,2023,False,False
+ABBV,2024,False,False
+ABT,2016,False,False
+ABT,2017,False,False
+ABT,2018,False,False
+ABT,2019,False,False
+ABT,2020,False,False
+ABT,2021,False,False
+ABT,2022,False,False
+ABT,2023,False,False
+ABT,2024,False,False
+AMZN,2020,False,False
+AMZN,2021,False,False
+AMZN,2022,False,False
+AMZN,2023,False,False
+AMZN,2024,False,False
+AVGO,2017,False,False
+AVGO,2018,False,False
+AVGO,2019,True,False
+AVGO,2020,True,False
+AVGO,2021,True,False
+AVGO,2022,True,False
+AVGO,2023,True,False
+AVGO,2024,True,False
+AXP,2023,False,False
+AXP,2024,False,False
+BAC,2021,False,False
+BAC,2022,False,False
+BAC,2023,False,False
+BAC,2024,False,False
+BLK,2018,False,False
+BLK,2019,False,False
+BLK,2020,False,False
+BLK,2021,False,False
+BLK,2022,False,False
+BLK,2023,False,False
+BLK,2024,False,False
+BMY,2017,False,False
+BMY,2018,False,False
+BMY,2019,False,False
+BMY,2020,False,False
+BMY,2021,False,False
+BMY,2022,False,False
+BMY,2023,False,False
+BMY,2024,False,False
+BRK.B,2016,False,False
+BRK.B,2017,False,False
+BRK.B,2018,False,False
+BRK.B,2019,False,False
+BRK.B,2020,False,False
+BRK.B,2021,False,False
+BRK.B,2022,False,False
+BRK.B,2023,False,False
+BRK.B,2024,False,False
+C,2023,False,False
+C,2024,False,False
+COP,2017,False,False
+COP,2018,False,False
+COP,2019,False,False
+COP,2020,False,False
+COP,2021,False,False
+COP,2022,False,False
+COP,2023,False,False
+COP,2024,False,False
+CRM,2023,True,False
+CRM,2024,True,False
+CVX,2016,False,False
+CVX,2017,False,False
+CVX,2018,False,False
+CVX,2019,False,False
+CVX,2020,False,False
+CVX,2021,False,False
+CVX,2022,False,False
+CVX,2023,False,False
+CVX,2024,False,False
+EOG,2018,True,False
+EOG,2019,True,False
+EOG,2020,True,False
+EOG,2021,True,False
+EOG,2022,True,False
+EOG,2023,True,False
+EOG,2024,True,False
+F,2020,False,False
+F,2021,False,False
+F,2022,False,False
+F,2023,False,False
+F,2024,False,False
+GOOGL,2017,False,False
+GOOGL,2018,False,False
+GOOGL,2019,False,False
+GOOGL,2020,False,False
+GOOGL,2021,False,False
+GOOGL,2022,False,False
+GOOGL,2023,False,False
+GOOGL,2024,False,False
+GS,2016,False,False
+GS,2017,False,False
+GS,2018,False,False
+GS,2019,False,False
+GS,2020,False,False
+GS,2022,False,False
+GS,2023,False,False
+GS,2024,False,False
+HAL,2021,False,False
+HAL,2022,False,False
+HAL,2023,False,False
+HAL,2024,False,False
+HD,2016,False,False
+HD,2017,False,False
+HD,2018,False,False
+HD,2019,False,False
+HD,2020,False,False
+HD,2021,False,False
+HD,2022,False,False
+HD,2023,False,False
+HD,2024,False,False
+IBM,2018,False,False
+IBM,2020,False,False
+IBM,2021,False,False
+IBM,2022,False,False
+IBM,2023,False,False
+IBM,2024,False,False
+INTC,2016,False,False
+INTC,2017,False,False
+INTC,2018,False,False
+INTC,2019,False,False
+INTC,2020,False,False
+INTC,2021,False,False
+INTC,2022,False,False
+INTC,2023,False,False
+INTC,2024,False,False
+JNJ,2018,False,False
+JNJ,2019,False,False
+JNJ,2020,False,False
+JNJ,2021,False,False
+JNJ,2022,False,False
+JNJ,2023,False,False
+JNJ,2024,False,False
+JPM,2020,False,False
+JPM,2021,False,False
+JPM,2022,False,False
+JPM,2023,False,False
+JPM,2024,False,False
+LLY,2016,False,False
+LLY,2017,False,False
+LLY,2019,False,False
+LLY,2020,False,False
+LLY,2022,True,False
+LLY,2024,False,False
+LOW,2020,False,False
+LOW,2021,False,False
+LOW,2022,False,False
+LOW,2023,False,False
+LOW,2024,False,False
+MCD,2020,False,False
+MCD,2021,False,False
+MCD,2022,False,False
+MCD,2023,False,False
+MCD,2024,False,False
+MDT,2016,False,False
+MDT,2017,False,False
+MDT,2018,False,False
+MDT,2019,False,False
+MDT,2020,False,False
+MDT,2021,False,False
+MDT,2022,False,False
+MDT,2023,False,False
+MDT,2024,False,False
+META,2016,False,False
+META,2017,False,False
+META,2018,False,False
+META,2019,False,False
+META,2020,False,False
+META,2021,False,False
+META,2022,False,False
+META,2023,False,False
+META,2024,False,False
+MPC,2019,False,False
+MPC,2020,False,False
+MPC,2021,False,False
+MPC,2022,False,False
+MPC,2023,False,False
+MPC,2024,False,False
+MRK,2020,False,False
+MRK,2021,False,False
+MRK,2022,False,False
+MRK,2023,False,False
+MRK,2024,False,False
+MS,2016,False,False
+MS,2017,False,False
+MS,2018,False,False
+MS,2019,False,False
+MS,2020,False,False
+MS,2021,False,False
+MS,2022,False,False
+MS,2023,False,False
+MS,2024,False,False
+MSFT,2016,False,False
+MSFT,2017,False,False
+MSFT,2018,False,False
+MSFT,2019,False,False
+MSFT,2020,False,False
+MSFT,2021,False,False
+MSFT,2022,False,False
+MSFT,2023,False,False
+MSFT,2024,False,False
+NKE,2016,False,False
+NKE,2017,False,False
+NKE,2018,False,False
+NKE,2019,False,False
+NKE,2020,False,False
+NKE,2021,False,False
+NKE,2022,False,False
+NKE,2023,False,False
+NKE,2024,True,False
+NVDA,2019,False,False
+NVDA,2020,False,False
+NVDA,2021,False,False
+NVDA,2022,False,False
+NVDA,2023,False,False
+NVDA,2024,False,False
+ORCL,2016,True,False
+ORCL,2017,False,False
+ORCL,2018,False,False
+ORCL,2019,False,False
+ORCL,2020,False,False
+ORCL,2021,False,False
+ORCL,2022,False,False
+ORCL,2023,False,False
+ORCL,2024,False,False
+OXY,2021,False,False
+OXY,2022,False,False
+OXY,2023,False,False
+OXY,2024,False,False
+PFE,2016,False,False
+PFE,2017,False,False
+PFE,2018,False,False
+PFE,2019,False,False
+PFE,2020,False,False
+PFE,2021,False,False
+PFE,2022,False,False
+PFE,2023,False,False
+PFE,2024,False,False
+PSX,2016,True,False
+PSX,2017,True,False
+PSX,2018,True,False
+PSX,2019,True,False
+PSX,2020,True,False
+PSX,2021,False,False
+PSX,2022,False,False
+PSX,2023,False,False
+PSX,2024,False,False
+SBUX,2016,False,True
+SBUX,2017,False,False
+SBUX,2018,False,False
+SBUX,2019,False,False
+SBUX,2020,False,False
+SBUX,2021,False,False
+SBUX,2022,False,False
+SBUX,2023,False,False
+SBUX,2024,False,False
+SCHW,2016,False,False
+SCHW,2017,False,False
+SCHW,2018,False,False
+SCHW,2019,False,False
+SCHW,2020,False,False
+SCHW,2021,False,False
+SCHW,2022,False,False
+SCHW,2023,False,False
+SCHW,2024,False,False
+SLB,2022,False,False
+SLB,2023,False,False
+SLB,2024,False,False
+TGT,2016,True,False
+TGT,2017,True,False
+TGT,2018,True,False
+TGT,2019,False,False
+TGT,2020,False,False
+TGT,2021,True,False
+TGT,2022,True,False
+TGT,2023,True,False
+TGT,2024,False,False
+TJX,2017,False,False
+TJX,2018,False,False
+TJX,2019,False,False
+TJX,2020,False,False
+TJX,2021,False,False
+TJX,2022,False,False
+TJX,2023,False,False
+TJX,2024,False,False
+TMO,2021,False,False
+TMO,2022,False,False
+TMO,2023,False,False
+TMO,2024,False,False
+TSLA,2016,False,False
+TSLA,2017,False,False
+TSLA,2018,False,False
+TSLA,2019,False,False
+TSLA,2020,False,False
+TSLA,2021,False,False
+TSLA,2022,False,False
+TSLA,2023,False,False
+TSLA,2024,False,False
+UNH,2016,False,False
+UNH,2017,False,False
+UNH,2018,False,False
+UNH,2019,False,False
+UNH,2020,False,False
+UNH,2021,False,False
+UNH,2022,False,False
+UNH,2023,False,False
+UNH,2024,False,False
+VLO,2020,False,False
+VLO,2021,False,False
+VLO,2022,False,False
+VLO,2023,False,False
+VLO,2024,False,False
+WFC,2016,False,False
+WFC,2017,False,False
+WFC,2018,False,False
+WFC,2019,False,False
+WFC,2020,False,False
+WFC,2021,False,False
+WFC,2022,False,False
+WFC,2023,False,False
+WFC,2024,False,False
+XOM,2016,True,False
+XOM,2017,True,False
+XOM,2018,True,False
+XOM,2019,False,False
+XOM,2020,False,False

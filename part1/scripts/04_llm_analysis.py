@@ -61,13 +61,11 @@ def shorten(text, max_words=MAX_WORDS):
 
 def add_change_columns(df):
     df = df.sort_values(["ticker", "year"]).reset_index(drop=True)
-    df["similarity_to_prior"] = None
     df["changed_from_prior"] = None
     for i in range(1, len(df)):
         if df.loc[i, "ticker"] == df.loc[i - 1, "ticker"]:
             sim = SequenceMatcher(None, df.loc[i - 1, "page_text_clean"],
                                   df.loc[i, "page_text_clean"]).ratio()
-            df.loc[i, "similarity_to_prior"] = round(sim, 3)
             df.loc[i, "changed_from_prior"] = sim < CHANGE_THRESHOLD
     return df
 
@@ -104,7 +102,8 @@ Return JSON like: {{"2019": "note", "2021": "note"}}
 
 def main():
     df = pd.read_csv(DATA / "extracted.csv")
-    df = df[(df.status == "ok") & ~df.flag_too_short.astype(bool) & ~df.flag_archive_error.astype(bool)]
+    df = df[~df.flag_too_short & ~df.flag_archive_error]
+    df = df.merge(pd.read_csv(DATA / "companies_final.csv")[["ticker", "company_name"]], on="ticker")
     df["page_text_clean"] = [(CLEAN / t / f"{y}.txt").read_text() for t, y in zip(df.ticker, df.year)]
     df = add_change_columns(df)
     print(f"{len(df)} snapshots to analyse")
@@ -120,7 +119,8 @@ def main():
 
     df["theme_categories"] = themes
     df["analyst_notes"] = notes
-    df.drop(columns="page_text_clean").to_csv(DATA / "llm_results.csv", index=False)
+    df = df[["ticker", "year", "changed_from_prior", "theme_categories", "analyst_notes"]]
+    df.to_csv(DATA / "llm_results.csv", index=False)
     print(f"Saved {len(df)} rows to data/llm_results.csv")
 
 

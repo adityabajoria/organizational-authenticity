@@ -137,51 +137,33 @@ def word_count(text):
 
 def extract(html):
     text = clean_lines(extract_trafilatura(html))
-    method = "trafilatura"
-
     if word_count(text) < MIN_WORDS:
         fallback = clean_lines(extract_rule_based(html))
         if word_count(fallback) > word_count(text):
-            text, method = fallback, "rule_based_fallback"
-
-    n = word_count(text)
-    return {
-        "page_text_clean": text,
-        "extraction_method": method,
-        "word_count": n,
-        "flag_too_short": n < MIN_WORDS,
-        "flag_archive_error": bool(ARCHIVE_ERROR.search(text[:500])),
-    }
+            text = fallback
+    return text
 
 
 def main():
     index = pd.read_csv(DATA / "snapshot_index.csv")
     rows = []
 
-    for _, snap in index.iterrows():
-        row = snap.to_dict()
-        html_path = RAW / snap.ticker / f"{snap.year}.html"
-        if snap.status != "ok" or not html_path.exists():
-            rows.append(row)
-            continue
-
-        html = html_path.read_bytes().decode("utf-8", errors="replace")
-        result = extract(html)
+    for snap in index[index.status == "ok"].itertuples():
+        html = (RAW / snap.ticker / f"{snap.year}.html").read_bytes().decode("utf-8", errors="replace")
+        text = extract(html)
 
         out_path = CLEAN / snap.ticker / f"{snap.year}.txt"
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(result["page_text_clean"])
-        rows.append({**row, **result})
+        out_path.write_text(text)
+        rows.append({"ticker": snap.ticker, "year": snap.year,
+                     "flag_too_short": word_count(text) < MIN_WORDS,
+                     "flag_archive_error": bool(ARCHIVE_ERROR.search(text[:500]))})
 
     df = pd.DataFrame(rows)
-    df.drop(columns="page_text_clean").to_csv(DATA / "extracted.csv", index=False)
-
-    ok = df[df.status == "ok"]
-    print(f"Extracted {len(ok)} snapshots")
-    print(ok.extraction_method.value_counts().to_string())
-    print(f"Median words: {ok.word_count.median():.0f}")
-    print(f"Too short: {ok.flag_too_short.sum()}")
-    print(f"Archive error: {ok.flag_archive_error.sum()}")
+    df.to_csv(DATA / "extracted.csv", index=False)
+    print(f"Extracted {len(df)} snapshots")
+    print(f"Too short: {df.flag_too_short.sum()}")
+    print(f"Archive error: {df.flag_archive_error.sum()}")
 
 
 main()

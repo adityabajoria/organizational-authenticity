@@ -10,9 +10,7 @@ CLEAN = DATA / "clean_text"
 COLUMNS = [
     "ticker", "company_name", "sector", "year", "page_text_clean",
     "changed_from_prior", "theme_categories", "analyst_notes",
-    "status", "gap_reason", "compared_to_year", "similarity_to_prior",
-    "word_count", "extraction_method", "snapshot_date", "about_url",
-    "wayback_url", "theme_evidence",
+    "status", "gap_reason", "snapshot_date", "wayback_url", "theme_evidence",
 ]
 
 GAP_NOTES = {
@@ -25,33 +23,30 @@ GAP_NOTES = {
 
 
 def load_text(row):
-    path = CLEAN / row.ticker / f"{row.year}.txt"
-    if row.status == "gap" or not path.exists():
+    if row.status != "ok":
         return ""
-    return " ".join(path.read_text().split())
+    return " ".join((CLEAN / row.ticker / f"{row.year}.txt").read_text().split())
 
 
 def load_evidence(row):
-    path = CACHE / f"{row.ticker}_{row.year}.json"
-    if row.status != "ok" or not path.exists():
+    if row.status != "ok":
         return ""
-    return json.dumps(json.loads(path.read_text()), ensure_ascii=False)
+    return json.dumps(json.loads((CACHE / f"{row.ticker}_{row.year}.json").read_text()),
+                      ensure_ascii=False)
 
 
 def label_status(df):
-    too_short = (df.status == "ok") & df.flag_too_short.fillna(False).astype(bool)
-    error_page = (df.status == "ok") & df.flag_archive_error.fillna(False).astype(bool)
+    too_short = df.flag_too_short.fillna(False).astype(bool)
+    error_page = df.flag_archive_error.fillna(False).astype(bool)
     df.loc[too_short, "gap_reason"] = "text_too_short"
     df.loc[error_page, "gap_reason"] = "archived_error_page"
     df.loc[too_short | error_page, "status"] = "excluded"
     return df
 
 
-def add_prior_year(df):
+def prior_years(df):
     analysed = df[df.status == "ok"].sort_values(["ticker", "year"])
-    prior = analysed.groupby("ticker").year.shift()
-    df["compared_to_year"] = prior.reindex(df.index).astype("Int64")
-    return df
+    return analysed.groupby("ticker").year.shift().reindex(df.index).astype("Int64")
 
 
 def fill_notes(row):
@@ -59,22 +54,20 @@ def fill_notes(row):
         return GAP_NOTES[row.gap_reason]
     if isinstance(row.analyst_notes, str) and row.analyst_notes:
         return row.analyst_notes
-    if pd.isna(row.compared_to_year):
+    if pd.isna(row.prior_year):
         return "First usable year; no prior snapshot to compare."
     if not row.changed_from_prior:
-        return f"No change from {row.compared_to_year}."
-    return f"Text changed from {row.compared_to_year}; no notable language shift identified."
+        return f"No change from {row.prior_year}."
+    return f"Text changed from {row.prior_year}; no notable language shift identified."
 
 
 def main():
-    base = pd.read_csv(DATA / "extracted.csv")
-    llm = pd.read_csv(DATA / "llm_results.csv")[
-        ["ticker", "year", "similarity_to_prior", "changed_from_prior",
-         "theme_categories", "analyst_notes"]]
+    df = pd.read_csv(DATA / "snapshot_index.csv")
+    df = df.merge(pd.read_csv(DATA / "extracted.csv"), on=["ticker", "year"], how="left")
+    df = df.merge(pd.read_csv(DATA / "llm_results.csv"), on=["ticker", "year"], how="left")
 
-    df = base.merge(llm, on=["ticker", "year"], how="left")
     df = label_status(df)
-    df = add_prior_year(df)
+    df["prior_year"] = prior_years(df)
     df["page_text_clean"] = df.apply(load_text, axis=1)
     df["theme_evidence"] = df.apply(load_evidence, axis=1)
     df["analyst_notes"] = df.apply(fill_notes, axis=1)
@@ -85,7 +78,6 @@ def main():
 
     print(f"Saved {len(df)} rows to data/part1_dataset.csv")
     print(df.status.value_counts().to_string())
-    print(df.gap_reason.value_counts().to_string())
 
 
 main()
