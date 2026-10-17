@@ -4,4 +4,5 @@ __pycache__/
 .DS_Store
 *.log
 part1/data/output/raw_html/
-part2_disclosures/data/raw_proxies/
+part2/data/output/raw_proxies/
+part2/data/output/clean_text/
