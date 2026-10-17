@@ -5,6 +5,7 @@ import pandas as pd
 from wayback import DATA
 
 CACHE = DATA / "llm_cache"
+CLEAN = DATA / "clean_text"
 
 COLUMNS = [
     "ticker", "company_name", "sector", "year", "page_text_clean",
@@ -21,6 +22,13 @@ GAP_NOTES = {
     "text_too_short": "Archived page had under 75 words of text after cleaning.",
     "archived_error_page": "Archived capture is the company's error page, not the About page.",
 }
+
+
+def load_text(row):
+    path = CLEAN / row.ticker / f"{row.year}.txt"
+    if row.status == "gap" or not path.exists():
+        return ""
+    return " ".join(path.read_text().split())
 
 
 def load_evidence(row):
@@ -67,6 +75,7 @@ def main():
     df = base.merge(llm, on=["ticker", "year"], how="left")
     df = label_status(df)
     df = add_prior_year(df)
+    df["page_text_clean"] = df.apply(load_text, axis=1)
     df["theme_evidence"] = df.apply(load_evidence, axis=1)
     df["analyst_notes"] = df.apply(fill_notes, axis=1)
     df["theme_categories"] = df.theme_categories.fillna("")

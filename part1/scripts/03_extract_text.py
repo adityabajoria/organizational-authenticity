@@ -174,7 +174,7 @@ def main():
         rows.append({**row, **result})
 
     df = pd.DataFrame(rows)
-    df.to_csv(DATA / "extracted.csv", index=False)
+    df.drop(columns="page_text_clean").to_csv(DATA / "extracted.csv", index=False)
 
     ok = df[df.status == "ok"]
     print(f"Extracted {len(ok)} snapshots")
