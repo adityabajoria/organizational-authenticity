@@ -78,10 +78,10 @@ def main():
         rows.append({**row, **tone(text, tone_words)})
         print(f"{p.ticker} {p.year}", flush=True)
 
-    pd.DataFrame(rows).to_csv(OUTPUT / "text_mining.csv", index=False)
+    pd.DataFrame(rows).to_csv(OUTPUT / "text_nlp_mining.csv", index=False)
     sample = pd.DataFrame(matches).groupby("theme").sample(SAMPLE_PER_THEME, random_state=0)
     sample.assign(correct="").to_csv(OUTPUT / "spot_check_sample.csv", index=False)
-    print(f"\nSaved {len(rows)} rows to data/output/text_mining.csv")
+    print(f"\nSaved {len(rows)} rows to data/output/text_nlp_mining.csv")
 
 
 main()
