@@ -32,8 +32,8 @@ def scores(df, pct, stated, adjust):
 def shuffle_test(df, pct, adjust):
     """Compare real scores with scores built from other companies' About pages in the same year."""
     rng = np.random.default_rng(0)
-    real = scores(df, pct, df.stated_themes.str.split(";"), adjust).mean()
-    shuffled = [scores(df, pct, df.groupby("year").stated_themes
+    real = scores(df, pct, df.theme.str.split(";"), adjust).mean()
+    shuffled = [scores(df, pct, df.groupby("year").theme
                        .transform(lambda s: rng.permutation(s.values)).str.split(";"), adjust).mean()
                 for _ in range(SHUFFLES)]
     return round(real, 1), round(np.mean(shuffled), 1), np.mean(np.array(shuffled) >= real)
@@ -44,7 +44,7 @@ def themes_passed(df, pct, adjust):
     rows = [pct.loc[(t, y)] for t, y in zip(df.ticker, df.year)]
     passed = 0
     for theme in THEMES:
-        stated = df.stated_themes.str.split(";").map(lambda s: theme in s).values
+        stated = df.theme.str.split(";").map(lambda s: theme in s).values
         p = np.array([r[theme] - (r.mean() if adjust else 0) for r in rows])
         passed += p[stated].mean() > p[~stated].mean()
     return passed
@@ -69,7 +69,7 @@ def main():
 
     for name, (groups, adjust) in VERSIONS.items():
         pct = percentiles(proxies, groups)
-        s = scores(df, pct, df.stated_themes.str.split(";"), adjust)
+        s = scores(df, pct, df.theme.str.split(";"), adjust)
         verbosity = np.array([pct.loc[(t, y)].mean() for t, y in zip(df.ticker, df.year)])
         real, shuffled, p = shuffle_test(df, pct, adjust)
         prev = pd.Series(s, index=df.index).groupby(df.ticker).shift()

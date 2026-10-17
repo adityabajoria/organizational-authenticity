@@ -32,7 +32,7 @@ def main():
     about = pd.read_csv(ABOUT, keep_default_na=False)
     pct = sector_percentiles(pd.read_csv(PROXY))
 
-    rows = [{"ticker": ticker, "year": year, "stated_themes": ";".join(stated), "n_stated": len(stated),
+    rows = [{"ticker": ticker, "year": year, "theme": ";".join(stated), "number_of_themes": len(stated),
              "authenticity_index": authenticity(pct.loc[(ticker, year)], stated)}
             for (ticker, year), stated in stated_themes(about).items()]
 

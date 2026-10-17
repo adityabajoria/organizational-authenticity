@@ -1,4 +1,4 @@
-ticker,company_name,sector,year,stated_themes,n_stated,authenticity_index,authenticity_percentile
+ticker,company_name,sector,year,theme,number_of_themes,authenticity_index,authenticity_percentile
 AAPL,Apple,Technology,2024,collaboration;customer;diversity_inclusion;innovation;sustainability,5,12.0,0.891
 ABBV,AbbVie,Healthcare,2023,customer;innovation,2,-3.0,0.213
 ABBV,AbbVie,Healthcare,2024,customer;innovation;performance,3,-3.7,0.192
