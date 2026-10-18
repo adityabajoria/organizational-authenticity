@@ -59,7 +59,7 @@ def normalize_url(url):
 
 
 def query_cdx(url):
-    """Return all archived captures of a URL from 2016 to 2024, using the cache when available."""
+    """Return all 2016-2024 captures of a URL, using the cache if available."""
     url = normalize_url(url)
     path = CDX_CACHE / (hashlib.md5(url.encode()).hexdigest() + ".json")
     if path.exists():

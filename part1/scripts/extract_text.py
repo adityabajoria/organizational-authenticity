@@ -72,7 +72,7 @@ def extract_trafilatura(html):
 
 
 def extract_rule_based(html):
-    """Fallback extractor that removes navigation, headers, footers and other boilerplate."""
+    """Fallback extractor: strip navigation, headers, footers and other boilerplate."""
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(FALLBACK_DROP_TAGS):
         tag.decompose()
@@ -122,7 +122,7 @@ def drop_menu_runs(lines):
 
 
 def clean_lines(text):
-    """Remove buttons, footers, code, duplicates and menus from extracted text."""
+    """Remove buttons, footers, code, duplicates and menus."""
     seen, kept = set(), []
     for line in text.splitlines():
         line = re.sub(r"\s+", " ", line).strip()
@@ -143,7 +143,7 @@ def word_count(text):
 
 
 def extract(html):
-    """Extract clean text, using the fallback extractor when trafilatura gets too little."""
+    """Extract clean text, falling back to rule-based extraction if trafilatura finds too little."""
     text = clean_lines(extract_trafilatura(html))
     if word_count(text) < MIN_WORDS:
         fallback = clean_lines(extract_rule_based(html))
@@ -153,7 +153,7 @@ def extract(html):
 
 
 def main():
-    """Extract text from every snapshot and write extracted.csv with quality flags."""
+    """Extract text from every snapshot; write extracted.csv with quality flags."""
     index = pd.read_csv(OUTPUT / "snapshot_index.csv")
     rows = []
 

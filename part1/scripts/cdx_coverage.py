@@ -11,7 +11,7 @@ def usable_per_year(captures):
 
 
 def main():
-    """Count usable captures per company-year and write coverage_matrix.csv."""
+    """Count usable captures per company-year; write coverage_matrix.csv."""
     companies = pd.read_csv(INPUT / "companies_final.csv")
     matrix = {}
 

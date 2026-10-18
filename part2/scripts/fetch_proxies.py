@@ -108,7 +108,7 @@ def download(cik, row, path):
 
 
 def main():
-    """Download one proxy per company-year and write proxy_index.csv."""
+    """Download one proxy per company-year; write proxy_index.csv."""
     companies = pd.read_csv(COMPANIES)
     ciks = ticker_to_cik()
     index = []

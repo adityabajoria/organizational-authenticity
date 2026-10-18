@@ -41,7 +41,7 @@ def crossings(g):
 
 
 def annotate(ax, g):
-    """Label every crossing point, or each line's highest and lowest point if the lines never cross."""
+    """Label crossing points, or each line's highest and lowest point if the lines never cross."""
     points = crossings(g)
     if points:
         for x, y in points:

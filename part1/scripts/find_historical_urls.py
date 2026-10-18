@@ -55,7 +55,7 @@ def search_prefix(prefix):
 
 
 def main():
-    """List candidate historical URLs and their yearly coverage for companies that moved their page."""
+    """List candidate older URLs and their yearly coverage for companies that moved their page."""
     found = []
     for ticker, prefixes in SEARCH_PREFIXES.items():
         for prefix in prefixes:

@@ -51,7 +51,7 @@ def extract(html):
 
 
 def main():
-    """Extract text from all proxies and write extracted.csv with word counts."""
+    """Extract text from every proxy; write extracted.csv with word counts."""
     index = pd.read_csv(OUTPUT / "proxy_index.csv")
     rows = []
 

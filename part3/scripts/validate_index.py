@@ -19,18 +19,18 @@ SHUFFLES = 1000
 
 
 def percentiles(proxies, groups):
-    """Rank each proxy's emphasis on every theme against its peer group (0-1)."""
+    """Rank each proxy's emphasis on every theme within its peer group (0-1)."""
     return proxies.set_index(["ticker", "year"]).groupby(groups)[THEMES].rank(pct=True)
 
 
 def scores(df, pct, stated, adjust):
-    """Score each company-year on its stated themes, optionally relative to its own average theme."""
+    """Score each company-year on its stated themes, optionally minus its own average."""
     rows = [pct.loc[(t, y)] for t, y in zip(df.ticker, df.year)]
     return np.array([100 * (r[s].mean() - (r.mean() if adjust else 0)) for r, s in zip(rows, stated)])
 
 
 def shuffle_test(df, pct, adjust):
-    """Compare real scores with scores built from other companies' About pages in the same year."""
+    """Compare real scores with scores using other companies' About pages from the same year."""
     rng = np.random.default_rng(0)
     real = scores(df, pct, df.theme.str.split(";"), adjust).mean()
     shuffled = [scores(df, pct, df.groupby("year").theme
@@ -62,7 +62,7 @@ def year_ranges(years):
 
 
 def main():
-    """Compare the three index versions on validity, then summarise the final index."""
+    """Compare the three index versions on validity and summarise the final index."""
     df = pd.read_csv(FINAL)
     proxies = pd.read_csv(PROXY)
     checks = []

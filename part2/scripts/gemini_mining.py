@@ -31,7 +31,7 @@ client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 
 def call_llm(prompt, cache_name):
-    """Send a prompt to Gemini and return its JSON answer, using the cache when available."""
+    """Send a prompt to Gemini and return its JSON answer, using the cache if available."""
     path = CACHE / f"{cache_name}.json"
     if path.exists():
         return json.loads(path.read_text())
@@ -66,7 +66,7 @@ Return JSON like {{"1": true, "2": false}}.
 
 
 def main():
-    """Validate the spot-check sample with Gemini and report keyword precision per theme."""
+    """Check the spot-check sample with Gemini and report keyword precision per theme."""
     sample = pd.read_csv(OUTPUT / "spot_check_sample.csv").drop(columns="correct")
     sample["gemini_correct"] = pd.concat(
         [pd.Series(judge(theme, g.sentence.tolist()), index=g.index) for theme, g in sample.groupby("theme")])

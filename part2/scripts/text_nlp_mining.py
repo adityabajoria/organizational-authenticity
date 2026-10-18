@@ -62,7 +62,7 @@ def theme_hits(sentences):
 
 
 def main():
-    """Score every proxy on themes and tone, and save a spot-check sample."""
+    """Score every proxy on themes and tone; save a spot-check sample."""
     index = pd.read_csv(OUTPUT / "extracted.csv")
     tone_words = load_tone_words()
     rows, matches = [], []

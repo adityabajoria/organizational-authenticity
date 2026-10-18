@@ -14,7 +14,7 @@ EARLY, LATE = (2016, 2018), (2022, 2024)
 
 
 def matched_panel():
-    """Return company-years with both a usable About page and a proxy, marking which themes each discusses."""
+    """Return company-years with both documents, marking which themes each discusses."""
     about = pd.read_csv(ABOUT, keep_default_na=False)
     about = about[about.status == "ok"]
     proxy = pd.read_csv(PROXY)
@@ -37,7 +37,7 @@ def by_year(panel):
 
 
 def summary(yearly):
-    """Return each theme's early and late levels in both document types and the year proxies first overtook About pages."""
+    """Return each theme's early and late levels and the year proxies first overtook About pages."""
     rows = []
     for theme, g in yearly.groupby("theme", sort=False):
         early, late = g[g.year.between(*EARLY)].mean(numeric_only=True), g[g.year.between(*LATE)].mean(numeric_only=True)
@@ -50,7 +50,7 @@ def summary(yearly):
 
 
 def main():
-    """Build the year-by-year theme comparison and its summary, and write both to data/final."""
+    """Build the yearly theme comparison and summary; write both to data/final."""
     yearly = by_year(matched_panel())
     FINAL.mkdir(parents=True, exist_ok=True)
     yearly.to_csv(FINAL / "theme_by_year.csv", index=False)

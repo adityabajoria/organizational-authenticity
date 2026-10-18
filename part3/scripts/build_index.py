@@ -12,23 +12,23 @@ THEMES = ["integrity", "innovation", "customer", "collaboration", "diversity_inc
 
 
 def sector_percentiles(proxies):
-    """Rank each proxy's emphasis on every theme against companies in the same sector and year (0-1)."""
+    """Rank each proxy's emphasis on every theme within its sector and year (0-1)."""
     return proxies.set_index(["ticker", "year"]).groupby(["year", "sector"])[THEMES].rank(pct=True)
 
 
 def stated_themes(about):
-    """Return the themes each usable About page states, as a list per company-year."""
+    """Return the themes each usable About page states."""
     usable = about[(about.status == "ok") & (about.theme_categories != "MISSING")]
     return usable.set_index(["ticker", "year"]).theme_categories.str.split(";")
 
 
 def authenticity(pct, stated):
-    """Return how much more the proxy emphasises the stated themes than its own average theme (-100 to 100)."""
+    """Return the stated themes' percentile minus the average percentile of all themes (-100 to 100)."""
     return round(100 * (pct[stated].mean() - pct.mean()), 1)
 
 
 def main():
-    """Score every company-year with both an About page and a proxy, and write final_dataset.csv."""
+    """Score every company-year that has both documents; write final_dataset.csv."""
     about = pd.read_csv(ABOUT, keep_default_na=False)
     pct = sector_percentiles(pd.read_csv(PROXY))
 

@@ -47,7 +47,7 @@ def usable_by_distance(captures, year):
 
 
 def pick_closest_to_midyear(captures, year):
-    """Return the usable capture closest to July 1 and the number of candidates."""
+    """Return the usable capture closest to July 1 and how many candidates there were."""
     candidates = usable_by_distance(captures, year)
     return (candidates[0] if candidates else None), len(candidates)
 
@@ -103,7 +103,7 @@ def snapshot_meta(cap, year, n_candidates):
 
 
 def main():
-    """Select and download one snapshot per company-year and write snapshot_index.csv."""
+    """Select and download one snapshot per company-year; write snapshot_index.csv."""
     companies = pd.read_csv(INPUT / "companies_final.csv")
     timeline = pd.read_csv(INPUT / "url_timeline.csv")
     index = []

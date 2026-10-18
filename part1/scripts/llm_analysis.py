@@ -33,7 +33,7 @@ client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 
 def call_llm(prompt, cache_name):
-    """Send a prompt to Gemini and return its JSON answer, using the cache when available."""
+    """Send a prompt to Gemini and return its JSON answer, using the cache if available."""
     path = CACHE / f"{cache_name}.json"
     if path.exists():
         return json.loads(path.read_text())
@@ -106,7 +106,7 @@ Return JSON like: {{"2019": "note", "2021": "note"}}
 
 
 def main():
-    """Run the change, theme and shift analysis and write llm_results.csv."""
+    """Run the change, theme and language-shift analysis; write llm_results.csv."""
     df = pd.read_csv(OUTPUT / "extracted.csv")
     df = df[~df.flag_too_short & ~df.flag_archive_error]
     df = df.merge(pd.read_csv(INPUT / "companies_final.csv")[["ticker", "company_name"]], on="ticker")

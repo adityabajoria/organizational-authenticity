@@ -18,7 +18,7 @@ MAIN_THRESHOLD = 1.0
 
 
 def gaps(threshold):
-    """Return, for every company-year and theme, the proxy minus About page indicator (-1, 0 or 1)."""
+    """Return each company-year's proxy-minus-About-page indicator per theme (-1, 0 or 1)."""
     about = pd.read_csv(ABOUT, keep_default_na=False)
     about = about[about.status == "ok"]
     panel = about[["ticker", "year", "sector", "theme_categories"]].merge(
@@ -30,7 +30,7 @@ def gaps(threshold):
 
 
 def within_company_trend(df, column):
-    """Return the yearly change in a gap within the same companies, with a company-clustered standard error."""
+    """Return the yearly within-company change in a gap, with a company-clustered standard error."""
     y = df[column] - df.groupby("ticker")[column].transform("mean")
     x = df.year - df.groupby("ticker").year.transform("mean")
     slope = (x * y).sum() / (x * x).sum()
@@ -49,7 +49,7 @@ def direction(slope, p):
 
 
 def trend_table():
-    """Return each theme's gap trend at the main threshold, and the same trend at the other thresholds."""
+    """Return each theme's gap trend at the main and alternative thresholds."""
     results = {t: gaps(t) for t in THRESHOLDS}
     main = results[MAIN_THRESHOLD]
     rows = []
@@ -69,7 +69,7 @@ def trend_table():
 
 
 def sector_table():
-    """Return each theme's within-company gap trend separately for every sector."""
+    """Return each theme's gap trend within every sector."""
     panel = gaps(MAIN_THRESHOLD)
     rows = {sector: {theme: round(within_company_trend(g, f"{theme}_gap")[0], 1) for theme in THEMES}
             for sector, g in panel.groupby("sector")}
@@ -77,7 +77,7 @@ def sector_table():
 
 
 def plot(table):
-    """Save a chart of each theme's yearly gap change with a 95% confidence interval."""
+    """Save a chart of each theme's yearly gap change with 95% confidence intervals."""
     t = table.sort_values("gap_change_per_year")
     colors = ["#7b4bc4" if d == "proxies gaining" else "#e8590c" if d == "About pages gaining" else "#9e9e9e"
               for d in t.direction]
@@ -96,7 +96,7 @@ def plot(table):
 
 
 def main():
-    """Measure how the gap between proxies and About pages changed for each theme, and save the tables and chart."""
+    """Measure how the proxy-About page gap changed per theme; save the tables and chart."""
     FINAL.mkdir(parents=True, exist_ok=True)
     VISUALIZATIONS.mkdir(exist_ok=True)
     trends = trend_table()
