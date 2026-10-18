@@ -1,6 +1,7 @@
 requests
 pandas
 beautifulsoup4
+lxml
 trafilatura
 google-genai
 python-dotenv

@@ -14,6 +14,10 @@
 - **July 1** is mid-year, so the snapshot best represents that year.
 - **Themes:** `integrity`, `innovation`, `customer`, `collaboration`, `diversity_inclusion`, `performance`, `adaptability` come from MIT SMR's Culture 500 "Big Nine" values (Sull & Sull et al., 2019); `community`, `safety`, `sustainability` were added for ESG relevance. All 10 are reused in Part 2 for comparison in Part 3.
 
+## Final Dataset
+
+Each row of `data/final/final_dataset.csv` is one company-year (`ticker`, `company_name`, `sector`, `year`), 450 in total. `status` says whether the page was usable (`ok`), had no capture (`gap`) or was too short to analyse (`excluded`). `page_text_clean` is the extracted page text, `changed_from_prior` says whether it changed from the previous usable year, `theme_categories` lists the themes Gemini found (separated by `;`), and `analyst_notes` describes how the company's language shifted or why a year is missing. Empty cells are marked `MISSING`, and a company's first usable year is marked `FIRST_YEAR` in `changed_from_prior`.
+
 ## Assumptions
 
 - The capture closest to July 1 (before or after, same year only) represents the year; median distance is 7 days.
