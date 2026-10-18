@@ -1,0 +1,11 @@
+theme,gap_2016_18,gap_2022_24,gap_change_per_year,std_error,p_value,direction,change_at_0.5pct_threshold,change_at_2.0pct_threshold,robust_to_threshold
+sustainability,0,47,8.4,1.8,0.0,proxies gaining,4.1,9.9,yes
+innovation,-58,-24,5.7,1.6,0.0,proxies gaining,7.1,2.9,yes
+community,-6,16,4.7,1.8,0.009,proxies gaining,2.2,3.8,no
+adaptability,-15,6,4.3,1.8,0.014,proxies gaining,5.4,0.7,no
+collaboration,-31,-14,3.3,1.6,0.042,proxies gaining,3.4,-1.3,no
+diversity_inclusion,42,55,2.9,1.8,0.109,no clear trend,-0.7,5.7,no
+integrity,43,46,2.4,1.8,0.178,no clear trend,-0.1,5.4,no
+safety,-10,-2,2.4,1.6,0.141,no clear trend,6.6,-0.1,no
+performance,33,33,0.6,1.5,0.697,no clear trend,-0.4,0.6,no
+customer,9,-11,-1.8,1.3,0.173,no clear trend,0.9,3.0,no

@@ -4,3 +4,4 @@ beautifulsoup4
 trafilatura
 google-genai
 python-dotenv
+matplotlib
