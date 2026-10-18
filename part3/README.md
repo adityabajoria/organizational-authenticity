@@ -1,7 +1,7 @@
 ## What I did
 
 1. **Index** (`build_index.py`): for every company-year with both an About page (Part 1) and a proxy (Part 2), I scored how well the proxy backs up the values the About page claims.
-   - Each proxy's emphasis on each theme is ranked against companies **in the same sector and year**, giving a percentile.
+   - Each proxy's emphasis on each theme is ranked against companies in the same sector and year, giving a percentile.
    - **`authenticity_index`** = the average percentile of the themes the About page claims, minus the average percentile of all 10 themes. Above 0 means the proxy emphasises the claimed values more than its other topics; below 0 means it emphasises them less.
    - **`authenticity_percentile`** = where that score ranks among all company-years, from 0 to 1.
 2. **Validation** (`validate_index.py`): tested whether the index is meaningful, compared it with two simpler versions, and summarised it by sector, year and company, this ensured that the results actually made sense. (`data/output/index_by_company.csv`).

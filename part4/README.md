@@ -1,41 +1,50 @@
 ## What I did
 
-I compared, theme by theme and year by year, how often companies discuss each of the 10 values themes on their About Us pages (Part 1) versus in their proxy statements (Part 2), and tested whether the gap between the two is really changing.
+I compared how often companies discuss each of the 10 themes on their About Us pages (Part 1) and in their proxy statements (Part 2), year by year from 2016 to 2024.
 
-1. **Comparison** (`theme_comparison.py`): for every company-year with both an About page and a proxy, I marked whether each document discusses each theme. For About pages, the theme is one Gemini identified on the page; for proxies, the theme appears in at least 1% of the proxy's sentences. I then calculated the share of companies discussing each theme in each document type every year (`data/final/theme_by_year.csv`, summarised in `theme_summary.csv`).
-2. **Visualizations** (`plot_themes.py`): one chart per theme with an About Us line and a proxy line from 2016 to 2024, marking where the lines cross or, if they never cross, each line's highest and lowest points. `visualizations/all_themes.png` shows all 10 themes side by side.
-3. **Gap analysis** (`gap_analysis.py`): for each company, theme and year, I measured the gap between its proxy and its About page, then estimated how that gap changed per year **within the same companies**, so results are not driven by companies entering the sample later. I tested whether each trend is statistically clear, repeated it with stricter and looser proxy thresholds (0.5% and 2%), and repeated it within each sector (`gap_trends.csv`, `gap_by_sector.csv`, `visualizations/gap_trends.png`).
+1. **Comparison** (`theme_comparison.py`): for every company-year with both documents, I marked whether each one discusses each theme. An About page discusses a theme if Gemini identified it; a proxy discusses it if it appears in at least 1% of its sentences. This gives the share of companies discussing each theme in each document, every year (`data/final/theme_by_year.csv`, `theme_summary.csv`).
+2. **Visualizations** (`plot_themes.py`): one chart per theme in `visualizations/`, plus `all_themes.png` with all 10 side by side.
+3. **Gap analysis** (`gap_analysis.py`): measured how the gap between the two documents changed each year within the same companies, checked whether each trend is statistically clear, and repeated it with 0.5% and 2% thresholds and within each sector (`gap_trends.csv`, `gap_by_sector.csv`, `visualizations/gap_trends.png`).
 
-## What I found
+## Visualizations
 
-- **Proxies are gaining ground on sustainability and innovation**, and this holds at every threshold. Within the same companies, sustainability moved from being discussed equally in both documents to being far more present in proxies; innovation, once mainly a website theme, is catching up in proxies.
-- **Community, adaptability and collaboration** also shifted towards proxies, but these trends depend on the threshold, so they are weaker evidence.
-- **Diversity and inclusion, integrity, safety, performance and customer** show no clear change in the gap: both documents moved together, or the change was too small to separate from noise. For diversity, website mentions rose and then fell after 2022, but within the same companies the gap between the two documents did not change clearly.
-- **By sector**, the shift on sustainability comes mainly from Consumer Discretionary and Healthcare companies; Energy companies already discussed sustainability in both documents, so their gap barely changed.
+Orange lines are About Us pages and purple lines are proxy statements. Each theme's chart marks where the two lines cross or, if they never cross, each line's highest and lowest points.
 
-Overall, formal disclosures have taken over some values themes, most clearly sustainability, while others moved in step across both documents. This helps explain the modest alignment found in Part 3: the two channels evolve differently, theme by theme.
+![All themes](visualizations/all_themes.png)
+
+- Sustainability: the two lines cross around 2018, after which proxies pull far ahead while About pages stay flat.
+- Innovation: About pages start much higher, but proxies steadily close the gap.
+- Diversity and inclusion: both lines rise, but About pages fall after 2022 while proxies keep climbing.
+- Safety, community and adaptability: the two lines move closely together.
+- Integrity and performance: proxies stay above About pages throughout, with a fairly constant gap.
+
+![Gap trends](visualizations/gap_trends.png)
+
+This chart shows how fast the gap changed for each theme. Purple bars are themes where proxies gained ground with a statistically clear trend; grey bars show no clear change. Sustainability and innovation hold at every threshold; community, adaptability and collaboration depend on the threshold. By sector, the sustainability shift comes mainly from Consumer Discretionary and Healthcare, as Energy companies already discussed it in both.
+
+Overall, proxies have taken on some themes, most clearly sustainability, while others moved in step. This helps explain the modest alignment in Part 3: the two documents evolve differently, theme by theme.
 
 ## Why
 
-- Parts 1 and 2 measure each document type separately, and Part 3 compares them one year at a time. Looking at how the gap changes over time shows *which* themes are drifting apart and which move together.
-- Using the same unit for both documents, the share of companies discussing a theme, makes them directly comparable.
-- Measuring trends within the same companies, and checking several thresholds, separates real shifts from changes in the sample or in the measurement choice.
+- Using the same measure for both documents, the share of companies discussing a theme, makes them directly comparable.
+- Tracking the gap over time shows which themes are drifting apart and which move together.
+- Measuring within the same companies and testing several thresholds separates real shifts from changes in the sample or the measurement choice.
 
 ## Assumptions
 
-- A theme appearing in at least 1% of a proxy's sentences means the proxy genuinely discusses it, rather than mentioning it in passing.
-- Gemini's theme labels from Part 1 reflect whether an About page discusses a theme.
-- A straight-line trend is a reasonable summary of how each gap changed over nine years.
+- A theme in at least 1% of a proxy's sentences is genuinely discussed, not mentioned in passing.
+- Gemini's labels from Part 1 reflect whether an About page discusses a theme.
+- A straight-line trend is a reasonable summary of each gap over nine years.
 
 ## What I would do differently with more time
 
-- Link turning points (for example, the drop in website diversity language) to specific events, such as regulatory changes or shareholder campaigns.
-- Look at individual companies with the largest gaps to understand what drives them.
-- Use Gemini on proxies, as in Part 1, so both documents are labelled the same way.
+- Link turning points, such as the drop in diversity language on websites, to specific events.
+- Study the companies with the largest gaps to understand what drives them.
+- Label proxies with Gemini as well, so both documents are measured the same way.
 
 ## Known limitations
 
-- The two documents are measured differently (Gemini labels for About pages, keyword counts for proxies), so the size of the gap depends partly on the method; trends over time are more reliable than the gap itself.
+- The two documents are measured differently, so trends over time are more reliable than the size of the gap in any year.
 - Earlier years include fewer companies, so estimates before 2019 are less precise.
 - Diversity keywords in proxies are broad (for example, board diversity), which pushes that line close to 100%.
-- The results show associations over time, not the reasons behind them.
+- The results show patterns over time, not their causes.
