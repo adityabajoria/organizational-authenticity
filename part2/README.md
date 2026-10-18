@@ -1,9 +1,9 @@
 ## What I did
 
-1. **Collection** (`fetch_proxies.py`): downloaded each company's annual proxy statement from SEC EDGAR for every year from 2016 to 2024, with no gaps. Where a company faced a shareholder proxy fight, I used the contested proxy instead. Links to every filing are in `data/output/proxy_index.csv`.
-2. **Text** (`extract_text.py`): converted each proxy into plain text, removing tables of numbers (such as pay and vote counts) and repeated page headers.
-3. **Text mining** (`text_nlp_mining.py`): measured how much each proxy talks about the **same 10 themes as Part 1** (the share of sentences that mention each theme), and its tone using the Loughran-McDonald finance word lists.
-4. **LLM validation** (`gemini_mining.py`): asked Gemini to check a random sample of keyword matches for each theme, to see how often the keywords really capture that theme. Overall, about 70% of matches were correct.
+1. **Collection** (`fetch_proxies.py`): downloaded each company's annual proxy statement from SEC EDGAR for every year between 2016 to 2024, and noticed there were no gaps. Where a company faced a shareholder proxy fight, I used the contested proxy instead. Links to every filing are in `data/output/proxy_index.csv`.
+2. **Text** (`extract_text.py`): converted each proxy into plain text, removing tables of numbers (such as pay and vote counts) and repeated page headers, this would be important for further analysis.
+3. **Text mining** (`text_nlp_mining.py`): measured how much each proxy talks about the same 10 themes as Part 1, looking specifically at the sentences that mention each theme. Then, understanding its tone using the "Loughran-McDonald" method for finance word lists.
+4. **LLM validation** (`gemini_mining.py`): used the GEMINI API to check a random sample of keyword matches for each theme, to see how often the keywords really capture that theme. Overall, about 70% of matches were correct.
 5. **Dataset** (`build_dataset.py`): combined the theme and tone scores into one row per company-year.
 
 ## Why
@@ -19,14 +19,14 @@ Each row of `data/final/final_dataset.csv` is one company-year (`ticker`, `compa
 
 ## Assumptions
 
-- The more a proxy discusses a theme, the more the company emphasises it.
+- The more a proxy discusses a theme, the more the company emphasises it (this will be later supported by Part 3 and 4).
 - The Loughran-McDonald word lists, built for financial filings, suit proxy statements.
 - A small random sample per theme is enough to spot unreliable keywords.
 
 ## What I would do differently with more time
-
-- Have Gemini check every keyword match rather than a sample.
+- Have Gemini check every keyword match rather than a sample, since it could be possible that a sample could be biased.
 - Focus Gemini on the most relevant sections, such as the shareholder letter, as in Part 1.
+- Use a deep learning model (transformers) to consider the context when performing the language analysis
 
 ## Known limitations
 
