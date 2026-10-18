@@ -12,6 +12,10 @@
 - **Comparing within sectors:** industries naturally talk about different things (energy companies about safety, banks about clients), so each company is compared only with its peers.
 - **Subtracting the company's own average:** some proxies discuss every value at length, which would make any claim look backed up. My first version mostly measured this, so I adjusted for each company's overall level.
 
+## Final Dataset
+
+Each row of `data/final/final_dataset.csv` is one company-year (`ticker`, `company_name`, `sector`, `year`). It lists the themes the About page claims (`theme`) and how many (`number_of_themes`), followed by the score: `authenticity_index`, from -100 to 100, and `authenticity_percentile`, its rank among all company-years from 0 to 1.
+
 ## Validity checks
 
 - **Shuffle test:** pairing each proxy with another company's About page gives clearly lower scores than the real pairs, so the index captures company-specific alignment rather than chance.
@@ -34,12 +38,3 @@
 - The signal is small and varies from year to year, so single-year differences between companies are not meaningful.
 - It measures disclosure, not behaviour: a proxy discussing a value does not prove the company acts on it.
 - Each sector has only about ten companies, so percentile rankings are coarse.
-
-## Columns (`data/final/final_dataset.csv`)
-
-| Column | Meaning |
-|---|---|
-| `ticker`, `company_name`, `sector`, `year` | Company-year identifiers |
-| `theme`, `number_of_themes` | Themes claimed on the About page, and how many |
-| `authenticity_index` | Claimed themes' sector percentile minus the average of all themes (-100 to 100) |
-| `authenticity_percentile` | Rank of the index among all company-years (0 to 1) |
